@@ -1,3 +1,18 @@
+<p align='center'>
+  Follow me for more!
+  <br>
+  <a href="https://www.linkedin.com/in/fcakyon/">
+    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>&nbsp;&nbsp;
+  <a href="https://twitter.com/fcakyon">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />        
+  </a>&nbsp;&nbsp;
+  <a href="https://fcakyon.medium.com/">
+    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" />
+  </a>&nbsp;&nbsp;
+  
+</p>
+
 ## some of my opensource packages:
 
 A lightweight vision library for performing large scale object detection/ instance segmentation:
