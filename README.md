@@ -1,9 +1,6 @@
 <p align='center'>
   Follow me for more!
   <br>
-  <a href="https://www.linkedin.com/in/fcakyon/">
-    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>&nbsp;&nbsp;
   <a href="https://twitter.com/fcakyon">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />        
   </a>&nbsp;&nbsp;
@@ -13,7 +10,11 @@
   
 </p>
 
-## some of my opensource packages:
+### about me
+- Passionate about **Open-Source, Machine Learning/Deep Learning, Computer Vision** 
+- BSc and Msc. on E&E Eng. (with deep learning/computer vision focus), PhD cand. on Informatics (with image/text/sound fusion transformers focus)
+
+### some of my opensource packages:
 
 A lightweight vision library for performing large scale object detection/ instance segmentation:
 
@@ -33,12 +34,6 @@ Packaged, Pytorch-based, easy to use, cross-platform version of the CRAFT text d
 [![craft stars](https://img.shields.io/github/stars/fcakyon/craft-text-detector?color=blueviolet)](https://github.com/fcakyon/craft-text-detector/stargazers/) 
 [![Downloads](https://pepy.tech/badge/craft-text-detector)](https://pepy.tech/project/craft-text-detector)
 
-Evaluation made easy for NLP:
-
-- https://github.com/obss/jury
-[![jury stars](https://img.shields.io/github/stars/obss/jury?color=blueviolet)](https://github.com/obss/jury/stargazers/)
-[![Downloads](https://pepy.tech/badge/jury)](https://pepy.tech/project/jury)
-
 Make your own dataset for object detection and transform the format to coco json format:
 
 - https://github.com/fcakyon/labelme2coco
@@ -50,9 +45,3 @@ Download and convert MIDV-500 annotations to COCO instance segmentation format:
 - https://github.com/fcakyon/midv500
 [![confplot stars](https://img.shields.io/github/stars/fcakyon/midv500?color=blueviolet)](https://github.com/fcakyon/midv500/stargazers/)
 [![Downloads](https://pepy.tech/badge/midv500)](https://pepy.tech/project/midv500)
-
-Confusion Matrix in Python: Plot a pretty confusion matrix (like Matlab) in python using seaborn and matplotlib:
-
-- https://github.com/fcakyon/confplot
-[![confplot stars](https://img.shields.io/github/stars/fcakyon/confplot?color=blueviolet)](https://github.com/fcakyon/confplot/stargazers/)
-[![Downloads](https://pepy.tech/badge/confplot)](https://pepy.tech/project/confplot)
