@@ -45,3 +45,17 @@ Download and convert MIDV-500 annotations to COCO instance segmentation format:
 - https://github.com/fcakyon/midv500
 [![confplot stars](https://img.shields.io/github/stars/fcakyon/midv500?color=blueviolet)](https://github.com/fcakyon/midv500/stargazers/)
 [![Downloads](https://pepy.tech/badge/midv500)](https://pepy.tech/project/midv500)
+
+### some of my published/submitted papers:
+
+- [Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection](https://arxiv.org/abs/2202.06934) (Submitted to ICIP 2022)
+
+- [Drone-vs-Bird Detection Challenge at IEEE AVSS2021](https://ieeexplore.ieee.org/abstract/document/9663844) (Published at AVSS 2021)
+
+- [Track Boosting and Synthetic Data Aided Drone Detection](https://ieeexplore.ieee.org/abstract/document/9663759) (Published at AVSS 2021)
+
+- [Automated question generation and question answering from Turkish texts using text-to-text transformers](https://arxiv.org/abs/2111.06476) (Submitted to TUBITAK Journal)
+
+- [Instagram Fake and Automated Account Detection](https://ieeexplore.ieee.org/abstract/document/8946437) (Published at INISTA 2019)
+
+- [Classification of Intra-Pulse Modulation of Radar Signals by Feature Fusion Based Convolutional Neural Networks](https://ieeexplore.ieee.org/abstract/document/8553176) (Published at EUSIPCO 2018)
