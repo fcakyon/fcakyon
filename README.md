@@ -12,7 +12,7 @@
 
 ### about me
 - Passionate about **Open-Source, Machine Learning/Deep Learning, Computer Vision** 
-- BSc and Msc. on E&E Eng. (with deep learning/computer vision focus), PhD cand. on Informatics (with image/text/sound fusion transformers focus)
+- BSc and Msc. on Engineering (with deep learning/computer vision focus), PhD cand. on Informatics (with multi-modal video-transformers focus)
 
 ### some of my opensource packages:
 
@@ -27,6 +27,16 @@ Packaged version of ultralytics/yolov5 + many extra utilities:
 - https://github.com/fcakyon/yolov5-pip 
 [![yolov5 stars](https://img.shields.io/github/stars/fcakyon/yolov5-pip?color=blueviolet)](https://github.com/fcakyon/yolov5-pip/stargazers/)
 [![Downloads](https://pepy.tech/badge/yolov5)](https://pepy.tech/project/yolov5)
+
+Easy-to-use, class-balanced, cross-entropy and focal loss implementation for Pytorch:
+
+- https://github.com/fcakyon/balanced-loss
+
+A simple Streamlit Component to compare images with a slider in Streamlit apps:
+
+- https://github.com/fcakyon/streamlit-image-comparison
+[![streamlit-image-comparison stars](https://img.shields.io/github/stars/fcakyon/streamlit-image-comparison?color=blueviolet)](https://github.com/fcakyon/streamlit-image-comparison/stargazers/)
+[![Downloads](https://pepy.tech/badge/streamlit-image-comparison)](https://pepy.tech/project/streamlit-image-comparison)
 
 Packaged, Pytorch-based, easy to use, cross-platform version of the CRAFT text detector:
 
@@ -48,13 +58,13 @@ Download and convert MIDV-500 annotations to COCO instance segmentation format:
 
 ### some of my published/submitted papers:
 
-- [Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection](https://arxiv.org/abs/2202.06934) (Submitted to ICIP 2022)
+- [Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection](https://arxiv.org/abs/2202.06934) (Accepted at ICIP 2022)
 
 - [Drone-vs-Bird Detection Challenge at IEEE AVSS2021](https://ieeexplore.ieee.org/abstract/document/9663844) (Published at AVSS 2021)
 
 - [Track Boosting and Synthetic Data Aided Drone Detection](https://ieeexplore.ieee.org/abstract/document/9663759) (Published at AVSS 2021)
 
-- [Automated question generation and question answering from Turkish texts using text-to-text transformers](https://arxiv.org/abs/2111.06476) (Submitted to TUBITAK Journal)
+- [Automated question generation and question answering from Turkish texts](https://arxiv.org/abs/2111.06476) (Accepted at SCI Journal, 2022)
 
 - [Instagram Fake and Automated Account Detection](https://ieeexplore.ieee.org/abstract/document/8946437) (Published at INISTA 2019)
 
