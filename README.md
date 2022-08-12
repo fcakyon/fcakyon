@@ -60,14 +60,18 @@ Download and convert MIDV-500 annotations to COCO instance segmentation format:
 
 ### some of my published/submitted papers:
 
-- [Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection](https://arxiv.org/abs/2202.06934) (Accepted at ICIP 2022)
+- [Sequence Models for Drone vs Bird Classification](https://arxiv.org/abs/2207.10409) (Submitted to AVSS 2022)
 
-- [Drone-vs-Bird Detection Challenge at IEEE AVSS2021](https://ieeexplore.ieee.org/abstract/document/9663844) (Published at AVSS 2021)
+- [Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection](https://arxiv.org/abs/2202.06934) (Accepted at ICIP 2022) **(8+ citations)**
 
-- [Track Boosting and Synthetic Data Aided Drone Detection](https://ieeexplore.ieee.org/abstract/document/9663759) (Published at AVSS 2021)
+- [DroBoost: An Intelligent Score and Model Boosting Method for Drone Detection](https://link.springer.com/chapter/10.1007/978-3-031-13324-4_34) (Published at ICIAP 2022)
 
-- [Automated question generation and question answering from Turkish texts](https://arxiv.org/abs/2111.06476) (Accepted at SCI Journal, 2022)
+- [Automated question generation and question answering from Turkish texts](https://journals.tubitak.gov.tr/elektrik/vol30/iss5/17/) (Published at SCI Journal, 2022)
 
-- [Instagram Fake and Automated Account Detection](https://ieeexplore.ieee.org/abstract/document/8946437) (Published at INISTA 2019)
+- [Drone-vs-Bird Detection Challenge at IEEE AVSS2021](https://ieeexplore.ieee.org/abstract/document/9663844) (Published at AVSS 2021) **(87+ citations)**
 
-- [Classification of Intra-Pulse Modulation of Radar Signals by Feature Fusion Based Convolutional Neural Networks](https://ieeexplore.ieee.org/abstract/document/8553176) (Published at EUSIPCO 2018)
+- [Track Boosting and Synthetic Data Aided Drone Detection](https://ieeexplore.ieee.org/abstract/document/9663759) (Published at AVSS 2021) **(3+ citations)**
+
+- [Instagram Fake and Automated Account Detection](https://ieeexplore.ieee.org/abstract/document/8946437) (Published at INISTA 2019) **(33+ citations)**
+
+- [Classification of Intra-Pulse Modulation of Radar Signals by Feature Fusion Based Convolutional Neural Networks](https://ieeexplore.ieee.org/abstract/document/8553176) (Published at EUSIPCO 2018) **(10+ citations)**
