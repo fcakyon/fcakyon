@@ -31,6 +31,8 @@ Packaged version of ultralytics/yolov5 + many extra utilities:
 Easy-to-use, class-balanced, cross-entropy and focal loss implementation for Pytorch:
 
 - https://github.com/fcakyon/balanced-loss
+[![balanced-loss stars](https://img.shields.io/github/stars/fcakyon/balanced-loss?color=blueviolet)](https://github.com/fcakyon/balanced-loss/stargazers/)
+[![Downloads](https://pepy.tech/badge/balanced-loss)](https://pepy.tech/project/balanced-loss)
 
 A simple Streamlit Component to compare images with a slider in Streamlit apps:
 
