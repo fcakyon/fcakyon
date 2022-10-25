@@ -40,6 +40,12 @@ A simple Streamlit Component to compare images with a slider in Streamlit apps:
 [![streamlit-image-comparison stars](https://img.shields.io/github/stars/fcakyon/streamlit-image-comparison?color=blueviolet)](https://github.com/fcakyon/streamlit-image-comparison/stargazers/)
 [![Downloads](https://pepy.tech/badge/streamlit-image-comparison)](https://pepy.tech/project/streamlit-image-comparison)
 
+Easiest way of fine-tuning HuggingFace video classification models:
+
+- https://github.com/fcakyon/video-transformers
+[![video-transformers stars](https://img.shields.io/github/stars/fcakyon/video-transformers?color=blueviolet)](https://github.com/fcakyon/video-transformers/stargazers/)
+[![Downloads](https://pepy.tech/badge/video-transformers)](https://pepy.tech/project/video-transformers)
+
 Packaged, Pytorch-based, easy to use, cross-platform version of the CRAFT text detector:
 
 - https://github.com/fcakyon/craft-text-detector
@@ -60,18 +66,18 @@ Download and convert MIDV-500 annotations to COCO instance segmentation format:
 
 ### some of my published/submitted papers:
 
-- [Sequence Models for Drone vs Bird Classification](https://arxiv.org/abs/2207.10409) (Submitted to AVSS 2022)
+- [Sequence Models for Drone vs Bird Classification](https://arxiv.org/abs/2207.10409) (Preprint)
 
-- [Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection](https://arxiv.org/abs/2202.06934) (Accepted at ICIP 2022) **(11+ citations)**
+- [Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (Published at ICIP 2022) **(19+ citations)**
 
 - [DroBoost: An Intelligent Score and Model Boosting Method for Drone Detection](https://link.springer.com/chapter/10.1007/978-3-031-13324-4_34) (Published at ICIAP 2022)
 
 - [Automated question generation and question answering from Turkish texts](https://journals.tubitak.gov.tr/elektrik/vol30/iss5/17/) (Published at SCI Journal, 2022)
 
-- [Drone-vs-Bird Detection Challenge at IEEE AVSS2021](https://ieeexplore.ieee.org/abstract/document/9663844) (Published at AVSS 2021) **(89+ citations)**
+- [Drone-vs-Bird Detection Challenge at IEEE AVSS2021](https://ieeexplore.ieee.org/abstract/document/9663844) (Published at AVSS 2021) **(92+ citations)**
 
 - [Track Boosting and Synthetic Data Aided Drone Detection](https://ieeexplore.ieee.org/abstract/document/9663759) (Published at AVSS 2021) **(3+ citations)**
 
-- [Instagram Fake and Automated Account Detection](https://ieeexplore.ieee.org/abstract/document/8946437) (Published at INISTA 2019) **(36+ citations)**
+- [Instagram Fake and Automated Account Detection](https://ieeexplore.ieee.org/abstract/document/8946437) (Published at INISTA 2019) **(41+ citations)**
 
 - [Classification of Intra-Pulse Modulation of Radar Signals by Feature Fusion Based Convolutional Neural Networks](https://ieeexplore.ieee.org/abstract/document/8553176) (Published at EUSIPCO 2018) **(10+ citations)**
