@@ -11,8 +11,8 @@
 </p>
 
 ### about me
-- Passionate about **Open-Source, Machine Learning/Deep Learning, Computer Vision** 
-- BSc and Msc. on Engineering (with deep learning/computer vision focus), PhD cand. on Informatics (with multi-modal video-transformers focus)
+- Passionate about **Open-Source, Machine Learning, Multi-Modal Learning** 
+- BSc and Msc. on Engineering (with deep learning/computer vision focus), PhD cand. on Informatics (with multi-modal video understanding focus)
 
 ### some of my opensource packages:
 
