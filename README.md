@@ -4,14 +4,18 @@
   <a href="https://twitter.com/fcakyon">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />        
   </a>&nbsp;&nbsp;
+  
+  <a href="https://scholar.google.com/citations?user=RHGyDE0AAAAJ&hl=en">
+    <img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" />        
+  </a>&nbsp;&nbsp;
+  
   <a href="https://fcakyon.medium.com/">
     <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" />
   </a>&nbsp;&nbsp;
-  
 </p>
 
 ### about me
-- Passionate about **Open-Source, Machine Learning, Multi-Modal Learning** 
+- Passionate about **Open-Source, Video Understanding, Multi-Modal Learning** 
 - BSc and Msc. on Engineering (with deep learning/computer vision focus), PhD cand. on Informatics (with multi-modal video understanding focus)
 
 ### some of my opensource packages:
