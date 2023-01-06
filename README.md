@@ -28,10 +28,6 @@
 [![yolov5 stars](https://img.shields.io/github/stars/fcakyon/yolov5-pip?color=blueviolet)](https://github.com/fcakyon/yolov5-pip/stargazers/)
 [![Downloads](https://pepy.tech/badge/yolov5)](https://pepy.tech/project/yolov5)
 
-[pywhisper](https://github.com/fcakyon/pywhisper)
-[![confplot stars](https://img.shields.io/github/stars/fcakyon/pywhisper?color=blueviolet)](https://github.com/fcakyon/pywhisper/stargazers/)
-[![Downloads](https://pepy.tech/badge/pywhisper)](https://pepy.tech/project/pywhisper)
-
 [balanced-loss](https://github.com/fcakyon/balanced-loss)
 [![balanced-loss stars](https://img.shields.io/github/stars/fcakyon/balanced-loss?color=blueviolet)](https://github.com/fcakyon/balanced-loss/stargazers/)
 [![Downloads](https://pepy.tech/badge/balanced-loss)](https://pepy.tech/project/balanced-loss)
@@ -56,22 +52,19 @@
 [![confplot stars](https://img.shields.io/github/stars/fcakyon/midv500?color=blueviolet)](https://github.com/fcakyon/midv500/stargazers/)
 [![Downloads](https://pepy.tech/badge/midv500)](https://pepy.tech/project/midv500)
 
-### some of my published/submitted papers:
+### some of my published/preprint papers:
 
-[Sequence Models for Drone vs Bird Classification](https://arxiv.org/abs/2207.10409) (Preprint)
+[Deep Architectures for Content Moderation and Movie Content Rating](https://arxiv.org/abs/2212.04533)
+(Preprint)
 
 [Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (ICIP 2022) **(20+ citations)**
 
-[DroBoost: An Intelligent Score and Model Boosting Method for Drone Detection](https://link.springer.com/chapter/10.1007/978-3-031-13324-4_34) (ICIAP 2022)
-
 [Automated question generation and question answering from Turkish texts](https://journals.tubitak.gov.tr/elektrik/vol30/iss5/17/) (SCI Journal, 2022)
 
-[Drone-vs-Bird Detection Challenge at IEEE AVSS2021](https://ieeexplore.ieee.org/abstract/document/9663844) (AVSS 2021) **(92+ citations)**
+[Drone-vs-Bird Detection Challenge at IEEE AVSS2021](https://ieeexplore.ieee.org/abstract/document/9663844) (AVSS 2021) **(90+ citations)**
 
 [Track Boosting and Synthetic Data Aided Drone Detection](https://ieeexplore.ieee.org/abstract/document/9663759) (AVSS 2021) **(3+ citations)**
 
-[Instagram Fake and Automated Account Detection](https://ieeexplore.ieee.org/abstract/document/8946437) (INISTA 2019) **(43+ citations)**
-
-[Classification of Intra-Pulse Modulation of Radar Signals by Feature Fusion Based Convolutional Neural Networks](https://ieeexplore.ieee.org/abstract/document/8553176) (EUSIPCO 2018) **(10+ citations)**
+[Instagram Fake and Automated Account Detection](https://ieeexplore.ieee.org/abstract/document/8946437) (INISTA 2019) **(40+ citations)**
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=fcakyon.count_visitors)
