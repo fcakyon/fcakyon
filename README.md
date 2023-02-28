@@ -28,6 +28,10 @@
 [![yolov5 stars](https://img.shields.io/github/stars/fcakyon/yolov5-pip?color=blueviolet)](https://github.com/fcakyon/yolov5-pip/stargazers/)
 [![Downloads](https://pepy.tech/badge/yolov5)](https://pepy.tech/project/yolov5)
 
+[ultralyticsplus](https://github.com/fcakyon/ultralyticsplus)
+[![ultralyticsplus stars](https://img.shields.io/github/stars/fcakyon/ultralyticsplus?color=blueviolet)](https://github.com/fcakyon/ultralyticsplus/stargazers/)
+[![Downloads](https://pepy.tech/badge/ultralyticsplus)](https://pepy.tech/project/ultralyticsplus)
+
 [balanced-loss](https://github.com/fcakyon/balanced-loss)
 [![balanced-loss stars](https://img.shields.io/github/stars/fcakyon/balanced-loss?color=blueviolet)](https://github.com/fcakyon/balanced-loss/stargazers/)
 [![Downloads](https://pepy.tech/badge/balanced-loss)](https://pepy.tech/project/balanced-loss)
@@ -49,7 +53,7 @@
 [![Downloads](https://pepy.tech/badge/labelme2coco)](https://pepy.tech/project/labelme2coco)
 
 [midv500](https://github.com/fcakyon/midv500)
-[![confplot stars](https://img.shields.io/github/stars/fcakyon/midv500?color=blueviolet)](https://github.com/fcakyon/midv500/stargazers/)
+[![midv500 stars](https://img.shields.io/github/stars/fcakyon/midv500?color=blueviolet)](https://github.com/fcakyon/midv500/stargazers/)
 [![Downloads](https://pepy.tech/badge/midv500)](https://pepy.tech/project/midv500)
 
 ### some of my published/preprint papers:
@@ -57,7 +61,7 @@
 [Deep Architectures for Content Moderation and Movie Content Rating](https://arxiv.org/abs/2212.04533)
 (Preprint)
 
-[Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (ICIP 2022) **(20+ citations)**
+[Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (ICIP 2022) **(40+ citations)**
 
 [Automated question generation and question answering from Turkish texts](https://journals.tubitak.gov.tr/elektrik/vol30/iss5/17/) (SCI Journal, 2022)
 
