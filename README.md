@@ -65,10 +65,10 @@
 
 [Automated question generation and question answering from Turkish texts](https://journals.tubitak.gov.tr/elektrik/vol30/iss5/17/) (SCI Journal, 2022)
 
-[Drone-vs-Bird Detection Challenge at IEEE AVSS2021](https://ieeexplore.ieee.org/abstract/document/9663844) (AVSS 2021) **(90+ citations)**
+[Drone-vs-Bird Detection Challenge at IEEE AVSS2021](https://ieeexplore.ieee.org/abstract/document/9663844) (AVSS 2021) **(100+ citations)**
 
 [Track Boosting and Synthetic Data Aided Drone Detection](https://ieeexplore.ieee.org/abstract/document/9663759) (AVSS 2021) **(3+ citations)**
 
-[Instagram Fake and Automated Account Detection](https://ieeexplore.ieee.org/abstract/document/8946437) (INISTA 2019) **(40+ citations)**
+[Instagram Fake and Automated Account Detection](https://ieeexplore.ieee.org/abstract/document/8946437) (INISTA 2019) **(50+ citations)**
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=fcakyon.count_visitors)
