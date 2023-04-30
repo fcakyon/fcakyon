@@ -58,7 +58,7 @@
 
 ### some of my published/preprint papers:
 
-State-of-the-Art in Nudity Classification: A comparative analysis (to be presented in ICASSP 2023) **(paper and demo comming soon ...)**
+State-of-the-Art in Nudity Classification: A Comparative Analysis (ICASSP 2023) **(arxiv and demo comming soon ...)**
 
 [Deep Architectures for Content Moderation and Movie Content Rating](https://arxiv.org/abs/2212.04533)
 (Preprint)
