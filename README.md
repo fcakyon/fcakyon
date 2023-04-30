@@ -16,7 +16,7 @@
 
 ### about me
 - Passionate about **Open-Source, Video Understanding, Multi-Modal Learning** 
-- BSc and Msc. on Engineering (with deep learning/computer vision focus), PhD cand. on Informatics (with multi-modal video understanding focus)
+- BSc and Msc. in Engineering (sequence models & computer vision), PhD in Informatics (multi-modal video understanding)
 
 ### some of my opensource packages:
 
