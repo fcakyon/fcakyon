@@ -58,16 +58,18 @@
 
 ### some of my published/preprint papers:
 
+State-of-the-Art in Nudity Classification: A comparative analysis (to be presented in ICASSP 2023) **(paper and demo comming soon ...)**
+
 [Deep Architectures for Content Moderation and Movie Content Rating](https://arxiv.org/abs/2212.04533)
 (Preprint)
 
-[Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (ICIP 2022) **(40+ citations)**
+[Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (ICIP 2022) **(50+ citations)**
 
 [Automated question generation and question answering from Turkish texts](https://journals.tubitak.gov.tr/elektrik/vol30/iss5/17/) (SCI Journal, 2022)
 
 [Drone-vs-Bird Detection Challenge at IEEE AVSS2021](https://ieeexplore.ieee.org/abstract/document/9663844) (AVSS 2021) **(100+ citations)**
 
-[Track Boosting and Synthetic Data Aided Drone Detection](https://ieeexplore.ieee.org/abstract/document/9663759) (AVSS 2021) **(3+ citations)**
+[Track Boosting and Synthetic Data Aided Drone Detection](https://ieeexplore.ieee.org/abstract/document/9663759) (AVSS 2021) **(5+ citations)**
 
 [Instagram Fake and Automated Account Detection](https://ieeexplore.ieee.org/abstract/document/8946437) (INISTA 2019) **(50+ citations)**
 
