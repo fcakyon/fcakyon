@@ -15,8 +15,8 @@
 </p>
 
 ### about me
-- Passionate about **Open-Source, Large Language Models, Multi-Modal Learning** 
-- PhD in Informatics (**multi-modal video understanding**)
+- Passionate about *open-source, vision-language alignment, multi-modal learning** 
+- PhD in Informatics (**efficient vision-language models**)
 - BSc and MSc in Engineering (**sequence models & computer vision**)
 
 ### some of my opensource packages:
@@ -63,18 +63,24 @@
 
 ### some of my published/preprint papers:
 
-[Artificial intelligence-supported web application for reducing polypharmacy side effects](https://www.frontiersin.org/articles/10.3389/fmed.2023.1029198/full) (Frontiers in Medicine, 2023)  **(10+ citations)**
-
-[State-of-the-Art in Nudity Classification: A Comparative Analysis](https://ieeexplore.ieee.org/document/10193621) (ICASSP, 2023) **(arxiv and demo comming soon ...)**
-
-[Deep Architectures for Content Moderation and Movie Content Rating](https://arxiv.org/abs/2212.04533) (Preprint) **(5+ citations)**
-
-[Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (ICIP, 2022) **(160+ citations)**
-
-[Automated question generation and question answering from Turkish texts](https://journals.tubitak.gov.tr/elektrik/vol30/iss5/17/) (SCI Journal, 2022) **(5+ citations)**
+[Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (ICIP, 2022) **(200+ citations)**
 
 [Drone-vs-Bird Detection Challenge at IEEE AVSS2021](https://ieeexplore.ieee.org/abstract/document/9663844) (AVSS, 2021) **(150+ citations)**
 
-[Track Boosting and Synthetic Data Aided Drone Detection](https://ieeexplore.ieee.org/abstract/document/9663759) (AVSS, 2021) **(20+ citations)**
+[Artificial intelligence-supported web application for reducing polypharmacy side effects](https://www.frontiersin.org/articles/10.3389/fmed.2023.1029198/full) (Frontiers in Medicine, 2023)  **(20+ citations)**
 
 [Instagram Fake and Automated Account Detection](https://ieeexplore.ieee.org/abstract/document/8946437) (INISTA, 2019) **(100+ citations)**
+
+[Track Boosting and Synthetic Data Aided Drone Detection](https://ieeexplore.ieee.org/abstract/document/9663759) (AVSS, 2021) **(20+ citations)**
+
+[State-of-the-Art in Nudity Classification: A Comparative Analysis](https://ieeexplore.ieee.org/document/10193621) (ICASSP, 2023) **(arxiv and demo coming soon ...)**
+
+[Deep Architectures for Content Moderation and Movie Content Rating](https://arxiv.org/abs/2212.04533) (Preprint) **(5+ citations)**
+
+[Automated question generation and question answering from Turkish texts](https://journals.tubitak.gov.tr/elektrik/vol30/iss5/17/) (SCI Journal, 2022) **(10+ citations)**
+
+Evaluating generative AI tools in analyzing medical articles: a comparative study (Journal of Medical Internet Research, 2024) **(coming soon ...)**
+
+Enhancing clinical management skills through artificial intelligence simulated patients **(coming soon ...)**
+
+
