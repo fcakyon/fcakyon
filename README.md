@@ -15,8 +15,8 @@
 </p>
 
 ### about me
-- Passionate about *open-source, vision-language alignment, multi-modal learning** 
-- PhD in Informatics (**efficient vision-language models**)
+- Passionate about *open-source, vision-language alignment, multi-modal learning*
+- PhD in Informatics (**continiual learning in vision-language models**)
 - BSc and MSc in Engineering (**sequence models & computer vision**)
 
 ### some of my opensource packages:
@@ -79,8 +79,8 @@
 
 [Automated question generation and question answering from Turkish texts](https://journals.tubitak.gov.tr/elektrik/vol30/iss5/17/) (SCI Journal, 2022) **(10+ citations)**
 
-Evaluating generative AI tools in analyzing medical articles: a comparative study (Journal of Medical Internet Research, 2024) **(coming soon ...)**
+[Evaluating generative AI tools in analyzing medical articles: a comparative study](https://medinform.jmir.org/2024/1/e59258) (Journal of Medical Internet Research, 2024)
 
-Enhancing clinical management skills through artificial intelligence simulated patients **(coming soon ...)**
+[Enhancing clinical management skills through artificial intelligence simulated patients](https://myaipatient.com) **(WONCA, 2024)**
 
 
