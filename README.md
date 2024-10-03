@@ -73,7 +73,7 @@
 
 [Track Boosting and Synthetic Data Aided Drone Detection](https://ieeexplore.ieee.org/abstract/document/9663759) (AVSS, 2021) **(20+ citations)**
 
-[State-of-the-Art in Nudity Classification: A Comparative Analysis](https://ieeexplore.ieee.org/document/10193621) (ICASSP, 2023) **(arxiv and demo coming soon ...)**
+[State-of-the-Art in Nudity Classification: A Comparative Analysis](https://ieeexplore.ieee.org/document/10193621) (ICASSP, 2023) **(demo coming soon ...)**
 
 [Deep Architectures for Content Moderation and Movie Content Rating](https://arxiv.org/abs/2212.04533) (Preprint) **(5+ citations)**
 
@@ -81,6 +81,6 @@
 
 [Evaluating generative AI tools in analyzing medical articles: a comparative study](https://medinform.jmir.org/2024/1/e59258) (Journal of Medical Internet Research, 2024)
 
-[Enhancing clinical management skills through artificial intelligence simulated patients](https://myaipatient.com) **(WONCA, 2024)**
+[Enhancing clinical management skills through artificial intelligence simulated patients](https://myaipatient.com) (WONCA, 2024)
 
 
