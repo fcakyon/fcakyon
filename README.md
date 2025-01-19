@@ -65,11 +65,11 @@
 
 [Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (ICIP, 2022) **(300+ citations)**
 
-[Artificial intelligence-supported web application for reducing polypharmacy side effects](https://www.frontiersin.org/articles/10.3389/fmed.2023.1029198/full) (Frontiers in Medicine, 2023)  **(20+ citations)**
+[AI-supported web application for reducing polypharmacy side effects](https://www.frontiersin.org/articles/10.3389/fmed.2023.1029198/full) (Frontiers in Medicine, 2023)  **(20+ citations)**
 
 [Automated question generation and question answering from Turkish texts](https://journals.tubitak.gov.tr/elektrik/vol30/iss5/17/) (SCI Journal, 2022) **(20+ citations)**
 
-[Evaluating generative AI tools in analyzing medical articles: a comparative study](https://medinform.jmir.org/2024/1/e59258) (Journal of Medical Internet Research, 2024)
+[Evaluating generative AI tools in analyzing medical articles](https://medinform.jmir.org/2024/1/e59258) (Journal of Medical Internet Research, 2024)
 
 [Drone-vs-Bird Detection Challenge at IEEE AVSS2021](https://ieeexplore.ieee.org/abstract/document/9663844) (AVSS, 2021) **(150+ citations)**
 
