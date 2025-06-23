@@ -4,26 +4,22 @@
   <a href="https://twitter.com/fcakyon">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />        
   </a>&nbsp;&nbsp;
-  
+
   <a href="https://scholar.google.com/citations?user=RHGyDE0AAAAJ&hl=en">
     <img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" />        
   </a>&nbsp;&nbsp;
-  
+
   <a href="https://fcakyon.medium.com/">
     <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" />
   </a>&nbsp;&nbsp;
 </p>
 
 ### about me
-- Passionate about *open-source, vision-language alignment, multi-modal learning*
-- PhD in Informatics (**data-centric continual learning in vision-language models**)
+- Passionate about *open-source, explainable vision-language models, ai agents for dataset curation*
+- PhD in Informatics (**explainable content moderation & agentic dataset curation**)
 - BSc and MSc in Engineering (**sequence models & computer vision**)
 
 ### some of my opensource packages:
-
-[autollm](https://github.com/safevideo/autollm)
-[![autollm stars](https://img.shields.io/github/stars/safevideo/autollm?color=blueviolet)](https://github.com/safevideo/autollm/stargazers/)
-[![Downloads](https://pepy.tech/badge/autollm)](https://pepy.tech/project/autollm)
 
 [sahi](https://github.com/obss/sahi)
 [![sahi stars](https://img.shields.io/github/stars/obss/sahi?color=blueviolet)](https://github.com/obss/sahi/stargazers/)
@@ -61,17 +57,21 @@
 [![midv500 stars](https://img.shields.io/github/stars/fcakyon/midv500?color=blueviolet)](https://github.com/fcakyon/midv500/stargazers/)
 [![Downloads](https://pepy.tech/badge/midv500)](https://pepy.tech/project/midv500)
 
+[autollm](https://github.com/safevideo/autollm)
+[![autollm stars](https://img.shields.io/github/stars/safevideo/autollm?color=blueviolet)](https://github.com/safevideo/autollm/stargazers/)
+[![Downloads](https://pepy.tech/badge/autollm)](https://pepy.tech/project/autollm)
+
 ### some of my published/preprint papers:
 
-[Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (ICIP, 2022) **(300+ citations)**
+[Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (ICIP, 2022) **(400+ citations)**
 
-[AI-supported web application for reducing polypharmacy side effects](https://www.frontiersin.org/articles/10.3389/fmed.2023.1029198/full) (Frontiers in Medicine, 2023)  **(20+ citations)**
+[AI-supported web application for reducing polypharmacy side effects](https://www.frontiersin.org/articles/10.3389/fmed.2023.1029198/full) (Frontiers in Medicine, 2023)  **(30+ citations)**
 
 [Automated question generation and question answering from Turkish texts](https://journals.tubitak.gov.tr/elektrik/vol30/iss5/17/) (SCI Journal, 2022) **(20+ citations)**
 
-[Evaluating generative AI tools in analyzing medical articles](https://medinform.jmir.org/2024/1/e59258) (Journal of Medical Internet Research, 2024)
+[Evaluating generative AI tools in analyzing medical articles](https://medinform.jmir.org/2024/1/e59258) (JMIR, 2024) **(10+ citations)**
 
-[Drone-vs-Bird Detection Challenge at IEEE AVSS2021](https://ieeexplore.ieee.org/abstract/document/9663844) (AVSS, 2021) **(150+ citations)**
+[Drone-vs-Bird Detection Challenge at IEEE AVSS2021](https://ieeexplore.ieee.org/abstract/document/9663844) (AVSS, 2021) **(200+ citations)**
 
 [Instagram Fake and Automated Account Detection](https://ieeexplore.ieee.org/abstract/document/8946437) (INISTA, 2019) **(100+ citations)**
 
