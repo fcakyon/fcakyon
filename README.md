@@ -18,6 +18,7 @@
 - Passionate about *open-source, explainable vision-language models, ai agents for dataset curation*
 - PhD in Informatics (**explainable content moderation & agentic dataset curation**)
 - BSc and MSc in Engineering (**sequence models & computer vision**)
+- Spending less time writing code and more time reviewing Claude Code generations | [my claude settings](https://github.com/fcakyon/claude-settings)
 
 ### some of my opensource packages:
 
