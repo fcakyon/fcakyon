@@ -46,7 +46,7 @@
 [![midv500 stars](https://img.shields.io/github/stars/fcakyon/midv500?color=blueviolet)](https://github.com/fcakyon/midv500/stargazers/)
 [![Downloads](https://pepy.tech/badge/midv500)](https://pepy.tech/project/midv500)
 
-[yolov5-pip ](https://github.com/fcakyon/yolov5-pip)
+[yolov5-pip](https://github.com/fcakyon/yolov5-pip)
 [![yolov5 stars](https://img.shields.io/github/stars/fcakyon/yolov5-pip?color=blueviolet)](https://github.com/fcakyon/yolov5-pip/stargazers/)
 [![Downloads](https://pepy.tech/badge/yolov5)](https://pepy.tech/project/yolov5)
 
