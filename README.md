@@ -15,12 +15,15 @@
 </p>
 
 ### about me
+- Spending less time writing code and more time understanding the Psychiatry of AI | [my claude code & codex settings](https://github.com/fcakyon/claude-codex-settings)
 - Passionate about *open-source, explainable vision-language models, ai agents for dataset curation*
 - PhD in Informatics (**explainable content moderation & agentic dataset curation**)
 - BSc and MSc in Engineering (**sequence models & computer vision**)
-- Spending less time writing code and more time planning/reviewing Claude Code instructions/generations | [my claude settings](https://github.com/fcakyon/claude-settings)
 
-### some of my open-source packages:
+### some of my open-source works:
+
+[sahi](https://github.com/fcakyon/claude-codex-settings)
+[![sahi stars](https://img.shields.io/github/stars/fcakyon/claude-codex-settings?color=blueviolet)](https://github.com/fcakyon/claude-codex-settings/stargazers/)
 
 [sahi](https://github.com/obss/sahi)
 [![sahi stars](https://img.shields.io/github/stars/obss/sahi?color=blueviolet)](https://github.com/obss/sahi/stargazers/)
