@@ -22,11 +22,11 @@
 
 ### some of my open-source works:
 
-[claude-codex-settings](https://github.com/fcakyon/claude-codex-settings)
-[![claude-codex-settings stars](https://img.shields.io/github/stars/fcakyon/claude-codex-settings?color=blueviolet)](https://github.com/fcakyon/claude-codex-settings/stargazers/)
-
 [phd-skills](https://github.com/fcakyon/phd-skills) — research integrity plugin for Claude Code
 [![phd-skills stars](https://img.shields.io/github/stars/fcakyon/phd-skills?color=blueviolet)](https://github.com/fcakyon/phd-skills/stargazers/)
+
+[claude-codex-settings](https://github.com/fcakyon/claude-codex-settings)
+[![claude-codex-settings stars](https://img.shields.io/github/stars/fcakyon/claude-codex-settings?color=blueviolet)](https://github.com/fcakyon/claude-codex-settings/stargazers/)
 
 [sahi](https://github.com/obss/sahi)
 [![sahi stars](https://img.shields.io/github/stars/obss/sahi?color=blueviolet)](https://github.com/obss/sahi/stargazers/)
