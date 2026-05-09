@@ -15,14 +15,14 @@
 </p>
 
 ### about me
-- Spending less time writing code, more time understanding the Psychiatry of AI | [my claude & codex settings](https://github.com/fcakyon/claude-codex-settings)
+- Spending less time writing code, more time understanding the Psychiatry of AI | [my claude & codex settings](https://github.com/fcakyon/claude-codex-settings) & [phd research skills](https://github.com/fcakyon/phd-skills)
 - Passionate about *open-source, explainable vision-language models, ai agents for dataset curation*
-- PhD in Informatics (**explainable content moderation & agentic dataset curation**)
+- PhD in Informatics (**explainable vision language models & agentic knowledge distillation**)
 - BSc and MSc in Engineering (**sequence models & computer vision**)
 
 ### some of my open-source works:
 
-[phd-skills](https://github.com/fcakyon/phd-skills) — research integrity plugin for Claude Code
+[phd-skills](https://github.com/fcakyon/phd-skills) — PhD Research Skills for Claude Code based on my 1500+ citation PhD journey
 [![phd-skills stars](https://img.shields.io/github/stars/fcakyon/phd-skills?color=blueviolet)](https://github.com/fcakyon/phd-skills/stargazers/)
 
 [claude-codex-settings](https://github.com/fcakyon/claude-codex-settings)
@@ -74,19 +74,21 @@
 
 ### some of my published/preprint papers:
 
-[Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (ICIP, 2022) **(600+ citations)**
+[SenBen: Sensitive Scene Graphs for Explainable Content Moderation](https://www.catalyzex.com/code/fcakyon/senben) (CVPR, 2026)
 
-[AI-supported web application for reducing polypharmacy side effects](https://www.frontiersin.org/articles/10.3389/fmed.2023.1029198/full) (Frontiers in Medicine, 2023)  **(40+ citations)**
+[Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (ICIP, 2022) **(700+ citations)**
 
-[Automated question generation and question answering from Turkish texts](https://journals.tubitak.gov.tr/elektrik/vol30/iss5/17/) (SCI Journal, 2022) **(20+ citations)**
+[AI-supported web application for reducing polypharmacy side effects](https://www.frontiersin.org/articles/10.3389/fmed.2023.1029198/full) (Frontiers in Medicine, 2023)  **(50+ citations)**
 
-[Evaluating generative AI tools in analyzing medical articles](https://medinform.jmir.org/2024/1/e59258) (JMIR, 2024) **(10+ citations)**
+[Automated question generation and question answering from Turkish texts](https://journals.tubitak.gov.tr/elektrik/vol30/iss5/17/) (SCI Journal, 2022) **(30+ citations)**
+
+[Evaluating generative AI tools in analyzing medical articles](https://medinform.jmir.org/2024/1/e59258) (JMIR, 2024) **(20+ citations)**
 
 [Drone-vs-Bird Detection Challenge at IEEE AVSS2021](https://ieeexplore.ieee.org/abstract/document/9663844) (AVSS, 2021) **(200+ citations)**
 
 [Instagram Fake and Automated Account Detection](https://ieeexplore.ieee.org/abstract/document/8946437) (INISTA, 2019) **(100+ citations)**
 
-[Track Boosting and Synthetic Data Aided Drone Detection](https://ieeexplore.ieee.org/abstract/document/9663759) (AVSS, 2021) **(30+ citations)**
+[Track Boosting and Synthetic Data Aided Drone Detection](https://ieeexplore.ieee.org/abstract/document/9663759) (AVSS, 2021) **(40+ citations)**
 
 [State-of-the-Art in Nudity Classification: A Comparative Analysis](https://ieeexplore.ieee.org/document/10193621) (ICASSP, 2023) **(10+ citations)**
 
