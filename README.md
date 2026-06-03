@@ -74,7 +74,9 @@
 
 ### some of my published/preprint papers:
 
-[SenBen: Sensitive Scene Graphs for Explainable Content Moderation](https://www.catalyzex.com/code/fcakyon/senben) (CVPR, 2026)
+[Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models](https://arxiv.org/abs/2606.03748v1) (Preprint, 2026)
+
+[SenBen: Sensitive Scene Graphs for Explainable Content Moderation](https://senben.kim/) (CVPR, 2026)
 
 [Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (ICIP, 2022) **(700+ citations)**
 
