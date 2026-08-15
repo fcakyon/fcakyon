@@ -22,7 +22,7 @@
 
 ### some of my open-source works:
 
-[phd-skills](https://github.com/fcakyon/phd-skills) — PhD Research Skills for Claude Code based on my 1500+ citation PhD journey
+[phd-skills](https://github.com/fcakyon/phd-skills) — PhD Research Skills for Claude Code based on my 1800+ citation PhD journey
 [![phd-skills stars](https://img.shields.io/github/stars/fcakyon/phd-skills?color=blueviolet)](https://github.com/fcakyon/phd-skills/stargazers/)
 
 [claude-codex-settings](https://github.com/fcakyon/claude-codex-settings)
@@ -74,11 +74,11 @@
 
 ### some of my published/preprint papers:
 
-[Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models](https://arxiv.org/abs/2606.03748v1) (Preprint, 2026)
+[Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models](https://arxiv.org/abs/2606.03748v1) (Preprint, 2026) **(50+ citations)**
 
 [SenBen: Sensitive Scene Graphs for Explainable Content Moderation](https://senben.kim/) (CVPR, 2026)
 
-[Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (ICIP, 2022) **(700+ citations)**
+[Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (ICIP, 2022) **(900+ citations)**
 
 [AI-supported web application for reducing polypharmacy side effects](https://www.frontiersin.org/articles/10.3389/fmed.2023.1029198/full) (Frontiers in Medicine, 2023)  **(50+ citations)**
 
