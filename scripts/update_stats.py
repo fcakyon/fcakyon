@@ -8,6 +8,7 @@ import json
 import os
 import random
 import re
+import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import UTC, datetime
 from pathlib import Path
@@ -17,6 +18,8 @@ import requests
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data/profile.json"
 USER_AGENT = "fcakyon-profile/1.0 (+https://github.com/fcakyon/fcakyon)"
+SCHOLAR_USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+SCHOLAR_ATTEMPTS = 3
 
 
 def scholar_session() -> requests.Session:
@@ -28,7 +31,7 @@ def scholar_session() -> requests.Session:
     )
     session = requests.Session()
     session.headers.update(
-        {"User-Agent": USER_AGENT, "Accept-Language": "en-US,en;q=0.9"}
+        {"User-Agent": SCHOLAR_USER_AGENT, "Accept-Language": "en-US,en;q=0.9"}
     )
     session.proxies = {"http": proxy, "https": proxy}
     return session
@@ -43,14 +46,28 @@ def fetch_scholar_counts(profile_id: str) -> dict[str, int]:
     Returns:
         (dict[str, int]): Citation totals keyed by Scholar publication identifier.
     """
-    response = scholar_session().get(
-        "https://scholar.google.com/citations",
-        params={"user": profile_id, "hl": "en", "pagesize": 100},
-        timeout=60,
-    )
-    response.raise_for_status()
-    if len(response.text) < 5000 or "not a robot" in response.text.lower():
-        raise RuntimeError("Google Scholar returned a block page")
+    for attempt in range(1, SCHOLAR_ATTEMPTS + 1):
+        try:
+            response = scholar_session().get(
+                "https://scholar.google.com/citations",
+                params={"user": profile_id, "hl": "en", "pagesize": 100},
+                timeout=60,
+            )
+            if (
+                response.status_code == 200
+                and len(response.text) >= 5000
+                and not re.search(r"not a robot|/sorry/", response.text, re.IGNORECASE)
+            ):
+                break
+            failure = f"HTTP {response.status_code} or block page"
+        except requests.RequestException as error:
+            failure = str(error)
+        if attempt < SCHOLAR_ATTEMPTS:
+            time.sleep(2 + 3 * attempt)
+    else:
+        raise RuntimeError(
+            f"Google Scholar failed through {SCHOLAR_ATTEMPTS} fresh proxy sessions: {failure}"
+        )
 
     counts = {}
     for block in response.text.split('<tr class="gsc_a_tr"')[1:]:
