@@ -1,0 +1,160 @@
+:root {
+  --background: #ffffff;
+  --surface: #ffffff;
+  --text: #172033;
+  --muted: #687386;
+  --border: #e5e9f0;
+  --shadow: 0 8px 22px rgb(23 32 51 / 8%);
+}
+
+:root[data-theme="dark"] {
+  --background: #0d1117;
+  --surface: #161b22;
+  --text: #f0f6fc;
+  --muted: #9ba7b7;
+  --border: #30363d;
+  --shadow: 0 8px 22px rgb(0 0 0 / 28%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: var(--page-width);
+  height: var(--page-height);
+  margin: 0;
+  overflow: hidden;
+  background: var(--background);
+}
+
+body {
+  padding: var(--page-padding);
+  color: var(--text);
+  font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.card {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 13px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.media {
+  width: 100%;
+  height: var(--media-height);
+  overflow: hidden;
+  border-bottom: 1px solid var(--border);
+  background: #eef2f7;
+}
+
+.media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card.paper .media {
+  background: #ffffff;
+}
+
+.card.paper .media img {
+  object-fit: contain;
+  object-position: top center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: var(--content-height);
+  padding: 14px 15px;
+}
+
+.label {
+  margin: 0 0 7px;
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 750;
+  letter-spacing: 1.05px;
+  line-height: 1.15;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0;
+  color: var(--text);
+  font-size: 19px;
+  font-weight: 760;
+  letter-spacing: -0.35px;
+  line-height: 1.12;
+}
+
+.description {
+  display: -webkit-box;
+  margin: 8px 0 0;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.35;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  margin-top: auto;
+  padding-top: 9px;
+  border-top: 1px solid var(--border);
+}
+
+.stat {
+  position: relative;
+  padding-left: 10px;
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 650;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.stat::before {
+  position: absolute;
+  top: 0.38em;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--accent);
+  content: "";
+}
+
+.mobile .content {
+  padding: 16px;
+}
+
+.mobile .label {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.mobile .title {
+  font-size: 25px;
+}
+
+.mobile .description {
+  margin-top: 9px;
+  font-size: 17px;
+}
+
+.mobile .stat {
+  font-size: 15px;
+}
