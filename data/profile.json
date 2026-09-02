@@ -1,0 +1,635 @@
+{
+  "updated_at": "2026-09-02",
+  "scholar_profile": "RHGyDE0AAAAJ",
+  "open_source": [
+    {
+      "name": "SAHI",
+      "url": "https://github.com/obss/sahi",
+      "repo": "obss/sahi",
+      "pypi_package": "sahi",
+      "kind": "Python package",
+      "card_metrics": [
+        "stars",
+        "forks",
+        "downloads_month"
+      ],
+      "description": "Sliced inference for small object detection.",
+      "image": "assets/source/repos/sahi.jpg",
+      "featured": true,
+      "metrics": {
+        "stars": 5490,
+        "forks": 781,
+        "downloads_month": "242k"
+      }
+    },
+    {
+      "name": "Claude & Codex Settings",
+      "url": "https://github.com/fcakyon/claude-codex-settings",
+      "repo": "fcakyon/claude-codex-settings",
+      "traffic_branch": "traffic-data",
+      "kind": "Plugin marketplace",
+      "card_metrics": [
+        "stars",
+        "downloads_total"
+      ],
+      "description": "Agent skills, hooks, and plugin marketplaces.",
+      "image": "assets/source/repos/claude-codex-settings.jpg",
+      "featured": true,
+      "metrics": {
+        "stars": 1120,
+        "forks": 107,
+        "downloads_total": 19280
+      }
+    },
+    {
+      "name": "PhD Skills",
+      "url": "https://github.com/fcakyon/phd-skills",
+      "repo": "fcakyon/phd-skills",
+      "kind": "Research tools",
+      "card_metrics": [
+        "stars",
+        "forks"
+      ],
+      "description": "Research workflows for paper reproduction and review.",
+      "image": "assets/source/repos/phd-skills.jpg",
+      "featured": true,
+      "metrics": {
+        "stars": 381,
+        "forks": 33
+      }
+    },
+    {
+      "name": "Ultralytics",
+      "url": "https://github.com/ultralytics/ultralytics",
+      "repo": "ultralytics/ultralytics",
+      "kind": "Computer vision",
+      "card_metrics": [
+        "stars",
+        "forks"
+      ],
+      "description": "Real-time vision models, including YOLO26.",
+      "image": "assets/source/repos/ultralytics.png",
+      "featured": true,
+      "metrics": {
+        "stars": 61212,
+        "forks": 11691
+      }
+    },
+    {
+      "name": "Claude Code with Codex",
+      "url": "https://github.com/fcakyon/claude-code-with-codex",
+      "repo": "fcakyon/claude-code-with-codex",
+      "metrics": {
+        "stars": 10,
+        "forks": 1
+      },
+      "description": "A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor."
+    },
+    {
+      "name": "Image Comparison",
+      "url": "https://github.com/fcakyon/streamlit-image-comparison",
+      "repo": "fcakyon/streamlit-image-comparison",
+      "metrics": {
+        "stars": 254,
+        "forks": 30
+      },
+      "description": "A responsive before-and-after image component."
+    },
+    {
+      "name": "SafeText",
+      "url": "https://github.com/viddexa/safetext",
+      "repo": "viddexa/safetext",
+      "metrics": {
+        "stars": 57,
+        "forks": 9
+      },
+      "description": "Profanity detection and filtering for 13 languages."
+    },
+    {
+      "name": "Moderators",
+      "url": "https://github.com/viddexa/moderators",
+      "repo": "viddexa/moderators",
+      "metrics": {
+        "stars": 7,
+        "forks": 0
+      },
+      "description": "Run content moderation models through one Python API or CLI."
+    },
+    {
+      "name": "Balanced Loss",
+      "url": "https://github.com/fcakyon/balanced-loss",
+      "repo": "fcakyon/balanced-loss",
+      "metrics": {
+        "stars": 99,
+        "forks": 9
+      },
+      "description": "Class-balanced cross-entropy and focal loss for PyTorch."
+    },
+    {
+      "name": "LabelMe to COCO",
+      "url": "https://github.com/fcakyon/labelme2coco",
+      "repo": "fcakyon/labelme2coco",
+      "metrics": {
+        "stars": 323,
+        "forks": 69
+      },
+      "description": "Convert LabelMe annotations to COCO format."
+    },
+    {
+      "name": "MIDV-500",
+      "url": "https://github.com/fcakyon/midv500",
+      "repo": "fcakyon/midv500",
+      "metrics": {
+        "stars": 105,
+        "forks": 15
+      },
+      "description": "Download MIDV-500 and convert its annotations to COCO."
+    },
+    {
+      "name": "YOLOv5 Pip",
+      "url": "https://github.com/fcakyon/yolov5-pip",
+      "repo": "fcakyon/yolov5-pip",
+      "metrics": {
+        "stars": 291,
+        "forks": 69
+      },
+      "description": "A packaged YOLOv5 distribution with added utilities."
+    },
+    {
+      "name": "Ultralytics Plus",
+      "url": "https://github.com/fcakyon/ultralyticsplus",
+      "repo": "fcakyon/ultralyticsplus",
+      "metrics": {
+        "stars": 87,
+        "forks": 12
+      },
+      "description": "Extra integrations for Ultralytics models."
+    },
+    {
+      "name": "Video Transformers",
+      "url": "https://github.com/fcakyon/video-transformers",
+      "repo": "fcakyon/video-transformers",
+      "metrics": {
+        "stars": 149,
+        "forks": 14
+      },
+      "description": "Transformer workflows for video understanding."
+    },
+    {
+      "name": "CRAFT Text Detector",
+      "url": "https://github.com/fcakyon/craft-text-detector",
+      "repo": "fcakyon/craft-text-detector",
+      "metrics": {
+        "stars": 276,
+        "forks": 117
+      },
+      "description": "A packaged, cross-platform CRAFT text detector."
+    },
+    {
+      "name": "AutoLLM",
+      "url": "https://github.com/safevideo/autollm",
+      "repo": "safevideo/autollm",
+      "metrics": {
+        "stars": 1005,
+        "forks": 97
+      },
+      "description": "Utilities for building applications with large language models."
+    },
+    {
+      "name": "Content Moderation",
+      "url": "https://github.com/fcakyon/content-moderation-deep-learning",
+      "repo": "fcakyon/content-moderation-deep-learning",
+      "metrics": {
+        "stars": 406,
+        "forks": 26
+      },
+      "description": "Multimodal deep-learning tools for content moderation."
+    },
+    {
+      "name": "Small Object Detection Benchmark",
+      "url": "https://github.com/fcakyon/small-object-detection-benchmark",
+      "repo": "fcakyon/small-object-detection-benchmark",
+      "metrics": {
+        "stars": 200,
+        "forks": 22
+      },
+      "description": "ICIP 2022 experiments for sliced object detection."
+    },
+    {
+      "name": "SenBen",
+      "url": "https://github.com/fcakyon/senben",
+      "repo": "fcakyon/senben",
+      "metrics": {
+        "stars": 7,
+        "forks": 1
+      },
+      "description": "The official benchmark and code for explainable content moderation."
+    },
+    {
+      "name": "Ultralytics Lite",
+      "url": "https://github.com/ultralytics/lite",
+      "repo": "ultralytics/lite",
+      "metrics": {
+        "stars": 24,
+        "forks": 5
+      },
+      "description": "A fast, local workspace for coding agents and your shell."
+    }
+  ],
+  "papers": [
+    {
+      "name": "YOLO26",
+      "title": "Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models",
+      "url": "https://arxiv.org/abs/2606.03748",
+      "venue": "Preprint",
+      "year": 2026,
+      "scholar_id": "blknAaTinKkC",
+      "image": "assets/source/papers/yolo26.png",
+      "featured": true,
+      "metrics": {
+        "citations": 96
+      }
+    },
+    {
+      "name": "SenBen",
+      "title": "SenBen: Sensitive Scene Graphs for Explainable Content Moderation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026W/ABAW/html/Akyon_SenBen_Sensitive_Scene_Graphs_for_Explainable_Content_Moderation_CVPRW_2026_paper.html",
+      "venue": "CVPR Workshops",
+      "year": 2026,
+      "scholar_id": "M3NEmzRMIkIC",
+      "image": "assets/source/papers/senben.png",
+      "featured": true,
+      "metrics": {
+        "citations": 1
+      }
+    },
+    {
+      "name": "SAHI",
+      "title": "Slicing Aided Hyper Inference and Fine-Tuning for Small Object Detection",
+      "url": "https://ieeexplore.ieee.org/document/9897990",
+      "venue": "ICIP",
+      "year": 2022,
+      "scholar_id": "ULOm3_A8WrAC",
+      "image": "assets/source/papers/sahi.png",
+      "featured": true,
+      "metrics": {
+        "citations": 966
+      }
+    },
+    {
+      "name": "Polypharmacy AI",
+      "title": "Artificial intelligence-supported web application design and development for reducing polypharmacy side effects and supporting rational drug use in geriatric patients",
+      "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2023.1029198/full",
+      "venue": "Frontiers in Medicine",
+      "year": 2023,
+      "scholar_id": "hC7cP41nSMkC",
+      "image": "assets/source/papers/polypharmacy.png",
+      "featured": true,
+      "metrics": {
+        "citations": 53
+      }
+    },
+    {
+      "title": "Explainable Sensitive Content Moderation With Vocabulary-Aware Distillation",
+      "url": "https://dblp.org/rec/journals/access/AkyonT26",
+      "venue": "IEEE Access",
+      "year": 2026,
+      "scholar_id": "hMod-77fHWUC",
+      "metrics": {
+        "citations": 0
+      }
+    },
+    {
+      "title": "Automated question generation and question answering from Turkish texts",
+      "url": "https://journals.tubitak.gov.tr/elektrik/vol30/iss5/17/",
+      "venue": "Turkish Journal of Electrical Engineering and Computer Sciences",
+      "year": 2022,
+      "scholar_id": "qxL8FJ1GzNcC",
+      "metrics": {
+        "citations": 37
+      }
+    },
+    {
+      "title": "Evaluating the Capabilities of Generative AI Tools in Understanding Medical Papers: Qualitative Study",
+      "url": "https://medinform.jmir.org/2024/1/e59258",
+      "venue": "JMIR Medical Informatics",
+      "year": 2024,
+      "scholar_id": "j3f4tGmQtD8C",
+      "metrics": {
+        "citations": 23
+      }
+    },
+    {
+      "title": "Drone-vs-Bird Detection Challenge at IEEE AVSS2021",
+      "url": "https://ieeexplore.ieee.org/document/9663844",
+      "venue": "AVSS",
+      "year": 2021,
+      "scholar_id": "MXK_kJrjxJIC",
+      "metrics": {
+        "citations": 260
+      }
+    },
+    {
+      "title": "Instagram Fake and Automated Account Detection",
+      "url": "https://ieeexplore.ieee.org/document/8946437",
+      "venue": "INISTA",
+      "year": 2019,
+      "scholar_id": "Tyk-4Ss8FVUC",
+      "metrics": {
+        "citations": 166
+      }
+    },
+    {
+      "title": "Track Boosting and Synthetic Data Aided Drone Detection",
+      "url": "https://ieeexplore.ieee.org/document/9663759",
+      "venue": "AVSS",
+      "year": 2021,
+      "scholar_id": "8k81kl-MbHgC",
+      "metrics": {
+        "citations": 43
+      }
+    },
+    {
+      "title": "State-of-the-Art in Nudity Classification: A Comparative Analysis",
+      "url": "https://ieeexplore.ieee.org/document/10193621",
+      "venue": "ICASSP Workshops",
+      "year": 2023,
+      "scholar_id": "mB3voiENLucC",
+      "metrics": {
+        "citations": 13
+      }
+    },
+    {
+      "title": "Sequence models for drone versus bird classification",
+      "url": "https://dblp.org/rec/conf/icmv/AkyonAAT23",
+      "venue": "ICMV",
+      "year": 2023,
+      "scholar_id": "M3ejUd6NZC8C",
+      "metrics": {
+        "citations": 15
+      }
+    },
+    {
+      "title": "Deep Architectures for Content Moderation and Movie Content Rating",
+      "url": "https://arxiv.org/abs/2212.04533",
+      "venue": "Preprint",
+      "year": 2022,
+      "scholar_id": "IWHjjKOFINEC",
+      "metrics": {
+        "citations": 12
+      }
+    },
+    {
+      "title": "Development and Evaluation of an Artificial Intelligence-Simulated Patient Tool for Clinical Training in Family Medicine",
+      "url": "https://doi.org/10.21203/rs.3.rs-9096627/v1",
+      "venue": "Research Square",
+      "year": 2026,
+      "scholar_id": "maZDTaKrznsC",
+      "metrics": {
+        "citations": 0
+      }
+    },
+    {
+      "title": "Deep Learning for Radar Signal Detection in Electronic Warfare Systems",
+      "url": "https://ieeexplore.ieee.org/document/9266381",
+      "venue": "IEEE Radar Conference",
+      "year": 2020,
+      "scholar_id": "UebtZRa9Y70C",
+      "metrics": {
+        "citations": 40
+      }
+    },
+    {
+      "title": "Classification of Intra-Pulse Modulation of Radar Signals by Feature Fusion Based Convolutional Neural Networks",
+      "url": "https://ieeexplore.ieee.org/document/8553176",
+      "venue": "EUSIPCO",
+      "year": 2018,
+      "scholar_id": "qjMakFHDy7sC",
+      "metrics": {
+        "citations": 32
+      }
+    },
+    {
+      "title": "Deep Learning in Electronic Warfare Systems: Automatic Intra-Pulse Modulation Recognition",
+      "url": "https://ieeexplore.ieee.org/document/8404294",
+      "venue": "SIU",
+      "year": 2018,
+      "scholar_id": "9yKSN-GCB0IC",
+      "metrics": {
+        "citations": 17
+      }
+    },
+    {
+      "title": "Drone-vs-Bird Detection Challenge at ICIAP 2021",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-13324-4_35",
+      "venue": "ICIAP Workshops",
+      "year": 2022,
+      "scholar_id": "4DMP91E08xMC",
+      "metrics": {
+        "citations": 16
+      }
+    },
+    {
+      "title": "Towards Cognitive Sensing: Radar Function Classification Using Multitask Learning",
+      "url": "https://ieeexplore.ieee.org/document/8806336",
+      "venue": "SIU",
+      "year": 2019,
+      "scholar_id": "IjCSPb-OGe4C",
+      "metrics": {
+        "citations": 11
+      }
+    },
+    {
+      "title": "Multi-Task Learning Based Joint Pulse Detection and Modulation Classification",
+      "url": "https://ieeexplore.ieee.org/document/8806285",
+      "venue": "SIU",
+      "year": 2019,
+      "scholar_id": "zYLM7Y9cAGgC",
+      "metrics": {
+        "citations": 8
+      }
+    },
+    {
+      "title": "The Importance of Digitization in Estimating Housing Fair Value with the Artificial Neural Networks Method: The Case of Yenimahalle/Ankara/Turkey",
+      "url": "https://doi.org/10.36937/ben.2023.4768",
+      "venue": "Journal of Brilliant Engineering",
+      "year": 2023,
+      "scholar_id": "hFOr9nPyWt4C",
+      "metrics": {
+        "citations": 7
+      }
+    },
+    {
+      "title": "Efficient Sparsity-Based Inversion for Photon-Sieve Spectral Imagers with Transform Learning",
+      "url": "https://ieeexplore.ieee.org/document/8309156",
+      "venue": "GlobalSIP",
+      "year": 2017,
+      "scholar_id": "u-x6o8ySG0sC",
+      "metrics": {
+        "citations": 6
+      }
+    },
+    {
+      "title": "Family Medicine Residents' Awareness of Rational Drug Use in Geriatric Patients and Their Need for a Web Application",
+      "url": "https://doi.org/10.54584/lms.2023.31",
+      "venue": "Life and Medical Sciences",
+      "year": 2023,
+      "scholar_id": "-f6ydRqryjwC",
+      "metrics": {
+        "citations": 5
+      }
+    },
+    {
+      "title": "Digital Transformation of Clinical Education Through Artificial Intelligence: A Strengths, Weaknesses, Opportunities, and Threats (SWOT) Analysis",
+      "url": "https://doi.org/10.5505/amj.2025.63373",
+      "venue": "Ankara Medical Journal",
+      "year": 2025,
+      "scholar_id": "r0BpntZqJG4C",
+      "metrics": {
+        "citations": 4
+      }
+    },
+    {
+      "title": "Digital Minimalism: Using Technology for Efficient Healthcare",
+      "url": "https://ejfm.trakya.edu.tr/archive/show/volume13/number4/130401",
+      "venue": "Eurasian Journal of Family Medicine",
+      "year": 2024,
+      "scholar_id": "iH-uZ7U-co4C",
+      "metrics": {
+        "citations": 4
+      }
+    },
+    {
+      "title": "Compressive Photon-Sieve Spectral Imaging",
+      "url": "https://opg.optica.org/abstract.cfm?uri=COSI-2018-CTu5D.8",
+      "venue": "COSI",
+      "year": 2018,
+      "scholar_id": "d1gkVwhDpl0C",
+      "metrics": {
+        "citations": 4
+      }
+    },
+    {
+      "title": "Effect of Different Sparsity Priors on Compressive Photon-Sieve Spectral Imaging",
+      "url": "https://ieeexplore.ieee.org/document/8404501",
+      "venue": "SIU",
+      "year": 2018,
+      "scholar_id": "2osOgNQ5qMEC",
+      "metrics": {
+        "citations": 1
+      }
+    },
+    {
+      "title": "DroBoost: An Intelligent Score and Model Boosting Method for Drone Detection",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-13324-4_34",
+      "venue": "ICIAP Workshops",
+      "year": 2022,
+      "scholar_id": "Wp0gIr-vW9MC",
+      "metrics": {
+        "citations": 0
+      }
+    },
+    {
+      "title": "Image Deconvolution via Efficient Sparsifying Transform Learning",
+      "url": "https://ieeexplore.ieee.org/document/8404295",
+      "venue": "SIU",
+      "year": 2018,
+      "scholar_id": "UeHWp8X0CEIC",
+      "metrics": {
+        "citations": 0
+      }
+    },
+    {
+      "title": "Faster OMP Computations by Sensing Matrix Column Reduction",
+      "url": "https://ieeexplore.ieee.org/document/7960585",
+      "venue": "SIU",
+      "year": 2017,
+      "scholar_id": "u5HHmVD_uO8C",
+      "metrics": {
+        "citations": 0
+      }
+    }
+  ],
+  "talks": [
+    {
+      "name": "Open Source & AI Competition",
+      "title": "Open source keeps AI markets competitive",
+      "venue": "Turkish Competition Authority",
+      "date": "2026-08-19",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7495862925241360384/",
+      "description": "A panel on competition in the AI age and the role of open weights.",
+      "image": "assets/source/talks/competition-authority.jpg",
+      "featured": true
+    },
+    {
+      "name": "Claude Code Ankara",
+      "title": "claude-codex-settings in practice",
+      "venue": "Bilkent AI Society & Anthropic",
+      "date": "2026-05-18",
+      "url": "https://www.linkedin.com/posts/fcakyon_when-the-creator-of-claude-code-boris-cherny-activity-7462203933130772480-DIph",
+      "description": "I spoke after [Boris Cherny](https://www.linkedin.com/in/bcherny) about my Claude Code plugin marketplace.",
+      "image": "assets/source/talks/claude-code-ankara.jpg",
+      "featured": true
+    },
+    {
+      "name": "Effective AI Usage",
+      "title": "The art of effective AI usage in daily life",
+      "venue": "Hacettepe University AI Fest",
+      "date": "2025-12-02",
+      "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7401704227871293440/",
+      "description": "Practical AI tools, hidden configs, and productive daily workflows.",
+      "image": "assets/source/talks/hacettepe-ai-fest.jpg",
+      "featured": true
+    },
+    {
+      "name": "10x Graduate Research",
+      "title": "How to become a 10x graduate researcher using AI assistants",
+      "venue": "METU Graduate School of Informatics",
+      "date": "2025-11-17",
+      "url": "https://www.linkedin.com/posts/fcakyon_two-weeks-ago-i-gave-a-workshop-on-how-activity-7396079674310692864-kTFV",
+      "description": "A hands-on workshop covering MCPs, subagents, hooks, and paper search.",
+      "image": "assets/source/talks/metu-ai-research.jpg",
+      "featured": true
+    },
+    {
+      "title": "Building the Company That Never Sleeps",
+      "venue": "Ankara Yıldırım Beyazıt University",
+      "date": "2026-05-28",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7465766963013730305/",
+      "description": "A keynote on automating communication across sales, legal, finance, and engineering."
+    },
+    {
+      "title": "Coding 10x Faster with AI Tools",
+      "venue": "Google DevFest Samsun",
+      "date": "2025-10-18",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7386427366748794881/",
+      "description": "A practical session on AI coding tools, with configurations and code from Claude & Codex Settings."
+    }
+  ],
+  "products": [
+    {
+      "name": "My AI Patient",
+      "url": "https://myaipatient.com",
+      "description": "Clinical consultation training with responsive AI patients.",
+      "kind": "Clinical training",
+      "image": "assets/source/products/my-ai-patient.jpg",
+      "featured": true
+    },
+    {
+      "name": "Fast & Rational",
+      "url": "https://fastrational.com",
+      "description": "Drug and disease interaction support for rational prescribing.",
+      "kind": "Clinical decision support",
+      "image": "assets/source/products/fast-rational.jpg",
+      "featured": true
+    },
+    {
+      "name": "MuviSafe",
+      "url": "https://muvisafe.com/en",
+      "description": "Filter inappropriate movie scenes while you stream.",
+      "kind": "Family streaming",
+      "image": "assets/source/products/muvisafe.jpg",
+      "featured": true
+    }
+  ]
+}

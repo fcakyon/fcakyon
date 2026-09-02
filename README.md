@@ -1,99 +1,52 @@
-<p align='center'>
-  Follow me for more!
-  <br>
-  <a href="https://twitter.com/fcakyon">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />        
-  </a>&nbsp;&nbsp;
+## fatih c. akyon
 
-  <a href="https://scholar.google.com/citations?user=RHGyDE0AAAAJ&hl=en">
-    <img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" />        
-  </a>&nbsp;&nbsp;
+[AI Engineer & Scientist](https://www.linkedin.com/in/fcakyon/). Author of [YOLO26](https://arxiv.org/abs/2606.03748) and [SAHI](https://github.com/obss/sahi), with [20M+ open-source downloads](OPEN_SOURCE.md), [5 patents](https://www.linkedin.com/in/fcakyon/details/patents/), and [1,800+ citations](https://scholar.google.com/citations?user=RHGyDE0AAAAJ&hl=en). Leading enterprise AI model pretraining and design at [Ultralytics](https://www.ultralytics.com/). PhD from the [METU Deep Learning & Computer Vision Lab](https://dlcv.ii.metu.edu.tr/) on efficient distillation for vision-language models, with papers at [CVPR](https://openaccess.thecvf.com/content/CVPR2026W/ABAW/html/Akyon_SenBen_Sensitive_Scene_Graphs_for_Explainable_Content_Moderation_CVPRW_2026_paper.html), [ICASSP](https://ieeexplore.ieee.org/document/10193621), [ICIP](https://ieeexplore.ieee.org/document/9897990), and [Frontiers](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2023.1029198/full).
 
-  <a href="https://fcakyon.medium.com/">
-    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" />
-  </a>&nbsp;&nbsp;
+[LinkedIn](https://www.linkedin.com/in/fcakyon/) · [Twitter](https://twitter.com/fcakyon) · [Google Scholar](https://scholar.google.com/citations?user=RHGyDE0AAAAJ&hl=en) · [Medium](https://fcakyon.medium.com/)
+
+<!-- profile-cards:start -->
+
+## [open source](OPEN_SOURCE.md)
+
+<p>
+<a href="https://github.com/obss/sahi"><picture><source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="assets/cards/open-source-sahi-mobile-dark.png 2.1x"><source media="(max-width: 700px)" srcset="assets/cards/open-source-sahi-mobile-light.png 2.1x"><source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/cards/open-source-sahi-desktop-dark.png 1.65x"><source media="(max-width: 1100px)" srcset="assets/cards/open-source-sahi-desktop-light.png 1.65x"><source media="(prefers-color-scheme: dark)" srcset="assets/cards/open-source-sahi-desktop-dark.png 1.45x"><source media="(min-width: 1101px)" srcset="assets/cards/open-source-sahi-desktop-light.png 1.45x"><img src="assets/cards/open-source-sahi-desktop-light.png" alt="SAHI"></picture></a>
+<a href="https://github.com/fcakyon/claude-codex-settings"><picture><source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="assets/cards/open-source-claude-codex-settings-mobile-dark.png 2.1x"><source media="(max-width: 700px)" srcset="assets/cards/open-source-claude-codex-settings-mobile-light.png 2.1x"><source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/cards/open-source-claude-codex-settings-desktop-dark.png 1.65x"><source media="(max-width: 1100px)" srcset="assets/cards/open-source-claude-codex-settings-desktop-light.png 1.65x"><source media="(prefers-color-scheme: dark)" srcset="assets/cards/open-source-claude-codex-settings-desktop-dark.png 1.45x"><source media="(min-width: 1101px)" srcset="assets/cards/open-source-claude-codex-settings-desktop-light.png 1.45x"><img src="assets/cards/open-source-claude-codex-settings-desktop-light.png" alt="Claude &amp; Codex Settings"></picture></a>
+<a href="https://github.com/fcakyon/phd-skills"><picture><source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="assets/cards/open-source-phd-skills-mobile-dark.png 2.1x"><source media="(max-width: 700px)" srcset="assets/cards/open-source-phd-skills-mobile-light.png 2.1x"><source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/cards/open-source-phd-skills-desktop-dark.png 1.65x"><source media="(max-width: 1100px)" srcset="assets/cards/open-source-phd-skills-desktop-light.png 1.65x"><source media="(prefers-color-scheme: dark)" srcset="assets/cards/open-source-phd-skills-desktop-dark.png 1.45x"><source media="(min-width: 1101px)" srcset="assets/cards/open-source-phd-skills-desktop-light.png 1.45x"><img src="assets/cards/open-source-phd-skills-desktop-light.png" alt="PhD Skills"></picture></a>
+<a href="https://github.com/ultralytics/ultralytics"><picture><source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="assets/cards/open-source-ultralytics-mobile-dark.png 2.1x"><source media="(max-width: 700px)" srcset="assets/cards/open-source-ultralytics-mobile-light.png 2.1x"><source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/cards/open-source-ultralytics-desktop-dark.png 1.65x"><source media="(max-width: 1100px)" srcset="assets/cards/open-source-ultralytics-desktop-light.png 1.65x"><source media="(prefers-color-scheme: dark)" srcset="assets/cards/open-source-ultralytics-desktop-dark.png 1.45x"><source media="(min-width: 1101px)" srcset="assets/cards/open-source-ultralytics-desktop-light.png 1.45x"><img src="assets/cards/open-source-ultralytics-desktop-light.png" alt="Ultralytics"></picture></a>
 </p>
 
-### about me
-- Spending less time writing code, more time understanding the Psychiatry of AI | [my claude & codex settings](https://github.com/fcakyon/claude-codex-settings) & [phd research skills](https://github.com/fcakyon/phd-skills)
-- Passionate about *open-source, explainable vision-language models, ai agents for dataset curation*
-- PhD in Informatics (**explainable vision language models & agentic knowledge distillation**)
-- BSc and MSc in Engineering (**sequence models & computer vision**)
+[View all open-source work](OPEN_SOURCE.md)
 
-### some of my open-source works:
+## [research](PAPERS.md)
 
-[phd-skills](https://github.com/fcakyon/phd-skills) — PhD Research Skills for Claude Code based on my 1800+ citation PhD journey
-[![phd-skills stars](https://img.shields.io/github/stars/fcakyon/phd-skills?color=blueviolet)](https://github.com/fcakyon/phd-skills/stargazers/)
+<p>
+<a href="https://arxiv.org/abs/2606.03748"><picture><source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="assets/cards/research-yolo26-mobile-dark.png 2.1x"><source media="(max-width: 700px)" srcset="assets/cards/research-yolo26-mobile-light.png 2.1x"><source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/cards/research-yolo26-desktop-dark.png 1.65x"><source media="(max-width: 1100px)" srcset="assets/cards/research-yolo26-desktop-light.png 1.65x"><source media="(prefers-color-scheme: dark)" srcset="assets/cards/research-yolo26-desktop-dark.png 1.45x"><source media="(min-width: 1101px)" srcset="assets/cards/research-yolo26-desktop-light.png 1.45x"><img src="assets/cards/research-yolo26-desktop-light.png" alt="YOLO26"></picture></a>
+<a href="https://openaccess.thecvf.com/content/CVPR2026W/ABAW/html/Akyon_SenBen_Sensitive_Scene_Graphs_for_Explainable_Content_Moderation_CVPRW_2026_paper.html"><picture><source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="assets/cards/research-senben-mobile-dark.png 2.1x"><source media="(max-width: 700px)" srcset="assets/cards/research-senben-mobile-light.png 2.1x"><source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/cards/research-senben-desktop-dark.png 1.65x"><source media="(max-width: 1100px)" srcset="assets/cards/research-senben-desktop-light.png 1.65x"><source media="(prefers-color-scheme: dark)" srcset="assets/cards/research-senben-desktop-dark.png 1.45x"><source media="(min-width: 1101px)" srcset="assets/cards/research-senben-desktop-light.png 1.45x"><img src="assets/cards/research-senben-desktop-light.png" alt="SenBen"></picture></a>
+<a href="https://ieeexplore.ieee.org/document/9897990"><picture><source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="assets/cards/research-sahi-mobile-dark.png 2.1x"><source media="(max-width: 700px)" srcset="assets/cards/research-sahi-mobile-light.png 2.1x"><source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/cards/research-sahi-desktop-dark.png 1.65x"><source media="(max-width: 1100px)" srcset="assets/cards/research-sahi-desktop-light.png 1.65x"><source media="(prefers-color-scheme: dark)" srcset="assets/cards/research-sahi-desktop-dark.png 1.45x"><source media="(min-width: 1101px)" srcset="assets/cards/research-sahi-desktop-light.png 1.45x"><img src="assets/cards/research-sahi-desktop-light.png" alt="SAHI"></picture></a>
+<a href="https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2023.1029198/full"><picture><source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="assets/cards/research-polypharmacy-ai-mobile-dark.png 2.1x"><source media="(max-width: 700px)" srcset="assets/cards/research-polypharmacy-ai-mobile-light.png 2.1x"><source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/cards/research-polypharmacy-ai-desktop-dark.png 1.65x"><source media="(max-width: 1100px)" srcset="assets/cards/research-polypharmacy-ai-desktop-light.png 1.65x"><source media="(prefers-color-scheme: dark)" srcset="assets/cards/research-polypharmacy-ai-desktop-dark.png 1.45x"><source media="(min-width: 1101px)" srcset="assets/cards/research-polypharmacy-ai-desktop-light.png 1.45x"><img src="assets/cards/research-polypharmacy-ai-desktop-light.png" alt="Polypharmacy AI"></picture></a>
+</p>
 
-[claude-codex-settings](https://github.com/fcakyon/claude-codex-settings)
-[![claude-codex-settings stars](https://img.shields.io/github/stars/fcakyon/claude-codex-settings?color=blueviolet)](https://github.com/fcakyon/claude-codex-settings/stargazers/)
+[View all papers](PAPERS.md)
 
-[sahi](https://github.com/obss/sahi)
-[![sahi stars](https://img.shields.io/github/stars/obss/sahi?color=blueviolet)](https://github.com/obss/sahi/stargazers/)
-[![Downloads](https://pepy.tech/badge/sahi)](https://pepy.tech/project/sahi)
+## [public speaking](TALKS.md)
 
-[safetext](https://github.com/viddexa/safetext)
-[![safetext stars](https://img.shields.io/github/stars/viddexa/safetext?color=blueviolet)](https://github.com/viddexa/safetext/stargazers/)
-[![Downloads](https://pepy.tech/badge/safetext)](https://pepy.tech/project/safetext)
+<p>
+<a href="https://www.linkedin.com/feed/update/urn:li:activity:7495862925241360384/"><picture><source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="assets/cards/talks-open-source-ai-competition-mobile-dark.png 2.1x"><source media="(max-width: 700px)" srcset="assets/cards/talks-open-source-ai-competition-mobile-light.png 2.1x"><source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/cards/talks-open-source-ai-competition-desktop-dark.png 1.65x"><source media="(max-width: 1100px)" srcset="assets/cards/talks-open-source-ai-competition-desktop-light.png 1.65x"><source media="(prefers-color-scheme: dark)" srcset="assets/cards/talks-open-source-ai-competition-desktop-dark.png 1.45x"><source media="(min-width: 1101px)" srcset="assets/cards/talks-open-source-ai-competition-desktop-light.png 1.45x"><img src="assets/cards/talks-open-source-ai-competition-desktop-light.png" alt="Open Source &amp; AI Competition"></picture></a>
+<a href="https://www.linkedin.com/posts/fcakyon_when-the-creator-of-claude-code-boris-cherny-activity-7462203933130772480-DIph"><picture><source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="assets/cards/talks-claude-code-ankara-mobile-dark.png 2.1x"><source media="(max-width: 700px)" srcset="assets/cards/talks-claude-code-ankara-mobile-light.png 2.1x"><source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/cards/talks-claude-code-ankara-desktop-dark.png 1.65x"><source media="(max-width: 1100px)" srcset="assets/cards/talks-claude-code-ankara-desktop-light.png 1.65x"><source media="(prefers-color-scheme: dark)" srcset="assets/cards/talks-claude-code-ankara-desktop-dark.png 1.45x"><source media="(min-width: 1101px)" srcset="assets/cards/talks-claude-code-ankara-desktop-light.png 1.45x"><img src="assets/cards/talks-claude-code-ankara-desktop-light.png" alt="Claude Code Ankara"></picture></a>
+<a href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7401704227871293440/"><picture><source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="assets/cards/talks-effective-ai-usage-mobile-dark.png 2.1x"><source media="(max-width: 700px)" srcset="assets/cards/talks-effective-ai-usage-mobile-light.png 2.1x"><source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/cards/talks-effective-ai-usage-desktop-dark.png 1.65x"><source media="(max-width: 1100px)" srcset="assets/cards/talks-effective-ai-usage-desktop-light.png 1.65x"><source media="(prefers-color-scheme: dark)" srcset="assets/cards/talks-effective-ai-usage-desktop-dark.png 1.45x"><source media="(min-width: 1101px)" srcset="assets/cards/talks-effective-ai-usage-desktop-light.png 1.45x"><img src="assets/cards/talks-effective-ai-usage-desktop-light.png" alt="Effective AI Usage"></picture></a>
+<a href="https://www.linkedin.com/posts/fcakyon_two-weeks-ago-i-gave-a-workshop-on-how-activity-7396079674310692864-kTFV"><picture><source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="assets/cards/talks-10x-graduate-research-mobile-dark.png 2.1x"><source media="(max-width: 700px)" srcset="assets/cards/talks-10x-graduate-research-mobile-light.png 2.1x"><source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/cards/talks-10x-graduate-research-desktop-dark.png 1.65x"><source media="(max-width: 1100px)" srcset="assets/cards/talks-10x-graduate-research-desktop-light.png 1.65x"><source media="(prefers-color-scheme: dark)" srcset="assets/cards/talks-10x-graduate-research-desktop-dark.png 1.45x"><source media="(min-width: 1101px)" srcset="assets/cards/talks-10x-graduate-research-desktop-light.png 1.45x"><img src="assets/cards/talks-10x-graduate-research-desktop-light.png" alt="10x Graduate Research"></picture></a>
+</p>
 
-[balanced-loss](https://github.com/fcakyon/balanced-loss)
-[![balanced-loss stars](https://img.shields.io/github/stars/fcakyon/balanced-loss?color=blueviolet)](https://github.com/fcakyon/balanced-loss/stargazers/)
-[![Downloads](https://pepy.tech/badge/balanced-loss)](https://pepy.tech/project/balanced-loss)
+[View all talks](TALKS.md)
 
-[streamlit-image-comparison](https://github.com/fcakyon/streamlit-image-comparison)
-[![streamlit-image-comparison stars](https://img.shields.io/github/stars/fcakyon/streamlit-image-comparison?color=blueviolet)](https://github.com/fcakyon/streamlit-image-comparison/stargazers/)
-[![Downloads](https://pepy.tech/badge/streamlit-image-comparison)](https://pepy.tech/project/streamlit-image-comparison)
+## [products](PRODUCTS.md)
 
-[labelme2coco](https://github.com/fcakyon/labelme2coco)
-[![labelme2coco stars](https://img.shields.io/github/stars/fcakyon/labelme2coco?color=blueviolet)](https://github.com/fcakyon/labelme2coco/stargazers/)
-[![Downloads](https://pepy.tech/badge/labelme2coco)](https://pepy.tech/project/labelme2coco)
+<p>
+<a href="https://myaipatient.com"><picture><source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="assets/cards/products-my-ai-patient-mobile-dark.png 2.1x"><source media="(max-width: 700px)" srcset="assets/cards/products-my-ai-patient-mobile-light.png 2.1x"><source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/cards/products-my-ai-patient-desktop-dark.png 1.65x"><source media="(max-width: 1100px)" srcset="assets/cards/products-my-ai-patient-desktop-light.png 1.65x"><source media="(prefers-color-scheme: dark)" srcset="assets/cards/products-my-ai-patient-desktop-dark.png 1.45x"><source media="(min-width: 1101px)" srcset="assets/cards/products-my-ai-patient-desktop-light.png 1.45x"><img src="assets/cards/products-my-ai-patient-desktop-light.png" alt="My AI Patient"></picture></a>
+<a href="https://fastrational.com"><picture><source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="assets/cards/products-fast-rational-mobile-dark.png 2.1x"><source media="(max-width: 700px)" srcset="assets/cards/products-fast-rational-mobile-light.png 2.1x"><source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/cards/products-fast-rational-desktop-dark.png 1.65x"><source media="(max-width: 1100px)" srcset="assets/cards/products-fast-rational-desktop-light.png 1.65x"><source media="(prefers-color-scheme: dark)" srcset="assets/cards/products-fast-rational-desktop-dark.png 1.45x"><source media="(min-width: 1101px)" srcset="assets/cards/products-fast-rational-desktop-light.png 1.45x"><img src="assets/cards/products-fast-rational-desktop-light.png" alt="Fast &amp; Rational"></picture></a>
+<a href="https://muvisafe.com/en"><picture><source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="assets/cards/products-muvisafe-mobile-dark.png 2.1x"><source media="(max-width: 700px)" srcset="assets/cards/products-muvisafe-mobile-light.png 2.1x"><source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/cards/products-muvisafe-desktop-dark.png 1.65x"><source media="(max-width: 1100px)" srcset="assets/cards/products-muvisafe-desktop-light.png 1.65x"><source media="(prefers-color-scheme: dark)" srcset="assets/cards/products-muvisafe-desktop-dark.png 1.45x"><source media="(min-width: 1101px)" srcset="assets/cards/products-muvisafe-desktop-light.png 1.45x"><img src="assets/cards/products-muvisafe-desktop-light.png" alt="MuviSafe"></picture></a>
+</p>
 
-[midv500](https://github.com/fcakyon/midv500)
-[![midv500 stars](https://img.shields.io/github/stars/fcakyon/midv500?color=blueviolet)](https://github.com/fcakyon/midv500/stargazers/)
-[![Downloads](https://pepy.tech/badge/midv500)](https://pepy.tech/project/midv500)
+[View all products](PRODUCTS.md)
 
-[yolov5-pip](https://github.com/fcakyon/yolov5-pip)
-[![yolov5 stars](https://img.shields.io/github/stars/fcakyon/yolov5-pip?color=blueviolet)](https://github.com/fcakyon/yolov5-pip/stargazers/)
-[![Downloads](https://pepy.tech/badge/yolov5)](https://pepy.tech/project/yolov5)
-
-[ultralyticsplus](https://github.com/fcakyon/ultralyticsplus)
-[![ultralyticsplus stars](https://img.shields.io/github/stars/fcakyon/ultralyticsplus?color=blueviolet)](https://github.com/fcakyon/ultralyticsplus/stargazers/)
-[![Downloads](https://pepy.tech/badge/ultralyticsplus)](https://pepy.tech/project/ultralyticsplus)
-
-[video-transformers](https://github.com/fcakyon/video-transformers)
-[![video-transformers stars](https://img.shields.io/github/stars/fcakyon/video-transformers?color=blueviolet)](https://github.com/fcakyon/video-transformers/stargazers/)
-[![Downloads](https://pepy.tech/badge/video-transformers)](https://pepy.tech/project/video-transformers)
-
-[craft-text-detector](https://github.com/fcakyon/craft-text-detector)
-[![craft stars](https://img.shields.io/github/stars/fcakyon/craft-text-detector?color=blueviolet)](https://github.com/fcakyon/craft-text-detector/stargazers/) 
-[![Downloads](https://pepy.tech/badge/craft-text-detector)](https://pepy.tech/project/craft-text-detector)
-
-[autollm](https://github.com/safevideo/autollm)
-[![autollm stars](https://img.shields.io/github/stars/safevideo/autollm?color=blueviolet)](https://github.com/safevideo/autollm/stargazers/)
-[![Downloads](https://pepy.tech/badge/autollm)](https://pepy.tech/project/autollm)
-
-### some of my published/preprint papers:
-
-[Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models](https://arxiv.org/abs/2606.03748v1) (Preprint, 2026) **(50+ citations)**
-
-[SenBen: Sensitive Scene Graphs for Explainable Content Moderation](https://senben.kim/) (CVPR, 2026)
-
-[Slicing Aided Hyper Inference and Fine-tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (ICIP, 2022) **(900+ citations)**
-
-[AI-supported web application for reducing polypharmacy side effects](https://www.frontiersin.org/articles/10.3389/fmed.2023.1029198/full) (Frontiers in Medicine, 2023)  **(50+ citations)**
-
-[Automated question generation and question answering from Turkish texts](https://journals.tubitak.gov.tr/elektrik/vol30/iss5/17/) (SCI Journal, 2022) **(30+ citations)**
-
-[Evaluating generative AI tools in analyzing medical articles](https://medinform.jmir.org/2024/1/e59258) (JMIR, 2024) **(20+ citations)**
-
-[Drone-vs-Bird Detection Challenge at IEEE AVSS2021](https://ieeexplore.ieee.org/abstract/document/9663844) (AVSS, 2021) **(200+ citations)**
-
-[Instagram Fake and Automated Account Detection](https://ieeexplore.ieee.org/abstract/document/8946437) (INISTA, 2019) **(100+ citations)**
-
-[Track Boosting and Synthetic Data Aided Drone Detection](https://ieeexplore.ieee.org/abstract/document/9663759) (AVSS, 2021) **(40+ citations)**
-
-[State-of-the-Art in Nudity Classification: A Comparative Analysis](https://ieeexplore.ieee.org/document/10193621) (ICASSP, 2023) **(10+ citations)**
-
-[Deep Architectures for Content Moderation and Movie Content Rating](https://arxiv.org/abs/2212.04533) (Preprint) **(10+ citations)**
-
-[Enhancing clinical management skills through artificial intelligence simulated patients](https://myaipatient.com) (WONCA, 2024)
+<!-- profile-cards:end -->
