@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02",
+  "updated_at": "2026-09-03",
   "scholar_profile": "RHGyDE0AAAAJ",
   "open_source": [
     {
@@ -17,9 +17,9 @@
       "image": "assets/source/repos/sahi.jpg",
       "featured": true,
       "metrics": {
-        "stars": 5490,
-        "forks": 781,
-        "downloads_month": "242k"
+        "stars": 5492,
+        "forks": 783,
+        "downloads_month": "236k"
       }
     },
     {
@@ -36,9 +36,9 @@
       "image": "assets/source/repos/claude-codex-settings.jpg",
       "featured": true,
       "metrics": {
-        "stars": 1120,
-        "forks": 107,
-        "downloads_total": 19280
+        "stars": 1125,
+        "forks": 109,
+        "downloads_total": 20006
       }
     },
     {
@@ -54,7 +54,7 @@
       "image": "assets/source/repos/phd-skills.jpg",
       "featured": true,
       "metrics": {
-        "stars": 381,
+        "stars": 383,
         "forks": 33
       }
     },
@@ -62,17 +62,19 @@
       "name": "Ultralytics",
       "url": "https://github.com/ultralytics/ultralytics",
       "repo": "ultralytics/ultralytics",
-      "kind": "Computer vision",
+      "pypi_package": "ultralytics",
+      "kind": "Python package",
       "card_metrics": [
         "stars",
-        "forks"
+        "downloads_month"
       ],
-      "description": "Real-time vision models, including YOLO26.",
+      "description": "World's most used real-time vision AI models across 7 tasks.",
       "image": "assets/source/repos/ultralytics.png",
       "featured": true,
       "metrics": {
-        "stars": 61212,
-        "forks": 11691
+        "stars": 61250,
+        "forks": 11695,
+        "downloads_month": "6M"
       }
     },
     {
