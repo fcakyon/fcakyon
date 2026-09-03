@@ -61,13 +61,21 @@ body {
   object-position: center;
 }
 
-.card.paper .media {
+.card.page-top .media {
   background: #ffffff;
 }
 
-.card.paper .media img {
-  object-fit: contain;
+.card.page-top .media img {
   object-position: top center;
+}
+
+.card.zoom-out .media {
+  background: #ffffff;
+}
+
+.card.zoom-out .media img {
+  object-fit: contain;
+  object-position: center;
 }
 
 .content {

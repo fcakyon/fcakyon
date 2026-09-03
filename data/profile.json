@@ -70,6 +70,7 @@
       ],
       "description": "World's most used real-time vision AI models across 7 tasks.",
       "image": "assets/source/repos/ultralytics.png",
+      "image_fit": "zoom-out",
       "featured": true,
       "metrics": {
         "stars": 61250,
@@ -259,7 +260,7 @@
       "venue": "CVPR Workshops",
       "year": 2026,
       "scholar_id": "M3NEmzRMIkIC",
-      "image": "assets/source/papers/senben.png",
+      "image": "assets/source/papers/senben.webp",
       "featured": true,
       "metrics": {
         "citations": 1
@@ -614,15 +615,15 @@
       "url": "https://myaipatient.com",
       "description": "Clinical consultation training with responsive AI patients.",
       "kind": "Clinical training",
-      "image": "assets/source/products/my-ai-patient.jpg",
+      "image": "assets/source/products/my-ai-patient.webp",
       "featured": true
     },
     {
       "name": "Fast & Rational",
-      "url": "https://fastrational.com",
+      "url": "https://fastrational.com/en",
       "description": "Drug and disease interaction support for rational prescribing.",
       "kind": "Clinical decision support",
-      "image": "assets/source/products/fast-rational.jpg",
+      "image": "assets/source/products/fast-rational.webp",
       "featured": true
     },
     {
@@ -630,7 +631,7 @@
       "url": "https://muvisafe.com/en",
       "description": "Filter inappropriate movie scenes while you stream.",
       "kind": "Family streaming",
-      "image": "assets/source/products/muvisafe.jpg",
+      "image": "assets/source/products/muvisafe.webp",
       "featured": true
     }
   ]

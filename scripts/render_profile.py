@@ -1,3 +1,6 @@
+# /// script
+# dependencies = ["pillow>=11"]
+# ///
 """Render profile cards, README galleries, and full-list Markdown pages."""
 
 import html
@@ -10,6 +13,8 @@ import tempfile
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date
 from pathlib import Path
+
+from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data/profile.json"
@@ -123,12 +128,19 @@ def render_card(section: str, item: dict) -> str:
         (str): Card HTML.
     """
     image_uri = (ROOT / item["image"]).resolve().as_uri()
+    card_class = (
+        "card page-top"
+        if section == "papers"
+        else f"card {item['image_fit']}"
+        if item.get("image_fit")
+        else "card"
+    )
     stats = "".join(
         f'<span class="stat">{html.escape(value)}</span>'
         for value in card_stats(section, item)
     )
     return (
-        f'<article class="card{" paper" if section == "papers" else ""}">'
+        f'<article class="{card_class}">'
         f'<div class="media"><img src="{image_uri}" alt=""></div>'
         '<div class="content">'
         f'<p class="label">{html.escape(card_label(section, item))}</p>'
@@ -179,6 +191,7 @@ def render_screenshot(job: tuple[str, Path, Path, int, int]) -> None:
         job (tuple): Chrome path, input, output, width, and height.
     """
     executable, input_path, output_path, width, height = job
+    png_path = input_path.with_suffix(".png")
     subprocess.run(
         [
             executable,
@@ -191,13 +204,16 @@ def render_screenshot(job: tuple[str, Path, Path, int, int]) -> None:
             "--allow-file-access-from-files",
             "--force-device-scale-factor=1",
             f"--window-size={width},{height}",
-            f"--screenshot={output_path}",
+            f"--screenshot={png_path}",
             "--run-all-compositor-stages-before-draw",
             "--virtual-time-budget=1000",
             input_path.as_uri(),
         ],
         check=True,
     )
+    with Image.open(png_path) as image:
+        image.save(output_path, "WEBP", quality=88, method=6)
+    png_path.unlink()
 
 
 def render_cards(data: dict) -> None:
@@ -210,8 +226,9 @@ def render_cards(data: dict) -> None:
     template = TEMPLATE_PATH.read_text()
     css = CSS_PATH.read_text()
     executable = chrome_path()
-    for path in CARD_DIR.glob("*.png"):
-        path.unlink()
+    for pattern in ("*.png", "*.webp"):
+        for path in CARD_DIR.glob(pattern):
+            path.unlink()
 
     with tempfile.TemporaryDirectory(prefix="fcakyon-cards-") as temporary:
         temporary_dir = Path(temporary)
@@ -239,7 +256,7 @@ def render_cards(data: dict) -> None:
                             page = page.replace(f"{{{{{key}}}}}", value)
                         name = f"{config['output']}-{slug}-{layout_name}-{theme}"
                         input_path = temporary_dir / f"{name}.html"
-                        output_path = CARD_DIR / f"{name}.png"
+                        output_path = CARD_DIR / f"{name}.webp"
                         input_path.write_text(page)
                         jobs.append(
                             (
@@ -267,13 +284,13 @@ def render_picture(config: dict, item: dict) -> str:
     prefix = f"assets/cards/{config['output']}-{card_slug(item['name'])}"
     return (
         f'<a href="{html.escape(item["url"], quote=True)}"><picture>'
-        f'<source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="{prefix}-mobile-dark.png 2.1x">'
-        f'<source media="(max-width: 700px)" srcset="{prefix}-mobile-light.png 2.1x">'
-        f'<source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="{prefix}-desktop-dark.png 1.65x">'
-        f'<source media="(max-width: 1100px)" srcset="{prefix}-desktop-light.png 1.65x">'
-        f'<source media="(prefers-color-scheme: dark)" srcset="{prefix}-desktop-dark.png 1.45x">'
-        f'<source media="(min-width: 1101px)" srcset="{prefix}-desktop-light.png 1.45x">'
-        f'<img src="{prefix}-desktop-light.png" alt="{html.escape(item["name"], quote=True)}">'
+        f'<source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="{prefix}-mobile-dark.webp 2.1x">'
+        f'<source media="(max-width: 700px)" srcset="{prefix}-mobile-light.webp 2.1x">'
+        f'<source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="{prefix}-desktop-dark.webp 1.65x">'
+        f'<source media="(max-width: 1100px)" srcset="{prefix}-desktop-light.webp 1.65x">'
+        f'<source media="(prefers-color-scheme: dark)" srcset="{prefix}-desktop-dark.webp 1.45x">'
+        f'<source media="(min-width: 1101px)" srcset="{prefix}-desktop-light.webp 1.45x">'
+        f'<img src="{prefix}-desktop-light.webp" alt="{html.escape(item["name"], quote=True)}">'
         "</picture></a>"
     )
 
@@ -293,7 +310,7 @@ def render_readme(data: dict) -> None:
 
     lines = []
     for section, config in SECTIONS.items():
-        lines.extend([f"## [{config['title'].lower()}]({config['page']})", "", "<p>"])
+        lines.extend([f"## {config['title'].lower()}", "", "<p>"])
         lines.extend(
             render_picture(config, item)
             for item in data[section]
