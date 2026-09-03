@@ -1,10 +1,10 @@
 ## hi, i'm fatih akyon 👋
 
-I'm an [AI Engineer & Scientist](https://www.linkedin.com/in/fcakyon/) at [Ultralytics](https://www.ultralytics.com/), where I lead neural architecture design and pretraining for next-generation AI models.
+i'm an [ai engineer & scientist](https://www.linkedin.com/in/fcakyon/) at [ultralytics](https://www.ultralytics.com/), where i lead neural architecture design and pretraining for next-gen enterprise ai models.
 
-I created [SAHI](https://github.com/obss/sahi) and co-authored [YOLO26](https://arxiv.org/abs/2606.03748). My open-source work has [20M+ downloads](OPEN_SOURCE.md), and I hold [5 patents](https://www.linkedin.com/in/fcakyon/details/patents/).
+i created [sahi](https://github.com/obss/sahi) and co-authored [yolo26](https://arxiv.org/abs/2606.03748). my open-source work has [20m+ downloads](OPEN_SOURCE.md), and i hold [5 patents](https://www.linkedin.com/in/fcakyon/details/patents/).
 
-I earned my PhD at the [METU Deep Learning & Computer Vision Lab](https://dlcv.ii.metu.edu.tr/), focusing on efficient distillation for vision-language models. My research has [1,800+ citations](https://scholar.google.com/citations?user=RHGyDE0AAAAJ&hl=en), with papers at [CVPR](https://openaccess.thecvf.com/content/CVPR2026W/ABAW/html/Akyon_SenBen_Sensitive_Scene_Graphs_for_Explainable_Content_Moderation_CVPRW_2026_paper.html), [ICASSP](https://ieeexplore.ieee.org/document/10193621), [ICIP](https://ieeexplore.ieee.org/document/9897990), and [Frontiers](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2023.1029198/full).
+i earned my phd at the [metu deep learning & computer vision lab](https://dlcv.ii.metu.edu.tr/), focusing on efficient distillation for vision-language models. my research has [1,800+ citations](https://scholar.google.com/citations?user=RHGyDE0AAAAJ&hl=en), with papers at [cvpr](https://openaccess.thecvf.com/content/CVPR2026W/ABAW/html/Akyon_SenBen_Sensitive_Scene_Graphs_for_Explainable_Content_Moderation_CVPRW_2026_paper.html), [icassp](https://ieeexplore.ieee.org/document/10193621), [icip](https://ieeexplore.ieee.org/document/9897990), and [frontiers](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2023.1029198/full).
 
 [LinkedIn](https://www.linkedin.com/in/fcakyon/) · [Twitter](https://twitter.com/fcakyon) · [Google Scholar](https://scholar.google.com/citations?user=RHGyDE0AAAAJ&hl=en) · [Medium](https://fcakyon.medium.com/)
 
