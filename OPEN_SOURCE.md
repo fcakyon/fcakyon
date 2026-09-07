@@ -4,16 +4,16 @@
 
 Packages, developer tools, research code, and applications I maintain or created.
 
-- [SAHI](https://github.com/obss/sahi) (5,492 stars): Sliced inference for small object detection.
-- [Claude & Codex Settings](https://github.com/fcakyon/claude-codex-settings) (1,125 stars): Agent skills, hooks, and plugin marketplaces.
-- [PhD Skills](https://github.com/fcakyon/phd-skills) (383 stars): Research workflows for paper reproduction and review.
-- [Ultralytics](https://github.com/ultralytics/ultralytics) (61,250 stars): World's most used real-time vision AI models across 7 tasks.
-- [Claude Code with Codex](https://github.com/fcakyon/claude-code-with-codex) (10 stars): A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor.
+- [SAHI](https://github.com/obss/sahi) (5,494 stars): Sliced inference for small object detection.
+- [Claude & Codex Settings](https://github.com/fcakyon/claude-codex-settings) (1,132 stars): Agent skills, hooks, and plugin marketplaces.
+- [PhD Skills](https://github.com/fcakyon/phd-skills) (385 stars): Research workflows for paper reproduction and review.
+- [Ultralytics](https://github.com/ultralytics/ultralytics) (61,357 stars): World's most used real-time vision AI models across 7 tasks.
+- [Claude Code with Codex](https://github.com/fcakyon/claude-code-with-codex) (11 stars): A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor.
 - [Image Comparison](https://github.com/fcakyon/streamlit-image-comparison) (254 stars): A responsive before-and-after image component.
 - [SafeText](https://github.com/viddexa/safetext) (57 stars): Profanity detection and filtering for 13 languages.
 - [Moderators](https://github.com/viddexa/moderators) (7 stars): Run content moderation models through one Python API or CLI.
 - [Balanced Loss](https://github.com/fcakyon/balanced-loss) (99 stars): Class-balanced cross-entropy and focal loss for PyTorch.
-- [LabelMe to COCO](https://github.com/fcakyon/labelme2coco) (323 stars): Convert LabelMe annotations to COCO format.
+- [LabelMe to COCO](https://github.com/fcakyon/labelme2coco) (322 stars): Convert LabelMe annotations to COCO format.
 - [MIDV-500](https://github.com/fcakyon/midv500) (105 stars): Download MIDV-500 and convert its annotations to COCO.
 - [YOLOv5 Pip](https://github.com/fcakyon/yolov5-pip) (291 stars): A packaged YOLOv5 distribution with added utilities.
 - [Ultralytics Plus](https://github.com/fcakyon/ultralyticsplus) (87 stars): Extra integrations for Ultralytics models.
