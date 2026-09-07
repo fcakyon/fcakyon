@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03",
+  "updated_at": "2026-09-07",
   "scholar_profile": "RHGyDE0AAAAJ",
   "open_source": [
     {
@@ -17,9 +17,9 @@
       "image": "assets/source/repos/sahi.jpg",
       "featured": true,
       "metrics": {
-        "stars": 5492,
+        "stars": 5494,
         "forks": 783,
-        "downloads_month": "236k"
+        "downloads_month": "206k"
       }
     },
     {
@@ -36,9 +36,9 @@
       "image": "assets/source/repos/claude-codex-settings.jpg",
       "featured": true,
       "metrics": {
-        "stars": 1125,
+        "stars": 1132,
         "forks": 109,
-        "downloads_total": 20006
+        "downloads_total": 20966
       }
     },
     {
@@ -54,7 +54,7 @@
       "image": "assets/source/repos/phd-skills.jpg",
       "featured": true,
       "metrics": {
-        "stars": 383,
+        "stars": 385,
         "forks": 33
       }
     },
@@ -73,9 +73,9 @@
       "image_fit": "zoom-out",
       "featured": true,
       "metrics": {
-        "stars": 61250,
-        "forks": 11695,
-        "downloads_month": "6M"
+        "stars": 61357,
+        "forks": 11723,
+        "downloads_month": "5M"
       }
     },
     {
@@ -83,7 +83,7 @@
       "url": "https://github.com/fcakyon/claude-code-with-codex",
       "repo": "fcakyon/claude-code-with-codex",
       "metrics": {
-        "stars": 10,
+        "stars": 11,
         "forks": 1
       },
       "description": "A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor."
@@ -133,8 +133,8 @@
       "url": "https://github.com/fcakyon/labelme2coco",
       "repo": "fcakyon/labelme2coco",
       "metrics": {
-        "stars": 323,
-        "forks": 69
+        "stars": 322,
+        "forks": 68
       },
       "description": "Convert LabelMe annotations to COCO format."
     },
@@ -250,7 +250,7 @@
       "image": "assets/source/papers/yolo26.png",
       "featured": true,
       "metrics": {
-        "citations": 96
+        "citations": 115
       }
     },
     {
@@ -276,7 +276,7 @@
       "image": "assets/source/papers/sahi.png",
       "featured": true,
       "metrics": {
-        "citations": 966
+        "citations": 978
       }
     },
     {
@@ -329,7 +329,7 @@
       "year": 2021,
       "scholar_id": "MXK_kJrjxJIC",
       "metrics": {
-        "citations": 260
+        "citations": 261
       }
     },
     {
@@ -339,7 +339,7 @@
       "year": 2019,
       "scholar_id": "Tyk-4Ss8FVUC",
       "metrics": {
-        "citations": 166
+        "citations": 167
       }
     },
     {
@@ -449,7 +449,7 @@
       "year": 2019,
       "scholar_id": "zYLM7Y9cAGgC",
       "metrics": {
-        "citations": 8
+        "citations": 9
       }
     },
     {
@@ -499,7 +499,7 @@
       "year": 2024,
       "scholar_id": "iH-uZ7U-co4C",
       "metrics": {
-        "citations": 4
+        "citations": 5
       }
     },
     {
