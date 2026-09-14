@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07",
+  "updated_at": "2026-09-14",
   "scholar_profile": "RHGyDE0AAAAJ",
   "open_source": [
     {
@@ -17,9 +17,9 @@
       "image": "assets/source/repos/sahi.jpg",
       "featured": true,
       "metrics": {
-        "stars": 5494,
-        "forks": 783,
-        "downloads_month": "206k"
+        "stars": 5500,
+        "forks": 784,
+        "downloads_month": "171k"
       }
     },
     {
@@ -36,9 +36,9 @@
       "image": "assets/source/repos/claude-codex-settings.jpg",
       "featured": true,
       "metrics": {
-        "stars": 1132,
-        "forks": 109,
-        "downloads_total": 20966
+        "stars": 1143,
+        "forks": 108,
+        "downloads_total": 24255
       }
     },
     {
@@ -54,8 +54,8 @@
       "image": "assets/source/repos/phd-skills.jpg",
       "featured": true,
       "metrics": {
-        "stars": 385,
-        "forks": 33
+        "stars": 394,
+        "forks": 34
       }
     },
     {
@@ -73,9 +73,9 @@
       "image_fit": "zoom-out",
       "featured": true,
       "metrics": {
-        "stars": 61357,
-        "forks": 11723,
-        "downloads_month": "5M"
+        "stars": 61590,
+        "forks": 11760,
+        "downloads_month": "4M"
       }
     },
     {
@@ -83,8 +83,8 @@
       "url": "https://github.com/fcakyon/claude-code-with-codex",
       "repo": "fcakyon/claude-code-with-codex",
       "metrics": {
-        "stars": 11,
-        "forks": 1
+        "stars": 12,
+        "forks": 4
       },
       "description": "A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor."
     },
@@ -143,7 +143,7 @@
       "url": "https://github.com/fcakyon/midv500",
       "repo": "fcakyon/midv500",
       "metrics": {
-        "stars": 105,
+        "stars": 106,
         "forks": 15
       },
       "description": "Download MIDV-500 and convert its annotations to COCO."
@@ -193,7 +193,7 @@
       "url": "https://github.com/safevideo/autollm",
       "repo": "safevideo/autollm",
       "metrics": {
-        "stars": 1005,
+        "stars": 1004,
         "forks": 97
       },
       "description": "Utilities for building applications with large language models."
@@ -213,7 +213,7 @@
       "url": "https://github.com/fcakyon/small-object-detection-benchmark",
       "repo": "fcakyon/small-object-detection-benchmark",
       "metrics": {
-        "stars": 200,
+        "stars": 201,
         "forks": 22
       },
       "description": "ICIP 2022 experiments for sliced object detection."
@@ -233,7 +233,7 @@
       "url": "https://github.com/ultralytics/lite",
       "repo": "ultralytics/lite",
       "metrics": {
-        "stars": 24,
+        "stars": 27,
         "forks": 5
       },
       "description": "A fast, local workspace for coding agents and your shell."
@@ -250,7 +250,7 @@
       "image": "assets/source/papers/yolo26.png",
       "featured": true,
       "metrics": {
-        "citations": 115
+        "citations": 142
       }
     },
     {
@@ -276,7 +276,7 @@
       "image": "assets/source/papers/sahi.png",
       "featured": true,
       "metrics": {
-        "citations": 978
+        "citations": 994
       }
     },
     {
@@ -329,7 +329,7 @@
       "year": 2021,
       "scholar_id": "MXK_kJrjxJIC",
       "metrics": {
-        "citations": 261
+        "citations": 262
       }
     },
     {
@@ -359,7 +359,7 @@
       "year": 2023,
       "scholar_id": "mB3voiENLucC",
       "metrics": {
-        "citations": 13
+        "citations": 14
       }
     },
     {
