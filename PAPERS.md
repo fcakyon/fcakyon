@@ -4,17 +4,17 @@
 
 Published papers and preprints, listed with their verified venue and year.
 
-- [Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models](https://arxiv.org/abs/2606.03748) (Preprint, 2026, 115 citations)
+- [Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models](https://arxiv.org/abs/2606.03748) (Preprint, 2026, 142 citations)
 - [SenBen: Sensitive Scene Graphs for Explainable Content Moderation](https://openaccess.thecvf.com/content/CVPR2026W/ABAW/html/Akyon_SenBen_Sensitive_Scene_Graphs_for_Explainable_Content_Moderation_CVPRW_2026_paper.html) (CVPR Workshops, 2026, 1 citation)
-- [Slicing Aided Hyper Inference and Fine-Tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (ICIP, 2022, 978 citations)
+- [Slicing Aided Hyper Inference and Fine-Tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (ICIP, 2022, 994 citations)
 - [Artificial intelligence-supported web application design and development for reducing polypharmacy side effects and supporting rational drug use in geriatric patients](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2023.1029198/full) (Frontiers in Medicine, 2023, 53 citations)
 - [Explainable Sensitive Content Moderation With Vocabulary-Aware Distillation](https://dblp.org/rec/journals/access/AkyonT26) (IEEE Access, 2026, 0 citations)
 - [Automated question generation and question answering from Turkish texts](https://journals.tubitak.gov.tr/elektrik/vol30/iss5/17/) (Turkish Journal of Electrical Engineering and Computer Sciences, 2022, 37 citations)
 - [Evaluating the Capabilities of Generative AI Tools in Understanding Medical Papers: Qualitative Study](https://medinform.jmir.org/2024/1/e59258) (JMIR Medical Informatics, 2024, 23 citations)
-- [Drone-vs-Bird Detection Challenge at IEEE AVSS2021](https://ieeexplore.ieee.org/document/9663844) (AVSS, 2021, 261 citations)
+- [Drone-vs-Bird Detection Challenge at IEEE AVSS2021](https://ieeexplore.ieee.org/document/9663844) (AVSS, 2021, 262 citations)
 - [Instagram Fake and Automated Account Detection](https://ieeexplore.ieee.org/document/8946437) (INISTA, 2019, 167 citations)
 - [Track Boosting and Synthetic Data Aided Drone Detection](https://ieeexplore.ieee.org/document/9663759) (AVSS, 2021, 43 citations)
-- [State-of-the-Art in Nudity Classification: A Comparative Analysis](https://ieeexplore.ieee.org/document/10193621) (ICASSP Workshops, 2023, 13 citations)
+- [State-of-the-Art in Nudity Classification: A Comparative Analysis](https://ieeexplore.ieee.org/document/10193621) (ICASSP Workshops, 2023, 14 citations)
 - [Sequence models for drone versus bird classification](https://dblp.org/rec/conf/icmv/AkyonAAT23) (ICMV, 2023, 15 citations)
 - [Deep Architectures for Content Moderation and Movie Content Rating](https://arxiv.org/abs/2212.04533) (Preprint, 2022, 12 citations)
 - [Development and Evaluation of an Artificial Intelligence-Simulated Patient Tool for Clinical Training in Family Medicine](https://doi.org/10.21203/rs.3.rs-9096627/v1) (Research Square, 2026, 0 citations)
