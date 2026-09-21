@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14",
+  "updated_at": "2026-09-21",
   "scholar_profile": "RHGyDE0AAAAJ",
   "open_source": [
     {
@@ -17,9 +17,9 @@
       "image": "assets/source/repos/sahi.jpg",
       "featured": true,
       "metrics": {
-        "stars": 5500,
-        "forks": 784,
-        "downloads_month": "171k"
+        "stars": 5510,
+        "forks": 785,
+        "downloads_month": "149k"
       }
     },
     {
@@ -36,9 +36,9 @@
       "image": "assets/source/repos/claude-codex-settings.jpg",
       "featured": true,
       "metrics": {
-        "stars": 1143,
-        "forks": 108,
-        "downloads_total": 24255
+        "stars": 1149,
+        "forks": 109,
+        "downloads_total": 27513
       }
     },
     {
@@ -54,8 +54,8 @@
       "image": "assets/source/repos/phd-skills.jpg",
       "featured": true,
       "metrics": {
-        "stars": 394,
-        "forks": 34
+        "stars": 405,
+        "forks": 33
       }
     },
     {
@@ -73,8 +73,8 @@
       "image_fit": "zoom-out",
       "featured": true,
       "metrics": {
-        "stars": 61590,
-        "forks": 11760,
+        "stars": 61847,
+        "forks": 11790,
         "downloads_month": "4M"
       }
     },
@@ -83,8 +83,8 @@
       "url": "https://github.com/fcakyon/claude-code-with-codex",
       "repo": "fcakyon/claude-code-with-codex",
       "metrics": {
-        "stars": 12,
-        "forks": 4
+        "stars": 15,
+        "forks": 5
       },
       "description": "A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor."
     },
@@ -133,7 +133,7 @@
       "url": "https://github.com/fcakyon/labelme2coco",
       "repo": "fcakyon/labelme2coco",
       "metrics": {
-        "stars": 322,
+        "stars": 321,
         "forks": 68
       },
       "description": "Convert LabelMe annotations to COCO format."
@@ -153,7 +153,7 @@
       "url": "https://github.com/fcakyon/yolov5-pip",
       "repo": "fcakyon/yolov5-pip",
       "metrics": {
-        "stars": 291,
+        "stars": 292,
         "forks": 69
       },
       "description": "A packaged YOLOv5 distribution with added utilities."
@@ -233,8 +233,8 @@
       "url": "https://github.com/ultralytics/lite",
       "repo": "ultralytics/lite",
       "metrics": {
-        "stars": 27,
-        "forks": 5
+        "stars": 28,
+        "forks": 6
       },
       "description": "A fast, local workspace for coding agents and your shell."
     }
@@ -250,7 +250,7 @@
       "image": "assets/source/papers/yolo26.png",
       "featured": true,
       "metrics": {
-        "citations": 142
+        "citations": 172
       }
     },
     {
@@ -276,7 +276,7 @@
       "image": "assets/source/papers/sahi.png",
       "featured": true,
       "metrics": {
-        "citations": 994
+        "citations": 1007
       }
     },
     {
@@ -289,7 +289,7 @@
       "image": "assets/source/papers/polypharmacy.png",
       "featured": true,
       "metrics": {
-        "citations": 53
+        "citations": 54
       }
     },
     {
@@ -329,7 +329,7 @@
       "year": 2021,
       "scholar_id": "MXK_kJrjxJIC",
       "metrics": {
-        "citations": 262
+        "citations": 263
       }
     },
     {
@@ -339,7 +339,7 @@
       "year": 2019,
       "scholar_id": "Tyk-4Ss8FVUC",
       "metrics": {
-        "citations": 167
+        "citations": 169
       }
     },
     {
@@ -349,7 +349,7 @@
       "year": 2021,
       "scholar_id": "8k81kl-MbHgC",
       "metrics": {
-        "citations": 43
+        "citations": 44
       }
     },
     {
