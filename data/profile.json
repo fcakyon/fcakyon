@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28",
+  "updated_at": "2026-10-05",
   "scholar_profile": "RHGyDE0AAAAJ",
   "open_source": [
     {
@@ -17,9 +17,9 @@
       "image": "assets/source/repos/sahi.jpg",
       "featured": true,
       "metrics": {
-        "stars": 5516,
-        "forks": 788,
-        "downloads_month": "134k"
+        "stars": 5530,
+        "forks": 789,
+        "downloads_month": "137k"
       }
     },
     {
@@ -36,9 +36,9 @@
       "image": "assets/source/repos/claude-codex-settings.jpg",
       "featured": true,
       "metrics": {
-        "stars": 1160,
+        "stars": 1161,
         "forks": 109,
-        "downloads_total": 28919
+        "downloads_total": 35761
       }
     },
     {
@@ -54,8 +54,8 @@
       "image": "assets/source/repos/phd-skills.jpg",
       "featured": true,
       "metrics": {
-        "stars": 410,
-        "forks": 35
+        "stars": 413,
+        "forks": 36
       }
     },
     {
@@ -73,8 +73,8 @@
       "image_fit": "zoom-out",
       "featured": true,
       "metrics": {
-        "stars": 62060,
-        "forks": 11798,
+        "stars": 62213,
+        "forks": 11822,
         "downloads_month": "4M"
       }
     },
@@ -83,8 +83,8 @@
       "url": "https://github.com/fcakyon/claude-code-with-codex",
       "repo": "fcakyon/claude-code-with-codex",
       "metrics": {
-        "stars": 16,
-        "forks": 6
+        "stars": 19,
+        "forks": 7
       },
       "description": "A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor."
     },
@@ -123,7 +123,7 @@
       "url": "https://github.com/fcakyon/balanced-loss",
       "repo": "fcakyon/balanced-loss",
       "metrics": {
-        "stars": 99,
+        "stars": 98,
         "forks": 9
       },
       "description": "Class-balanced cross-entropy and focal loss for PyTorch."
@@ -134,7 +134,7 @@
       "repo": "fcakyon/labelme2coco",
       "metrics": {
         "stars": 321,
-        "forks": 68
+        "forks": 67
       },
       "description": "Convert LabelMe annotations to COCO format."
     },
@@ -173,7 +173,7 @@
       "url": "https://github.com/fcakyon/video-transformers",
       "repo": "fcakyon/video-transformers",
       "metrics": {
-        "stars": 149,
+        "stars": 150,
         "forks": 14
       },
       "description": "Transformer workflows for video understanding."
@@ -193,7 +193,7 @@
       "url": "https://github.com/safevideo/autollm",
       "repo": "safevideo/autollm",
       "metrics": {
-        "stars": 1004,
+        "stars": 1005,
         "forks": 97
       },
       "description": "Utilities for building applications with large language models."
@@ -213,7 +213,7 @@
       "url": "https://github.com/fcakyon/small-object-detection-benchmark",
       "repo": "fcakyon/small-object-detection-benchmark",
       "metrics": {
-        "stars": 201,
+        "stars": 202,
         "forks": 22
       },
       "description": "ICIP 2022 experiments for sliced object detection."
@@ -233,8 +233,8 @@
       "url": "https://github.com/ultralytics/lite",
       "repo": "ultralytics/lite",
       "metrics": {
-        "stars": 30,
-        "forks": 6
+        "stars": 31,
+        "forks": 7
       },
       "description": "A fast, local workspace for coding agents and your shell."
     }
@@ -250,7 +250,7 @@
       "image": "assets/source/papers/yolo26.png",
       "featured": true,
       "metrics": {
-        "citations": 204
+        "citations": 223
       }
     },
     {
@@ -276,7 +276,7 @@
       "image": "assets/source/papers/sahi.png",
       "featured": true,
       "metrics": {
-        "citations": 1023
+        "citations": 1039
       }
     },
     {
@@ -319,7 +319,7 @@
       "year": 2024,
       "scholar_id": "j3f4tGmQtD8C",
       "metrics": {
-        "citations": 23
+        "citations": 24
       }
     },
     {
@@ -339,7 +339,7 @@
       "year": 2019,
       "scholar_id": "Tyk-4Ss8FVUC",
       "metrics": {
-        "citations": 170
+        "citations": 171
       }
     },
     {
