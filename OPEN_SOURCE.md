@@ -7,6 +7,7 @@ Packages, developer tools, research code, and applications I maintain or created
 - [SAHI](https://github.com/obss/sahi) (5,530 stars): Sliced inference for small object detection.
 - [Claude & Codex Settings](https://github.com/fcakyon/claude-codex-settings) (1,161 stars): Agent skills, hooks, and plugin marketplaces.
 - [PhD Skills](https://github.com/fcakyon/phd-skills) (413 stars): Research workflows for paper reproduction and review.
+- [Paper Search CLI](https://github.com/fcakyon/paper-search-cli) (0 stars): Search academic papers, look up DOIs, download PDFs, and follow citations without MCP or Docker.
 - [Ultralytics](https://github.com/ultralytics/ultralytics) (62,213 stars): World's most used real-time vision AI models across 7 tasks.
 - [Claude Code with Codex](https://github.com/fcakyon/claude-code-with-codex) (19 stars): A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor.
 - [Image Comparison](https://github.com/fcakyon/streamlit-image-comparison) (254 stars): A responsive before-and-after image component.
