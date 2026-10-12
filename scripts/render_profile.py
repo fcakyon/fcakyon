@@ -41,14 +41,6 @@ SECTIONS = {
         "view": "View all papers",
         "introduction": "Published papers and preprints, listed with their verified venue and year.",
     },
-    "patents": {
-        "title": "Patents",
-        "accent": "#16a34a",
-        "output": "patents",
-        "page": "PATENTS.md",
-        "view": "View all patents",
-        "introduction": "Granted Turkish patents and PCT applications, linked to their public records.",
-    },
     "talks": {
         "title": "Public speaking",
         "accent": "#d97706",
@@ -56,6 +48,14 @@ SECTIONS = {
         "page": "TALKS.md",
         "view": "View all talks",
         "introduction": "Completed panels, talks, and workshops with links to the original event posts.",
+    },
+    "patents": {
+        "title": "Patents",
+        "accent": "#16a34a",
+        "output": "patents",
+        "page": "PATENTS.md",
+        "view": "View all patents",
+        "introduction": "Granted Turkish patents and PCT applications, linked to their public records.",
     },
     "products": {
         "title": "Products",
