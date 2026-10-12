@@ -41,6 +41,14 @@ SECTIONS = {
         "view": "View all papers",
         "introduction": "Published papers and preprints, listed with their verified venue and year.",
     },
+    "patents": {
+        "title": "Patents",
+        "accent": "#16a34a",
+        "output": "patents",
+        "page": "PATENTS.md",
+        "view": "View all patents",
+        "introduction": "Granted Turkish patents and PCT applications, linked to their public records.",
+    },
     "talks": {
         "title": "Public speaking",
         "accent": "#d97706",
@@ -84,6 +92,8 @@ def card_label(section: str, item: dict) -> str:
     """
     if section == "papers":
         return f"{item['venue']} · {item['year']}"
+    if section == "patents":
+        return f"{item['assignee']} · {item['year']}"
     if section == "talks":
         return f"{item['venue']} · {item['date'][:4]}"
     return item["kind"]
@@ -112,6 +122,8 @@ def card_stats(section: str, item: dict) -> list[str]:
     if section == "papers":
         citations = item["metrics"]["citations"]
         return [f"{citations:,} citation{'s' if citations != 1 else ''}"]
+    if section == "patents":
+        return [item["number"], item["status"]]
     if section == "talks":
         return [date.fromisoformat(item["date"]).strftime("%b %Y")]
     return ["Live web app"]
@@ -130,7 +142,7 @@ def render_card(section: str, item: dict) -> str:
     image_uri = (ROOT / item["image"]).resolve().as_uri()
     card_class = (
         "card page-top"
-        if section == "papers"
+        if section in ("papers", "patents")
         else f"card {item['image_fit']}"
         if item.get("image_fit")
         else "card"
@@ -322,7 +334,7 @@ def render_readme(data: dict) -> None:
 
 
 def render_markdown(data: dict) -> None:
-    """Render the four full-list Markdown pages.
+    """Render the full-list Markdown pages.
 
     Args:
         data (dict): Canonical profile data.
@@ -342,6 +354,10 @@ def render_markdown(data: dict) -> None:
                 count = f"{citations:,} citation{'s' if citations != 1 else ''}"
                 lines.append(
                     f"- [{item['title']}]({item['url']}) ({item['venue']}, {item['year']}, {count})"
+                )
+            elif section == "patents":
+                lines.append(
+                    f"- [{item['title']}]({item['url']}) ({item['number']}, {item['assignee']}, {item['status'].lower()} {item['year']})"
                 )
             elif section == "talks":
                 event_date = date.fromisoformat(item["date"]).strftime("%B %Y")

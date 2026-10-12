@@ -553,6 +553,79 @@
       }
     }
   ],
+  "patents": [
+    {
+      "name": "RNN Autoencoder Pulse Detection",
+      "title": "A method for detection of unknown radar pulses using recurrent neural network based deep autoencoder architecture",
+      "url": "https://patents.google.com/patent/TR201819484A2/en",
+      "number": "TR 2018/19484",
+      "assignee": "ASELSAN",
+      "status": "Granted",
+      "year": 2022,
+      "image": "assets/source/patents/TR201819484A2.webp",
+      "featured": true
+    },
+    {
+      "name": "U-Net Signal Detection",
+      "title": "A method for unknown signal detection in electronic warfare systems using U-Net neural network architecture",
+      "url": "https://patents.google.com/patent/TR201905917A2/en",
+      "number": "TR 2019/05917",
+      "assignee": "ASELSAN",
+      "status": "Granted",
+      "year": 2022,
+      "image": "assets/source/patents/TR201905917A2.webp",
+      "featured": true
+    },
+    {
+      "name": "Radar Function Classification",
+      "title": "A method for radar function classification using multi task learning based multi layer perceptron architecture",
+      "url": "https://patents.google.com/patent/TR201905460A1/en",
+      "number": "TR 2019/05460",
+      "assignee": "ASELSAN",
+      "status": "Granted",
+      "year": 2021,
+      "image": "assets/source/patents/TR201905460A1.webp",
+      "featured": true
+    },
+    {
+      "name": "Multi-Task Signal Analysis",
+      "title": "A method for simultaneous signal detection, SNR estimation and modulation classification using multi task learning based recurrent neural network architecture",
+      "url": "https://patents.google.com/patent/TR201905907A1/en",
+      "number": "TR 2019/05907",
+      "assignee": "ASELSAN",
+      "status": "Granted",
+      "year": 2021,
+      "image": "assets/source/patents/TR201905907A1.webp",
+      "featured": true
+    },
+    {
+      "name": "Intra-Pulse Modulation Classification",
+      "title": "A method for classification of intra-pulse modulation of radar signals using feature fusion based convolutional neural network architecture",
+      "url": "https://portal.turkpatent.gov.tr/anonim/arastirma/patent/sonuc/dosya?patentAppNo=2018/12514&documentsTpye=all",
+      "number": "TR 2018/12514",
+      "assignee": "ASELSAN",
+      "status": "Granted",
+      "year": 2021
+    },
+    {
+      "name": "AI Content Filtering",
+      "title": "AI-powered content filtering and recommendation system",
+      "url": "https://patents.google.com/patent/WO2025018949A1/en",
+      "number": "PCT/TR2023/050716",
+      "assignee": "OBSS",
+      "status": "Application",
+      "year": 2023
+    },
+    {
+      "name": "AI Movie Assistant",
+      "title": "AI-powered movie and series assistant system",
+      "url": "https://patents.google.com/patent/WO2025018950A1/en",
+      "number": "PCT/TR2023/050717",
+      "assignee": "OBSS",
+      "status": "Application",
+      "year": 2023
+    }
+  ],
   "talks": [
     {
       "name": "Open Source & AI Competition",
