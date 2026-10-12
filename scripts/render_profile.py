@@ -43,9 +43,11 @@ SECTIONS = {
     },
     "peer_review": {
         "title": "Peer review",
+        "accent": "#7c3aed",
+        "output": "peer-review",
         "page": "PEER_REVIEW.md",
         "view": "View all peer review",
-        "introduction": "Journals I review for, linked to their impact factor pages.",
+        "introduction": "Journals I review manuscripts for, linked to their impact factor pages.",
     },
     "talks": {
         "title": "Public speaking",
@@ -57,6 +59,8 @@ SECTIONS = {
     },
     "media": {
         "title": "Media",
+        "accent": "#0891b2",
+        "output": "media",
         "page": "MEDIA.md",
         "view": "View all media coverage",
         "introduction": "News articles and interviews about my work, linked to the original sources.",
@@ -106,8 +110,10 @@ def card_label(section: str, item: dict) -> str:
         return f"{item['venue']} · {item['year']}"
     if section == "patents":
         return f"{item['assignee']} · {item['year']}"
-    if section == "talks":
+    if section in ("talks", "media"):
         return f"{item['venue']} · {item['date'][:4]}"
+    if section == "peer_review":
+        return item["publisher"]
     return item["kind"]
 
 
@@ -136,8 +142,10 @@ def card_stats(section: str, item: dict) -> list[str]:
         return [f"{citations:,} citation{'s' if citations != 1 else ''}"]
     if section == "patents":
         return [item["number"], item["status"]]
-    if section == "talks":
+    if section in ("talks", "media"):
         return [date.fromisoformat(item["date"]).strftime("%b %Y")]
+    if section == "peer_review":
+        return [f"Impact factor {item['impact_factor']}", item["quartile"]]
     return ["Live web app"]
 
 
@@ -154,7 +162,7 @@ def render_card(section: str, item: dict) -> str:
     image_uri = (ROOT / item["image"]).resolve().as_uri()
     card_class = (
         "card page-top"
-        if section in ("papers", "patents")
+        if section in ("papers", "patents", "peer_review")
         else f"card {item['image_fit']}"
         if item.get("image_fit")
         else "card"
@@ -334,42 +342,15 @@ def render_readme(data: dict) -> None:
 
     lines = []
     for section, config in SECTIONS.items():
-        featured = [item for item in data[section] if item.get("featured")]
-        lines.extend([f"## {config['title'].lower()}", ""])
+        lines.extend([f"## {config['title'].lower()}", "", "<p>"])
         lines.extend(
-            ["<p>", *(render_picture(config, item) for item in featured), "</p>"]
-            if featured
-            else [render_item(section, item) for item in data[section]]
+            render_picture(config, item)
+            for item in data[section]
+            if item.get("featured")
         )
-        lines.extend(["", f"[{config['view']}]({config['page']})", ""])
+        lines.extend(["</p>", "", f"[{config['view']}]({config['page']})", ""])
     gallery = "\n".join(lines).rstrip()
     path.write_text(f"{before}{README_START}\n\n{gallery}\n\n{README_END}{after}")
-
-
-def render_item(section: str, item: dict) -> str:
-    """Render one full-list Markdown bullet.
-
-    Args:
-        section (str): Profile section key.
-        item (dict): Entry data.
-
-    Returns:
-        (str): Markdown list item.
-    """
-    if section == "papers":
-        citations = item["metrics"]["citations"]
-        count = f"{citations:,} citation{'s' if citations != 1 else ''}"
-        return f"- [{item['title']}]({item['url']}) ({item['venue']}, {item['year']}, {count})"
-    if section == "patents":
-        return f"- [{item['title']}]({item['url']}) ({item['number']}, {item['assignee']}, {item['status'].lower()} {item['year']})"
-    if section in ("talks", "media"):
-        event_date = date.fromisoformat(item["date"]).strftime("%B %Y")
-        return f"- [{item['title']}]({item['url']}) ({item['venue']}, {event_date}): {item['description']}"
-    if section == "open_source":
-        stars = item.get("metrics", {}).get("stars")
-        total = f" ({stars:,} stars)" if stars is not None else ""
-        return f"- [{item['name']}]({item['url']}){total}: {item['description']}"
-    return f"- [{item['name']}]({item['url']}): {item['description']}"
 
 
 def render_markdown(data: dict) -> None:
@@ -387,7 +368,36 @@ def render_markdown(data: dict) -> None:
             config["introduction"],
             "",
         ]
-        lines.extend(render_item(section, item) for item in data[section])
+        for item in data[section]:
+            if section == "papers":
+                citations = item["metrics"]["citations"]
+                count = f"{citations:,} citation{'s' if citations != 1 else ''}"
+                lines.append(
+                    f"- [{item['title']}]({item['url']}) ({item['venue']}, {item['year']}, {count})"
+                )
+            elif section == "patents":
+                lines.append(
+                    f"- [{item['title']}]({item['url']}) ({item['number']}, {item['assignee']}, {item['status'].lower()} {item['year']})"
+                )
+            elif section in ("talks", "media"):
+                event_date = date.fromisoformat(item["date"]).strftime("%B %Y")
+                lines.append(
+                    f"- [{item['title']}]({item['url']}) ({item['venue']}, {event_date}): {item['description']}"
+                )
+            elif section == "peer_review":
+                lines.append(
+                    f"- [{item['name']}]({item['url']}) ({item['publisher']}, impact factor {item['impact_factor']}, {item['quartile']}): {item['description']}"
+                )
+            elif section == "open_source":
+                stars = item.get("metrics", {}).get("stars")
+                total = f" ({stars:,} stars)" if stars is not None else ""
+                lines.append(
+                    f"- [{item['name']}]({item['url']}){total}: {item['description']}"
+                )
+            else:
+                lines.append(
+                    f"- [{item['name']}]({item['url']}): {item['description']}"
+                )
         (ROOT / config["page"]).write_text("\n".join(lines) + "\n")
 
 
