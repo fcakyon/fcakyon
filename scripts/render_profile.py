@@ -57,6 +57,14 @@ SECTIONS = {
         "view": "View all patents",
         "introduction": "Granted Turkish patents and PCT applications, linked to their public records.",
     },
+    "peer_review": {
+        "title": "Peer review",
+        "accent": "#7c3aed",
+        "output": "peer-review",
+        "page": "PEER_REVIEW.md",
+        "view": "View all peer review",
+        "introduction": "Journals I review manuscripts for, linked to their impact factor pages.",
+    },
     "products": {
         "title": "Products",
         "accent": "#db5b75",
@@ -64,6 +72,14 @@ SECTIONS = {
         "page": "PRODUCTS.md",
         "view": "View all products",
         "introduction": "Web products I have built and operate.",
+    },
+    "media": {
+        "title": "Media",
+        "accent": "#0891b2",
+        "output": "media",
+        "page": "MEDIA.md",
+        "view": "View all media coverage",
+        "introduction": "News articles and interviews about my work, linked to the original sources.",
     },
 }
 
@@ -94,8 +110,10 @@ def card_label(section: str, item: dict) -> str:
         return f"{item['venue']} · {item['year']}"
     if section == "patents":
         return f"{item['assignee']} · {item['year']}"
-    if section == "talks":
+    if section in ("talks", "media"):
         return f"{item['venue']} · {item['date'][:4]}"
+    if section == "peer_review":
+        return item["publisher"]
     return item["kind"]
 
 
@@ -124,8 +142,10 @@ def card_stats(section: str, item: dict) -> list[str]:
         return [f"{citations:,} citation{'s' if citations != 1 else ''}"]
     if section == "patents":
         return [item["number"], item["status"]]
-    if section == "talks":
+    if section in ("talks", "media"):
         return [date.fromisoformat(item["date"]).strftime("%b %Y")]
+    if section == "peer_review":
+        return [f"Impact factor {item['impact_factor']}", item["quartile"]]
     return ["Live web app"]
 
 
@@ -142,7 +162,7 @@ def render_card(section: str, item: dict) -> str:
     image_uri = (ROOT / item["image"]).resolve().as_uri()
     card_class = (
         "card page-top"
-        if section in ("papers", "patents")
+        if section in ("papers", "patents", "peer_review")
         else f"card {item['image_fit']}"
         if item.get("image_fit")
         else "card"
@@ -359,10 +379,14 @@ def render_markdown(data: dict) -> None:
                 lines.append(
                     f"- [{item['title']}]({item['url']}) ({item['number']}, {item['assignee']}, {item['status'].lower()} {item['year']})"
                 )
-            elif section == "talks":
+            elif section in ("talks", "media"):
                 event_date = date.fromisoformat(item["date"]).strftime("%B %Y")
                 lines.append(
                     f"- [{item['title']}]({item['url']}) ({item['venue']}, {event_date}): {item['description']}"
+                )
+            elif section == "peer_review":
+                lines.append(
+                    f"- [{item['name']}]({item['url']}) ({item['publisher']}, impact factor {item['impact_factor']}, {item['quartile']}): {item['description']}"
                 )
             elif section == "open_source":
                 stars = item.get("metrics", {}).get("stars")

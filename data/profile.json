@@ -706,6 +706,114 @@
       "kind": "Family streaming",
       "image": "assets/source/products/muvisafe.webp",
       "featured": true
+    },
+    {
+      "name": "Claude Settings",
+      "url": "https://claudesettings.com",
+      "description": "Ready-to-use settings, plugins, and skills for AI coding agents.",
+      "kind": "Developer tools",
+      "image": "assets/source/products/claude-settings.webp",
+      "featured": true
+    }
+  ],
+  "peer_review": [
+    {
+      "name": "Remote Sensing of Environment",
+      "url": "https://www.sciencedirect.com/journal/remote-sensing-of-environment/about/insights",
+      "publisher": "Elsevier",
+      "impact_factor": "12.3",
+      "quartile": "Q1",
+      "description": "Remote sensing object detection, Geospatial Foundation AI issue.",
+      "image": "assets/source/peer-review/remote-sensing-of-environment.webp",
+      "featured": true
+    },
+    {
+      "name": "Scientific Reports",
+      "url": "https://www.nature.com/srep/journal-impact",
+      "publisher": "Springer Nature",
+      "impact_factor": "4.9",
+      "quartile": "Q1",
+      "description": "Reviewed 1 manuscript in 2026.",
+      "image": "assets/source/peer-review/scientific-reports.webp",
+      "featured": true
+    },
+    {
+      "name": "Humanities and Social Sciences Communications",
+      "url": "https://www.nature.com/palcomms/journal-information",
+      "publisher": "Springer Nature",
+      "impact_factor": "4.8",
+      "quartile": "Q1",
+      "description": "Reviewed 1 manuscript in 2026.",
+      "image": "assets/source/peer-review/humanities-social-sciences-communications.webp",
+      "featured": true
+    },
+    {
+      "name": "BMC Primary Care",
+      "url": "https://link.springer.com/journal/12875",
+      "publisher": "Springer Nature",
+      "impact_factor": "2.9",
+      "quartile": "Q1",
+      "description": "Reviewed 1 manuscript in 2026.",
+      "image": "assets/source/peer-review/bmc-primary-care.webp",
+      "featured": true
+    }
+  ],
+  "media": [
+    {
+      "name": "Ultralytics at CVPR 2026",
+      "title": "Key highlights from Ultralytics at CVPR 2026",
+      "venue": "Ultralytics",
+      "date": "2026-06-09",
+      "url": "https://www.ultralytics.com/blog/key-highlights-from-ultralytics-at-cvpr-2026",
+      "description": "Company report featuring my SenBen presentation at CVPR in Denver.",
+      "image": "assets/source/media/ultralytics-cvpr-2026.webp",
+      "featured": true
+    },
+    {
+      "name": "Viddexa AI interview",
+      "title": "Interview on Viddexa AI",
+      "venue": "Tektik TV",
+      "date": "2025-01-28",
+      "url": "https://www.youtube.com/watch?v=snNDKbrZ32Q",
+      "description": "Video interview on generative video analysis and video search, in Turkish."
+    },
+    {
+      "name": "AI Future Leaders Fellowship",
+      "title": "Startups selected for the first AI Future Leaders Fellowship",
+      "venue": "Webrazzi",
+      "date": "2024-03-29",
+      "url": "https://webrazzi.com/2024/03/29/artificial-intelligence-future-leaders-fellowship-programinin-ilk-donemine-secilen-girisimler/",
+      "description": "SafeVideo AI, now Viddexa AI, selected for the first cohort.",
+      "image": "assets/source/media/webrazzi-flai.webp",
+      "featured": true
+    },
+    {
+      "name": "AI in law cover story",
+      "title": "Can AI deceive people? How will it be used in law?",
+      "venue": "Ticari Hayat",
+      "date": "2024-01-24",
+      "url": "https://ticarihayatcom.teimg.com/ticarihayat-com/uploads/2024/01/cilt1-107.pdf",
+      "description": "Front-page story on my radio talk about AI reliability and law.",
+      "image": "assets/source/media/ticari-hayat.webp",
+      "featured": true
+    },
+    {
+      "name": "Radyo Trafik AI interview",
+      "title": "AI is the first topic of Teknoloji Trafiği",
+      "venue": "Hürriyet",
+      "date": "2024-01-11",
+      "url": "https://www.hurriyet.com.tr/yerel-haberler/ankara/teknoloji-trafiginin-ilk-konusu-yapay-zeka-42389359",
+      "description": "Coverage of my AI expert interview on Radyo Trafik Ankara, in Turkish.",
+      "image": "assets/source/media/hurriyet-radyo-trafik.webp",
+      "featured": true
+    },
+    {
+      "name": "Defense AI competition award",
+      "title": "An AI platform will be set up in the defense industry",
+      "venue": "Hürriyet",
+      "date": "2021-09-15",
+      "url": "https://www.hurriyet.com.tr/ekonomi/savunma-sanayisinde-yapay-zeka-platformu-kurulacak-41895490",
+      "description": "Names me as the second-place winner of the national wide-area surveillance competition, in Turkish."
     }
   ]
 }
