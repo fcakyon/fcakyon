@@ -30,6 +30,15 @@
 
 [View all papers](PAPERS.md)
 
+## peer review
+
+- [Remote Sensing of Environment](https://www.sciencedirect.com/journal/remote-sensing-of-environment/about/insights): Elsevier, Journal Impact Factor 12.3, Q1. Reviewed a manuscript on object detection in remote sensing images for the Geospatial Foundation AI special issue, 2026.
+- [Scientific Reports](https://www.nature.com/srep/journal-impact): Springer Nature, Journal Impact Factor 4.9, Q1. Reviewed 1 manuscript, 2026.
+- [Humanities and Social Sciences Communications](https://www.nature.com/palcomms/journal-information): Springer Nature, Journal Impact Factor 4.8, Q1. Reviewed 1 manuscript, 2026.
+- [BMC Primary Care](https://link.springer.com/journal/12875): Springer Nature, Journal Impact Factor 2.9, Q1. Reviewed 1 manuscript, 2026.
+
+[View all peer review](PEER_REVIEW.md)
+
 ## public speaking
 
 <p>
@@ -40,6 +49,17 @@
 </p>
 
 [View all talks](TALKS.md)
+
+## media
+
+- [Key highlights from Ultralytics at CVPR 2026](https://www.ultralytics.com/blog/key-highlights-from-ultralytics-at-cvpr-2026) (Ultralytics, June 2026): Company report featuring my SenBen presentation at CVPR in Denver.
+- [Interview on Viddexa AI](https://www.youtube.com/watch?v=snNDKbrZ32Q) (Tektik TV, January 2025): Video interview on generative video analysis and video search, in Turkish.
+- [Startups selected for the first AI Future Leaders Fellowship](https://webrazzi.com/2024/03/29/artificial-intelligence-future-leaders-fellowship-programinin-ilk-donemine-secilen-girisimler/) (Webrazzi, March 2024): SafeVideo AI, now Viddexa AI, selected for the fellowship run with Argonne National Laboratory, in Turkish.
+- [Can AI deceive people? How will it be used in law?](https://ticarihayatcom.teimg.com/ticarihayat-com/uploads/2024/01/cilt1-107.pdf) (Ticari Hayat, January 2024): Front-page story on my radio commentary about AI reliability and its use in law, in Turkish.
+- [AI is the first topic of Teknoloji Trafiği](https://www.hurriyet.com.tr/yerel-haberler/ankara/teknoloji-trafiginin-ilk-konusu-yapay-zeka-42389359) (Hürriyet, January 2024): Coverage of my AI expert interview on Radyo Trafik Ankara, in Turkish.
+- [An AI platform will be set up in the defense industry](https://www.hurriyet.com.tr/ekonomi/savunma-sanayisinde-yapay-zeka-platformu-kurulacak-41895490) (Hürriyet, September 2021): Names me as the second-place winner of the national wide-area surveillance competition, in Turkish.
+
+[View all media coverage](MEDIA.md)
 
 ## patents
 
@@ -58,6 +78,7 @@
 <a href="https://myaipatient.com"><picture><source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="assets/cards/products-my-ai-patient-mobile-dark.webp 2.1x"><source media="(max-width: 700px)" srcset="assets/cards/products-my-ai-patient-mobile-light.webp 2.1x"><source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/cards/products-my-ai-patient-desktop-dark.webp 1.65x"><source media="(max-width: 1100px)" srcset="assets/cards/products-my-ai-patient-desktop-light.webp 1.65x"><source media="(prefers-color-scheme: dark)" srcset="assets/cards/products-my-ai-patient-desktop-dark.webp 1.45x"><source media="(min-width: 1101px)" srcset="assets/cards/products-my-ai-patient-desktop-light.webp 1.45x"><img src="assets/cards/products-my-ai-patient-desktop-light.webp" alt="My AI Patient"></picture></a>
 <a href="https://fastrational.com/en"><picture><source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="assets/cards/products-fast-rational-mobile-dark.webp 2.1x"><source media="(max-width: 700px)" srcset="assets/cards/products-fast-rational-mobile-light.webp 2.1x"><source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/cards/products-fast-rational-desktop-dark.webp 1.65x"><source media="(max-width: 1100px)" srcset="assets/cards/products-fast-rational-desktop-light.webp 1.65x"><source media="(prefers-color-scheme: dark)" srcset="assets/cards/products-fast-rational-desktop-dark.webp 1.45x"><source media="(min-width: 1101px)" srcset="assets/cards/products-fast-rational-desktop-light.webp 1.45x"><img src="assets/cards/products-fast-rational-desktop-light.webp" alt="Fast &amp; Rational"></picture></a>
 <a href="https://muvisafe.com/en"><picture><source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="assets/cards/products-muvisafe-mobile-dark.webp 2.1x"><source media="(max-width: 700px)" srcset="assets/cards/products-muvisafe-mobile-light.webp 2.1x"><source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/cards/products-muvisafe-desktop-dark.webp 1.65x"><source media="(max-width: 1100px)" srcset="assets/cards/products-muvisafe-desktop-light.webp 1.65x"><source media="(prefers-color-scheme: dark)" srcset="assets/cards/products-muvisafe-desktop-dark.webp 1.45x"><source media="(min-width: 1101px)" srcset="assets/cards/products-muvisafe-desktop-light.webp 1.45x"><img src="assets/cards/products-muvisafe-desktop-light.webp" alt="MuviSafe"></picture></a>
+<a href="https://claudesettings.com"><picture><source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="assets/cards/products-claude-settings-mobile-dark.webp 2.1x"><source media="(max-width: 700px)" srcset="assets/cards/products-claude-settings-mobile-light.webp 2.1x"><source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="assets/cards/products-claude-settings-desktop-dark.webp 1.65x"><source media="(max-width: 1100px)" srcset="assets/cards/products-claude-settings-desktop-light.webp 1.65x"><source media="(prefers-color-scheme: dark)" srcset="assets/cards/products-claude-settings-desktop-dark.webp 1.45x"><source media="(min-width: 1101px)" srcset="assets/cards/products-claude-settings-desktop-light.webp 1.45x"><img src="assets/cards/products-claude-settings-desktop-light.webp" alt="Claude Settings"></picture></a>
 </p>
 
 [View all products](PRODUCTS.md)

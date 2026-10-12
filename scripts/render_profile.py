@@ -41,6 +41,12 @@ SECTIONS = {
         "view": "View all papers",
         "introduction": "Published papers and preprints, listed with their verified venue and year.",
     },
+    "peer_review": {
+        "title": "Peer review",
+        "page": "PEER_REVIEW.md",
+        "view": "View all peer review",
+        "introduction": "Journals I review for, linked to their impact factor pages.",
+    },
     "talks": {
         "title": "Public speaking",
         "accent": "#d97706",
@@ -48,6 +54,12 @@ SECTIONS = {
         "page": "TALKS.md",
         "view": "View all talks",
         "introduction": "Completed panels, talks, and workshops with links to the original event posts.",
+    },
+    "media": {
+        "title": "Media",
+        "page": "MEDIA.md",
+        "view": "View all media coverage",
+        "introduction": "News articles and interviews about my work, linked to the original sources.",
     },
     "patents": {
         "title": "Patents",
@@ -322,15 +334,42 @@ def render_readme(data: dict) -> None:
 
     lines = []
     for section, config in SECTIONS.items():
-        lines.extend([f"## {config['title'].lower()}", "", "<p>"])
+        featured = [item for item in data[section] if item.get("featured")]
+        lines.extend([f"## {config['title'].lower()}", ""])
         lines.extend(
-            render_picture(config, item)
-            for item in data[section]
-            if item.get("featured")
+            ["<p>", *(render_picture(config, item) for item in featured), "</p>"]
+            if featured
+            else [render_item(section, item) for item in data[section]]
         )
-        lines.extend(["</p>", "", f"[{config['view']}]({config['page']})", ""])
+        lines.extend(["", f"[{config['view']}]({config['page']})", ""])
     gallery = "\n".join(lines).rstrip()
     path.write_text(f"{before}{README_START}\n\n{gallery}\n\n{README_END}{after}")
+
+
+def render_item(section: str, item: dict) -> str:
+    """Render one full-list Markdown bullet.
+
+    Args:
+        section (str): Profile section key.
+        item (dict): Entry data.
+
+    Returns:
+        (str): Markdown list item.
+    """
+    if section == "papers":
+        citations = item["metrics"]["citations"]
+        count = f"{citations:,} citation{'s' if citations != 1 else ''}"
+        return f"- [{item['title']}]({item['url']}) ({item['venue']}, {item['year']}, {count})"
+    if section == "patents":
+        return f"- [{item['title']}]({item['url']}) ({item['number']}, {item['assignee']}, {item['status'].lower()} {item['year']})"
+    if section in ("talks", "media"):
+        event_date = date.fromisoformat(item["date"]).strftime("%B %Y")
+        return f"- [{item['title']}]({item['url']}) ({item['venue']}, {event_date}): {item['description']}"
+    if section == "open_source":
+        stars = item.get("metrics", {}).get("stars")
+        total = f" ({stars:,} stars)" if stars is not None else ""
+        return f"- [{item['name']}]({item['url']}){total}: {item['description']}"
+    return f"- [{item['name']}]({item['url']}): {item['description']}"
 
 
 def render_markdown(data: dict) -> None:
@@ -348,32 +387,7 @@ def render_markdown(data: dict) -> None:
             config["introduction"],
             "",
         ]
-        for item in data[section]:
-            if section == "papers":
-                citations = item["metrics"]["citations"]
-                count = f"{citations:,} citation{'s' if citations != 1 else ''}"
-                lines.append(
-                    f"- [{item['title']}]({item['url']}) ({item['venue']}, {item['year']}, {count})"
-                )
-            elif section == "patents":
-                lines.append(
-                    f"- [{item['title']}]({item['url']}) ({item['number']}, {item['assignee']}, {item['status'].lower()} {item['year']})"
-                )
-            elif section == "talks":
-                event_date = date.fromisoformat(item["date"]).strftime("%B %Y")
-                lines.append(
-                    f"- [{item['title']}]({item['url']}) ({item['venue']}, {event_date}): {item['description']}"
-                )
-            elif section == "open_source":
-                stars = item.get("metrics", {}).get("stars")
-                total = f" ({stars:,} stars)" if stars is not None else ""
-                lines.append(
-                    f"- [{item['name']}]({item['url']}){total}: {item['description']}"
-                )
-            else:
-                lines.append(
-                    f"- [{item['name']}]({item['url']}): {item['description']}"
-                )
+        lines.extend(render_item(section, item) for item in data[section])
         (ROOT / config["page"]).write_text("\n".join(lines) + "\n")
 
 

@@ -706,6 +706,86 @@
       "kind": "Family streaming",
       "image": "assets/source/products/muvisafe.webp",
       "featured": true
+    },
+    {
+      "name": "Claude Settings",
+      "url": "https://claudesettings.com",
+      "description": "Ready-to-use settings, plugins, and skills for AI coding agents.",
+      "kind": "Developer tools",
+      "image": "assets/source/products/claude-settings.webp",
+      "featured": true
+    }
+  ],
+  "peer_review": [
+    {
+      "name": "Remote Sensing of Environment",
+      "url": "https://www.sciencedirect.com/journal/remote-sensing-of-environment/about/insights",
+      "description": "Elsevier, Journal Impact Factor 12.3, Q1. Reviewed a manuscript on object detection in remote sensing images for the Geospatial Foundation AI special issue, 2026."
+    },
+    {
+      "name": "Scientific Reports",
+      "url": "https://www.nature.com/srep/journal-impact",
+      "description": "Springer Nature, Journal Impact Factor 4.9, Q1. Reviewed 1 manuscript, 2026."
+    },
+    {
+      "name": "Humanities and Social Sciences Communications",
+      "url": "https://www.nature.com/palcomms/journal-information",
+      "description": "Springer Nature, Journal Impact Factor 4.8, Q1. Reviewed 1 manuscript, 2026."
+    },
+    {
+      "name": "BMC Primary Care",
+      "url": "https://link.springer.com/journal/12875",
+      "description": "Springer Nature, Journal Impact Factor 2.9, Q1. Reviewed 1 manuscript, 2026."
+    }
+  ],
+  "media": [
+    {
+      "name": "Ultralytics",
+      "title": "Key highlights from Ultralytics at CVPR 2026",
+      "venue": "Ultralytics",
+      "date": "2026-06-09",
+      "url": "https://www.ultralytics.com/blog/key-highlights-from-ultralytics-at-cvpr-2026",
+      "description": "Company report featuring my SenBen presentation at CVPR in Denver."
+    },
+    {
+      "name": "Tektik TV",
+      "title": "Interview on Viddexa AI",
+      "venue": "Tektik TV",
+      "date": "2025-01-28",
+      "url": "https://www.youtube.com/watch?v=snNDKbrZ32Q",
+      "description": "Video interview on generative video analysis and video search, in Turkish."
+    },
+    {
+      "name": "Webrazzi",
+      "title": "Startups selected for the first AI Future Leaders Fellowship",
+      "venue": "Webrazzi",
+      "date": "2024-03-29",
+      "url": "https://webrazzi.com/2024/03/29/artificial-intelligence-future-leaders-fellowship-programinin-ilk-donemine-secilen-girisimler/",
+      "description": "SafeVideo AI, now Viddexa AI, selected for the fellowship run with Argonne National Laboratory, in Turkish."
+    },
+    {
+      "name": "Ticari Hayat",
+      "title": "Can AI deceive people? How will it be used in law?",
+      "venue": "Ticari Hayat",
+      "date": "2024-01-24",
+      "url": "https://ticarihayatcom.teimg.com/ticarihayat-com/uploads/2024/01/cilt1-107.pdf",
+      "description": "Front-page story on my radio commentary about AI reliability and its use in law, in Turkish."
+    },
+    {
+      "name": "Hürriyet",
+      "title": "AI is the first topic of Teknoloji Trafiği",
+      "venue": "Hürriyet",
+      "date": "2024-01-11",
+      "url": "https://www.hurriyet.com.tr/yerel-haberler/ankara/teknoloji-trafiginin-ilk-konusu-yapay-zeka-42389359",
+      "description": "Coverage of my AI expert interview on Radyo Trafik Ankara, in Turkish."
+    },
+    {
+      "name": "Hürriyet",
+      "title": "An AI platform will be set up in the defense industry",
+      "venue": "Hürriyet",
+      "date": "2021-09-15",
+      "url": "https://www.hurriyet.com.tr/ekonomi/savunma-sanayisinde-yapay-zeka-platformu-kurulacak-41895490",
+      "description": "Names me as the second-place winner of the national wide-area surveillance competition, in Turkish."
     }
   ]
 }
