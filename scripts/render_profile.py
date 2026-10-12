@@ -41,14 +41,6 @@ SECTIONS = {
         "view": "View all papers",
         "introduction": "Published papers and preprints, listed with their verified venue and year.",
     },
-    "peer_review": {
-        "title": "Peer review",
-        "accent": "#7c3aed",
-        "output": "peer-review",
-        "page": "PEER_REVIEW.md",
-        "view": "View all peer review",
-        "introduction": "Journals I review manuscripts for, linked to their impact factor pages.",
-    },
     "talks": {
         "title": "Public speaking",
         "accent": "#d97706",
@@ -64,6 +56,14 @@ SECTIONS = {
         "page": "PATENTS.md",
         "view": "View all patents",
         "introduction": "Granted Turkish patents and PCT applications, linked to their public records.",
+    },
+    "peer_review": {
+        "title": "Peer review",
+        "accent": "#7c3aed",
+        "output": "peer-review",
+        "page": "PEER_REVIEW.md",
+        "view": "View all peer review",
+        "introduction": "Journals I review manuscripts for, linked to their impact factor pages.",
     },
     "products": {
         "title": "Products",
