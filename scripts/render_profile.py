@@ -57,14 +57,6 @@ SECTIONS = {
         "view": "View all talks",
         "introduction": "Completed panels, talks, and workshops with links to the original event posts.",
     },
-    "media": {
-        "title": "Media",
-        "accent": "#0891b2",
-        "output": "media",
-        "page": "MEDIA.md",
-        "view": "View all media coverage",
-        "introduction": "News articles and interviews about my work, linked to the original sources.",
-    },
     "patents": {
         "title": "Patents",
         "accent": "#16a34a",
@@ -80,6 +72,14 @@ SECTIONS = {
         "page": "PRODUCTS.md",
         "view": "View all products",
         "introduction": "Web products I have built and operate.",
+    },
+    "media": {
+        "title": "Media",
+        "accent": "#0891b2",
+        "output": "media",
+        "page": "MEDIA.md",
+        "view": "View all media coverage",
+        "introduction": "News articles and interviews about my work, linked to the original sources.",
     },
 }
 
