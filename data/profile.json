@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05",
+  "updated_at": "2026-10-12",
   "scholar_profile": "RHGyDE0AAAAJ",
   "open_source": [
     {
@@ -17,9 +17,9 @@
       "image": "assets/source/repos/sahi.jpg",
       "featured": true,
       "metrics": {
-        "stars": 5530,
-        "forks": 789,
-        "downloads_month": "137k"
+        "stars": 5543,
+        "forks": 790,
+        "downloads_month": "141k"
       }
     },
     {
@@ -36,9 +36,9 @@
       "image": "assets/source/repos/claude-codex-settings.jpg",
       "featured": true,
       "metrics": {
-        "stars": 1161,
+        "stars": 1174,
         "forks": 109,
-        "downloads_total": 35761
+        "downloads_total": 41493
       }
     },
     {
@@ -54,7 +54,7 @@
       "image": "assets/source/repos/phd-skills.jpg",
       "featured": true,
       "metrics": {
-        "stars": 413,
+        "stars": 416,
         "forks": 36
       }
     },
@@ -73,8 +73,8 @@
       "image_fit": "zoom-out",
       "featured": true,
       "metrics": {
-        "stars": 62213,
-        "forks": 11822,
+        "stars": 62417,
+        "forks": 11849,
         "downloads_month": "4M"
       }
     },
@@ -83,8 +83,8 @@
       "url": "https://github.com/fcakyon/claude-code-with-codex",
       "repo": "fcakyon/claude-code-with-codex",
       "metrics": {
-        "stars": 19,
-        "forks": 7
+        "stars": 28,
+        "forks": 6
       },
       "description": "A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor."
     },
@@ -203,7 +203,7 @@
       "url": "https://github.com/fcakyon/content-moderation-deep-learning",
       "repo": "fcakyon/content-moderation-deep-learning",
       "metrics": {
-        "stars": 406,
+        "stars": 407,
         "forks": 26
       },
       "description": "Multimodal deep-learning tools for content moderation."
@@ -233,7 +233,7 @@
       "url": "https://github.com/ultralytics/lite",
       "repo": "ultralytics/lite",
       "metrics": {
-        "stars": 31,
+        "stars": 33,
         "forks": 7
       },
       "description": "A fast, local workspace for coding agents and your shell."
@@ -250,7 +250,7 @@
       "image": "assets/source/papers/yolo26.png",
       "featured": true,
       "metrics": {
-        "citations": 223
+        "citations": 248
       }
     },
     {
@@ -276,7 +276,7 @@
       "image": "assets/source/papers/sahi.png",
       "featured": true,
       "metrics": {
-        "citations": 1039
+        "citations": 1060
       }
     },
     {
@@ -329,7 +329,7 @@
       "year": 2021,
       "scholar_id": "MXK_kJrjxJIC",
       "metrics": {
-        "citations": 264
+        "citations": 266
       }
     },
     {
@@ -349,7 +349,7 @@
       "year": 2021,
       "scholar_id": "8k81kl-MbHgC",
       "metrics": {
-        "citations": 46
+        "citations": 47
       }
     },
     {
@@ -429,7 +429,7 @@
       "year": 2022,
       "scholar_id": "4DMP91E08xMC",
       "metrics": {
-        "citations": 16
+        "citations": 17
       }
     },
     {
