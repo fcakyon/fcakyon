@@ -4,14 +4,14 @@
 
 Published papers and preprints, listed with their verified venue and year.
 
-- [Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models](https://arxiv.org/abs/2606.03748) (Preprint, 2026, 248 citations)
+- [Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models](https://arxiv.org/abs/2606.03748) (Preprint, 2026, 271 citations)
 - [SenBen: Sensitive Scene Graphs for Explainable Content Moderation](https://openaccess.thecvf.com/content/CVPR2026W/ABAW/html/Akyon_SenBen_Sensitive_Scene_Graphs_for_Explainable_Content_Moderation_CVPRW_2026_paper.html) (CVPR Workshops, 2026, 1 citation)
-- [Slicing Aided Hyper Inference and Fine-Tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (ICIP, 2022, 1,060 citations)
-- [Artificial intelligence-supported web application design and development for reducing polypharmacy side effects and supporting rational drug use in geriatric patients](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2023.1029198/full) (Frontiers in Medicine, 2023, 55 citations)
+- [Slicing Aided Hyper Inference and Fine-Tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (ICIP, 2022, 1,070 citations)
+- [Artificial intelligence-supported web application design and development for reducing polypharmacy side effects and supporting rational drug use in geriatric patients](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2023.1029198/full) (Frontiers in Medicine, 2023, 56 citations)
 - [Explainable Sensitive Content Moderation With Vocabulary-Aware Distillation](https://dblp.org/rec/journals/access/AkyonT26) (IEEE Access, 2026, 0 citations)
 - [Automated question generation and question answering from Turkish texts](https://journals.tubitak.gov.tr/elektrik/vol30/iss5/17/) (Turkish Journal of Electrical Engineering and Computer Sciences, 2022, 37 citations)
-- [Evaluating the Capabilities of Generative AI Tools in Understanding Medical Papers: Qualitative Study](https://medinform.jmir.org/2024/1/e59258) (JMIR Medical Informatics, 2024, 24 citations)
-- [Drone-vs-Bird Detection Challenge at IEEE AVSS2021](https://ieeexplore.ieee.org/document/9663844) (AVSS, 2021, 266 citations)
+- [Evaluating the Capabilities of Generative AI Tools in Understanding Medical Papers: Qualitative Study](https://medinform.jmir.org/2024/1/e59258) (JMIR Medical Informatics, 2024, 26 citations)
+- [Drone-vs-Bird Detection Challenge at IEEE AVSS2021](https://ieeexplore.ieee.org/document/9663844) (AVSS, 2021, 267 citations)
 - [Instagram Fake and Automated Account Detection](https://ieeexplore.ieee.org/document/8946437) (INISTA, 2019, 171 citations)
 - [Track Boosting and Synthetic Data Aided Drone Detection](https://ieeexplore.ieee.org/document/9663759) (AVSS, 2021, 47 citations)
 - [State-of-the-Art in Nudity Classification: A Comparative Analysis](https://ieeexplore.ieee.org/document/10193621) (ICASSP Workshops, 2023, 14 citations)
@@ -19,7 +19,7 @@ Published papers and preprints, listed with their verified venue and year.
 - [Deep Architectures for Content Moderation and Movie Content Rating](https://arxiv.org/abs/2212.04533) (Preprint, 2022, 12 citations)
 - [Development and Evaluation of an Artificial Intelligence-Simulated Patient Tool for Clinical Training in Family Medicine](https://doi.org/10.21203/rs.3.rs-9096627/v1) (Research Square, 2026, 0 citations)
 - [Deep Learning for Radar Signal Detection in Electronic Warfare Systems](https://ieeexplore.ieee.org/document/9266381) (IEEE Radar Conference, 2020, 40 citations)
-- [Classification of Intra-Pulse Modulation of Radar Signals by Feature Fusion Based Convolutional Neural Networks](https://ieeexplore.ieee.org/document/8553176) (EUSIPCO, 2018, 32 citations)
+- [Classification of Intra-Pulse Modulation of Radar Signals by Feature Fusion Based Convolutional Neural Networks](https://ieeexplore.ieee.org/document/8553176) (EUSIPCO, 2018, 33 citations)
 - [Deep Learning in Electronic Warfare Systems: Automatic Intra-Pulse Modulation Recognition](https://ieeexplore.ieee.org/document/8404294) (SIU, 2018, 17 citations)
 - [Drone-vs-Bird Detection Challenge at ICIAP 2021](https://link.springer.com/chapter/10.1007/978-3-031-13324-4_35) (ICIAP Workshops, 2022, 17 citations)
 - [Towards Cognitive Sensing: Radar Function Classification Using Multitask Learning](https://ieeexplore.ieee.org/document/8806336) (SIU, 2019, 11 citations)

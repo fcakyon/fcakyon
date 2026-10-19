@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12",
+  "updated_at": "2026-10-19",
   "scholar_profile": "RHGyDE0AAAAJ",
   "open_source": [
     {
@@ -17,9 +17,9 @@
       "image": "assets/source/repos/sahi.jpg",
       "featured": true,
       "metrics": {
-        "stars": 5543,
-        "forks": 790,
-        "downloads_month": "141k"
+        "stars": 5555,
+        "forks": 789,
+        "downloads_month": "142k"
       }
     },
     {
@@ -36,9 +36,9 @@
       "image": "assets/source/repos/claude-codex-settings.jpg",
       "featured": true,
       "metrics": {
-        "stars": 1174,
-        "forks": 109,
-        "downloads_total": 41493
+        "stars": 1181,
+        "forks": 112,
+        "downloads_total": 47494
       }
     },
     {
@@ -54,8 +54,8 @@
       "image": "assets/source/repos/phd-skills.jpg",
       "featured": true,
       "metrics": {
-        "stars": 416,
-        "forks": 36
+        "stars": 424,
+        "forks": 37
       }
     },
     {
@@ -73,8 +73,8 @@
       "image_fit": "zoom-out",
       "featured": true,
       "metrics": {
-        "stars": 62417,
-        "forks": 11849,
+        "stars": 62631,
+        "forks": 11871,
         "downloads_month": "4M"
       }
     },
@@ -83,7 +83,7 @@
       "url": "https://github.com/fcakyon/claude-code-with-codex",
       "repo": "fcakyon/claude-code-with-codex",
       "metrics": {
-        "stars": 28,
+        "stars": 30,
         "forks": 6
       },
       "description": "A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor."
@@ -103,7 +103,7 @@
       "url": "https://github.com/viddexa/safetext",
       "repo": "viddexa/safetext",
       "metrics": {
-        "stars": 57,
+        "stars": 58,
         "forks": 9
       },
       "description": "Profanity detection and filtering for 13 languages."
@@ -113,7 +113,7 @@
       "url": "https://github.com/viddexa/moderators",
       "repo": "viddexa/moderators",
       "metrics": {
-        "stars": 7,
+        "stars": 8,
         "forks": 0
       },
       "description": "Run content moderation models through one Python API or CLI."
@@ -183,7 +183,7 @@
       "url": "https://github.com/fcakyon/craft-text-detector",
       "repo": "fcakyon/craft-text-detector",
       "metrics": {
-        "stars": 276,
+        "stars": 275,
         "forks": 117
       },
       "description": "A packaged, cross-platform CRAFT text detector."
@@ -193,7 +193,7 @@
       "url": "https://github.com/safevideo/autollm",
       "repo": "safevideo/autollm",
       "metrics": {
-        "stars": 1005,
+        "stars": 1004,
         "forks": 97
       },
       "description": "Utilities for building applications with large language models."
@@ -203,7 +203,7 @@
       "url": "https://github.com/fcakyon/content-moderation-deep-learning",
       "repo": "fcakyon/content-moderation-deep-learning",
       "metrics": {
-        "stars": 407,
+        "stars": 408,
         "forks": 26
       },
       "description": "Multimodal deep-learning tools for content moderation."
@@ -233,7 +233,7 @@
       "url": "https://github.com/ultralytics/lite",
       "repo": "ultralytics/lite",
       "metrics": {
-        "stars": 33,
+        "stars": 35,
         "forks": 7
       },
       "description": "A fast, local workspace for coding agents and your shell."
@@ -250,7 +250,7 @@
       "image": "assets/source/papers/yolo26.png",
       "featured": true,
       "metrics": {
-        "citations": 248
+        "citations": 271
       }
     },
     {
@@ -276,7 +276,7 @@
       "image": "assets/source/papers/sahi.png",
       "featured": true,
       "metrics": {
-        "citations": 1060
+        "citations": 1070
       }
     },
     {
@@ -289,7 +289,7 @@
       "image": "assets/source/papers/polypharmacy.png",
       "featured": true,
       "metrics": {
-        "citations": 55
+        "citations": 56
       }
     },
     {
@@ -319,7 +319,7 @@
       "year": 2024,
       "scholar_id": "j3f4tGmQtD8C",
       "metrics": {
-        "citations": 24
+        "citations": 26
       }
     },
     {
@@ -329,7 +329,7 @@
       "year": 2021,
       "scholar_id": "MXK_kJrjxJIC",
       "metrics": {
-        "citations": 266
+        "citations": 267
       }
     },
     {
@@ -409,7 +409,7 @@
       "year": 2018,
       "scholar_id": "qjMakFHDy7sC",
       "metrics": {
-        "citations": 32
+        "citations": 33
       }
     },
     {
