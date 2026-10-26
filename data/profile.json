@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19",
+  "updated_at": "2026-10-26",
   "scholar_profile": "RHGyDE0AAAAJ",
   "open_source": [
     {
@@ -17,9 +17,9 @@
       "image": "assets/source/repos/sahi.jpg",
       "featured": true,
       "metrics": {
-        "stars": 5555,
-        "forks": 789,
-        "downloads_month": "142k"
+        "stars": 5568,
+        "forks": 792,
+        "downloads_month": "145k"
       }
     },
     {
@@ -36,9 +36,9 @@
       "image": "assets/source/repos/claude-codex-settings.jpg",
       "featured": true,
       "metrics": {
-        "stars": 1181,
-        "forks": 112,
-        "downloads_total": 47494
+        "stars": 1189,
+        "forks": 113,
+        "downloads_total": 54729
       }
     },
     {
@@ -54,8 +54,8 @@
       "image": "assets/source/repos/phd-skills.jpg",
       "featured": true,
       "metrics": {
-        "stars": 424,
-        "forks": 37
+        "stars": 434,
+        "forks": 38
       }
     },
     {
@@ -73,8 +73,8 @@
       "image_fit": "zoom-out",
       "featured": true,
       "metrics": {
-        "stars": 62631,
-        "forks": 11871,
+        "stars": 62849,
+        "forks": 11909,
         "downloads_month": "4M"
       }
     },
@@ -83,7 +83,7 @@
       "url": "https://github.com/fcakyon/claude-code-with-codex",
       "repo": "fcakyon/claude-code-with-codex",
       "metrics": {
-        "stars": 30,
+        "stars": 36,
         "forks": 6
       },
       "description": "A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor."
@@ -133,7 +133,7 @@
       "url": "https://github.com/fcakyon/labelme2coco",
       "repo": "fcakyon/labelme2coco",
       "metrics": {
-        "stars": 321,
+        "stars": 322,
         "forks": 67
       },
       "description": "Convert LabelMe annotations to COCO format."
@@ -193,7 +193,7 @@
       "url": "https://github.com/safevideo/autollm",
       "repo": "safevideo/autollm",
       "metrics": {
-        "stars": 1004,
+        "stars": 1002,
         "forks": 97
       },
       "description": "Utilities for building applications with large language models."
@@ -250,7 +250,7 @@
       "image": "assets/source/papers/yolo26.png",
       "featured": true,
       "metrics": {
-        "citations": 271
+        "citations": 292
       }
     },
     {
@@ -276,7 +276,7 @@
       "image": "assets/source/papers/sahi.png",
       "featured": true,
       "metrics": {
-        "citations": 1070
+        "citations": 1088
       }
     },
     {
@@ -289,7 +289,7 @@
       "image": "assets/source/papers/polypharmacy.png",
       "featured": true,
       "metrics": {
-        "citations": 56
+        "citations": 57
       }
     },
     {
@@ -329,7 +329,7 @@
       "year": 2021,
       "scholar_id": "MXK_kJrjxJIC",
       "metrics": {
-        "citations": 267
+        "citations": 268
       }
     },
     {
@@ -399,7 +399,7 @@
       "year": 2020,
       "scholar_id": "UebtZRa9Y70C",
       "metrics": {
-        "citations": 40
+        "citations": 41
       }
     },
     {
