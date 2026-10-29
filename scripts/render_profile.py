@@ -1,8 +1,16 @@
 # /// script
 # dependencies = ["pillow>=11"]
 # ///
-"""Render profile cards, README galleries, and full-list Markdown pages."""
+"""Render profile cards, README galleries, and full-list Markdown pages.
 
+Cards and their source images live on cdn.akyonlabs.com, backed by the
+akyonlabs-public-assets R2 bucket, not in git. Point a featured item's `image` at a
+local file and the next render uploads it and stores its CDN URL. Uploads use
+CLOUDFLARE_API_TOKEN, a repository secret in CI, or locally the token file
+~/.config/akyonlabs/cloudflare-r2-token.
+"""
+
+import hashlib
 import html
 import json
 import os
@@ -10,6 +18,7 @@ import re
 import shutil
 import subprocess
 import tempfile
+import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date
 from pathlib import Path
@@ -18,11 +27,18 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data/profile.json"
-CARD_DIR = ROOT / "assets/cards"
 TEMPLATE_PATH = ROOT / "templates/cards.html"
 CSS_PATH = ROOT / "templates/cards.css"
 README_START = "<!-- profile-cards:start -->"
 README_END = "<!-- profile-cards:end -->"
+R2_ACCOUNT = "24b962faa5fe5cb7bf6fd87a2fdcbace"
+R2_BUCKET = "akyonlabs-public-assets"
+R2_TOKEN = (
+    os.environ.get("CLOUDFLARE_API_TOKEN")
+    or (Path.home() / ".config/akyonlabs/cloudflare-r2-token").read_text().strip()
+)
+CDN_URL = "https://cdn.akyonlabs.com"
+CONTENT_TYPES = {".jpg": "image/jpeg", ".png": "image/png", ".webp": "image/webp"}
 
 SECTIONS = {
     "open_source": {
@@ -159,7 +175,6 @@ def render_card(section: str, item: dict) -> str:
     Returns:
         (str): Card HTML.
     """
-    image_uri = (ROOT / item["image"]).resolve().as_uri()
     card_class = (
         "card page-top"
         if section in ("papers", "patents", "peer_review")
@@ -173,7 +188,7 @@ def render_card(section: str, item: dict) -> str:
     )
     return (
         f'<article class="{card_class}">'
-        f'<div class="media"><img src="{image_uri}" alt=""></div>'
+        f'<div class="media"><img src="{item["image"]}" alt=""></div>'
         '<div class="content">'
         f'<p class="label">{html.escape(card_label(section, item))}</p>'
         f'<h2 class="title">{html.escape(item["name"])}</h2>'
@@ -216,13 +231,46 @@ def chrome_path() -> str:
     return executable
 
 
-def render_screenshot(job: tuple[str, Path, Path, int, int]) -> None:
+def upload(path: Path) -> str:
+    """Upload a file to the Akyon Labs CDN under its content hash.
+
+    Args:
+        path (Path): Local file to upload.
+
+    Returns:
+        (str): Public CDN URL of the file.
+    """
+    body = path.read_bytes()
+    key = f"fcakyon/static/{hashlib.sha256(body).hexdigest()[:16]}/{path.name}"
+    urllib.request.urlopen(
+        urllib.request.Request(
+            f"https://api.cloudflare.com/client/v4/accounts/{R2_ACCOUNT}/r2/buckets/{R2_BUCKET}/objects/{key}",
+            data=body,
+            method="PUT",
+            headers={
+                "Authorization": f"Bearer {R2_TOKEN}",
+                "Content-Type": CONTENT_TYPES[path.suffix],
+                "Cache-Control": "public, max-age=31536000, immutable",
+            },
+        )
+    ).close()
+    return f"{CDN_URL}/{key}"
+
+
+def render_screenshot(
+    executable: str, input_path: Path, width: int, height: int
+) -> Path:
     """Render one prepared card page with headless Chrome.
 
     Args:
-        job (tuple): Chrome path, input, output, width, and height.
+        executable (str): Chrome executable path.
+        input_path (Path): Prepared card page.
+        width (int): Window width in pixels.
+        height (int): Window height in pixels.
+
+    Returns:
+        (Path): Rendered WebP card next to the input page.
     """
-    executable, input_path, output_path, width, height = job
     png_path = input_path.with_suffix(".png")
     subprocess.run(
         [
@@ -233,7 +281,6 @@ def render_screenshot(job: tuple[str, Path, Path, int, int]) -> None:
             "--hide-scrollbars",
             "--log-level=3",
             "--no-sandbox",
-            "--allow-file-access-from-files",
             "--force-device-scale-factor=1",
             f"--window-size={width},{height}",
             f"--screenshot={png_path}",
@@ -243,30 +290,35 @@ def render_screenshot(job: tuple[str, Path, Path, int, int]) -> None:
         ],
         check=True,
     )
+    output_path = input_path.with_suffix(".webp")
     with Image.open(png_path) as image:
         image.save(output_path, "WEBP", quality=88, method=6)
-    png_path.unlink()
+    return output_path
 
 
-def render_cards(data: dict) -> None:
-    """Render every featured card in light, dark, desktop, and mobile forms.
+def render_cards(data: dict) -> dict[str, str]:
+    """Render and upload every featured card in light, dark, desktop, and mobile forms.
+
+    A featured item whose `image` is still a local path is uploaded first, and its
+    field is set to the CDN URL.
 
     Args:
-        data (dict): Canonical profile data.
+        data (dict): Canonical profile data, updated in place with uploaded image URLs.
+
+    Returns:
+        (dict[str, str]): CDN URL of each card, keyed by card name.
     """
-    CARD_DIR.mkdir(parents=True, exist_ok=True)
     template = TEMPLATE_PATH.read_text()
     css = CSS_PATH.read_text()
     executable = chrome_path()
-    for pattern in ("*.png", "*.webp"):
-        for path in CARD_DIR.glob(pattern):
-            path.unlink()
 
     with tempfile.TemporaryDirectory(prefix="fcakyon-cards-") as temporary:
         temporary_dir = Path(temporary)
-        jobs = []
+        jobs = {}
         for section, config in SECTIONS.items():
             for item in (entry for entry in data[section] if entry.get("featured")):
+                if not item["image"].startswith(CDN_URL):
+                    item["image"] = upload(ROOT / item["image"])
                 slug = card_slug(item["name"])
                 for layout_name, layout in LAYOUTS.items():
                     height = 2 * layout["padding"] + layout["media"] + layout["content"]
@@ -288,50 +340,43 @@ def render_cards(data: dict) -> None:
                             page = page.replace(f"{{{{{key}}}}}", value)
                         name = f"{config['output']}-{slug}-{layout_name}-{theme}"
                         input_path = temporary_dir / f"{name}.html"
-                        output_path = CARD_DIR / f"{name}.webp"
                         input_path.write_text(page)
-                        jobs.append(
-                            (
-                                executable,
-                                input_path,
-                                output_path,
-                                layout["width"],
-                                height,
-                            )
-                        )
+                        jobs[name] = (input_path, layout["width"], height)
         with ThreadPoolExecutor(max_workers=4) as executor:
-            list(executor.map(render_screenshot, jobs))
+            urls = executor.map(
+                lambda job: upload(render_screenshot(executable, *job)), jobs.values()
+            )
+            return dict(zip(jobs, urls))
 
 
-def render_picture(config: dict, item: dict) -> str:
+def render_picture(config: dict, item: dict, cards: dict[str, str]) -> str:
     """Render one linked, theme-aware README card.
 
     Args:
         config (dict): Section rendering configuration.
         item (dict): Featured card data.
+        cards (dict[str, str]): CDN URL of each card, keyed by card name.
 
     Returns:
         (str): Linked HTML picture element.
     """
-    prefix = f"assets/cards/{config['output']}-{card_slug(item['name'])}"
+    prefix = f"{config['output']}-{card_slug(item['name'])}"
     return (
         f'<a href="{html.escape(item["url"], quote=True)}"><picture>'
-        f'<source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="{prefix}-mobile-dark.webp 2.1x">'
-        f'<source media="(max-width: 700px)" srcset="{prefix}-mobile-light.webp 2.1x">'
-        f'<source media="(max-width: 1100px) and (prefers-color-scheme: dark)" srcset="{prefix}-desktop-dark.webp 1.65x">'
-        f'<source media="(max-width: 1100px)" srcset="{prefix}-desktop-light.webp 1.65x">'
-        f'<source media="(prefers-color-scheme: dark)" srcset="{prefix}-desktop-dark.webp 1.45x">'
-        f'<source media="(min-width: 1101px)" srcset="{prefix}-desktop-light.webp 1.45x">'
-        f'<img src="{prefix}-desktop-light.webp" alt="{html.escape(item["name"], quote=True)}">'
+        f'<source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="{cards[prefix + "-mobile-dark"]}">'
+        f'<source media="(max-width: 700px)" srcset="{cards[prefix + "-mobile-light"]}">'
+        f'<source media="(prefers-color-scheme: dark)" srcset="{cards[prefix + "-desktop-dark"]}">'
+        f'<img src="{cards[prefix + "-desktop-light"]}" width="170" alt="{html.escape(item["name"], quote=True)}">'
         "</picture></a>"
     )
 
 
-def render_readme(data: dict) -> None:
+def render_readme(data: dict, cards: dict[str, str]) -> None:
     """Replace the generated README gallery between its markers.
 
     Args:
         data (dict): Canonical profile data.
+        cards (dict[str, str]): CDN URL of each card, keyed by card name.
     """
     path = ROOT / "README.md"
     readme = path.read_text()
@@ -344,7 +389,7 @@ def render_readme(data: dict) -> None:
     for section, config in SECTIONS.items():
         lines.extend([f"## {config['title'].lower()}", "", "<p>"])
         lines.extend(
-            render_picture(config, item)
+            render_picture(config, item, cards)
             for item in data[section]
             if item.get("featured")
         )
@@ -404,8 +449,8 @@ def render_markdown(data: dict) -> None:
 def main() -> None:
     """Render cards and Markdown from the canonical data file."""
     data = json.loads(DATA_PATH.read_text())
-    render_cards(data)
-    render_readme(data)
+    render_readme(data, render_cards(data))
+    DATA_PATH.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
     render_markdown(data)
     print("Rendered profile cards and Markdown pages")
 

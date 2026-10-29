@@ -14,7 +14,7 @@
         "downloads_month"
       ],
       "description": "Sliced inference for small object detection.",
-      "image": "assets/source/repos/sahi.jpg",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/5cd08a7b180f9d7b/sahi.jpg",
       "featured": true,
       "metrics": {
         "stars": 5568,
@@ -33,7 +33,7 @@
         "downloads_total"
       ],
       "description": "Agent skills, hooks, and plugin marketplaces.",
-      "image": "assets/source/repos/claude-codex-settings.jpg",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/b0644bb45f1eec90/claude-codex-settings.jpg",
       "featured": true,
       "metrics": {
         "stars": 1189,
@@ -51,7 +51,7 @@
         "forks"
       ],
       "description": "Research workflows for paper reproduction and review.",
-      "image": "assets/source/repos/phd-skills.jpg",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/3228b71fb828cd9b/phd-skills.jpg",
       "featured": true,
       "metrics": {
         "stars": 434,
@@ -69,7 +69,7 @@
         "downloads_month"
       ],
       "description": "World's most used real-time vision AI models across 7 tasks.",
-      "image": "assets/source/repos/ultralytics.png",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/7a7fa3d57f1ffdc9/ultralytics.png",
       "image_fit": "zoom-out",
       "featured": true,
       "metrics": {
@@ -247,7 +247,7 @@
       "venue": "Preprint",
       "year": 2026,
       "scholar_id": "blknAaTinKkC",
-      "image": "assets/source/papers/yolo26.png",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/05c7b32d62953a16/yolo26.png",
       "featured": true,
       "metrics": {
         "citations": 292
@@ -260,7 +260,7 @@
       "venue": "CVPR Workshops",
       "year": 2026,
       "scholar_id": "M3NEmzRMIkIC",
-      "image": "assets/source/papers/senben.webp",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/210cc54c2794edd1/senben.webp",
       "featured": true,
       "metrics": {
         "citations": 1
@@ -273,7 +273,7 @@
       "venue": "ICIP",
       "year": 2022,
       "scholar_id": "ULOm3_A8WrAC",
-      "image": "assets/source/papers/sahi.png",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/5309f012f4a5b21e/sahi.png",
       "featured": true,
       "metrics": {
         "citations": 1088
@@ -286,7 +286,7 @@
       "venue": "Frontiers in Medicine",
       "year": 2023,
       "scholar_id": "hC7cP41nSMkC",
-      "image": "assets/source/papers/polypharmacy.png",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/95030ee925e39229/polypharmacy.png",
       "featured": true,
       "metrics": {
         "citations": 57
@@ -562,7 +562,7 @@
       "assignee": "ASELSAN",
       "status": "Granted",
       "year": 2022,
-      "image": "assets/source/patents/TR201819484A2.webp",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/e2453eb95844c723/TR201819484A2.webp",
       "featured": true
     },
     {
@@ -573,7 +573,7 @@
       "assignee": "ASELSAN",
       "status": "Granted",
       "year": 2022,
-      "image": "assets/source/patents/TR201905917A2.webp",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/90c07c2d22070734/TR201905917A2.webp",
       "featured": true
     },
     {
@@ -584,7 +584,7 @@
       "assignee": "ASELSAN",
       "status": "Granted",
       "year": 2021,
-      "image": "assets/source/patents/TR201905460A1.webp",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/3b2663b6dc4f6a23/TR201905460A1.webp",
       "featured": true
     },
     {
@@ -595,7 +595,7 @@
       "assignee": "ASELSAN",
       "status": "Granted",
       "year": 2021,
-      "image": "assets/source/patents/TR201905907A1.webp",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/24a4c2f7f523606e/TR201905907A1.webp",
       "featured": true
     },
     {
@@ -634,7 +634,7 @@
       "date": "2026-08-19",
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:7495862925241360384/",
       "description": "A panel on competition in the AI age and the role of open weights.",
-      "image": "assets/source/talks/competition-authority.jpg",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/a3f9347273e9065c/competition-authority.jpg",
       "featured": true
     },
     {
@@ -644,7 +644,7 @@
       "date": "2026-05-18",
       "url": "https://www.linkedin.com/posts/fcakyon_when-the-creator-of-claude-code-boris-cherny-activity-7462203933130772480-DIph",
       "description": "I spoke after [Boris Cherny](https://www.linkedin.com/in/bcherny) about my Claude Code plugin marketplace.",
-      "image": "assets/source/talks/claude-code-ankara.jpg",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/fb29e0328edca16b/claude-code-ankara.jpg",
       "featured": true
     },
     {
@@ -654,7 +654,7 @@
       "date": "2025-12-02",
       "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7401704227871293440/",
       "description": "Practical AI tools, hidden configs, and productive daily workflows.",
-      "image": "assets/source/talks/hacettepe-ai-fest.jpg",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/361afedeeb0a3535/hacettepe-ai-fest.jpg",
       "featured": true
     },
     {
@@ -664,7 +664,7 @@
       "date": "2025-11-17",
       "url": "https://www.linkedin.com/posts/fcakyon_two-weeks-ago-i-gave-a-workshop-on-how-activity-7396079674310692864-kTFV",
       "description": "A hands-on workshop covering MCPs, subagents, hooks, and paper search.",
-      "image": "assets/source/talks/metu-ai-research.jpg",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/c4b24c2882e8b3e5/metu-ai-research.jpg",
       "featured": true
     },
     {
@@ -684,36 +684,51 @@
   ],
   "products": [
     {
+      "name": "MuviSafe",
+      "url": "https://muvisafe.com/en",
+      "description": "Filter inappropriate movie scenes while you stream.",
+      "kind": "Family streaming",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/e1b200ae2c7c403b/muvisafe.webp",
+      "featured": true
+    },
+    {
       "name": "My AI Patient",
       "url": "https://myaipatient.com",
       "description": "Clinical consultation training with responsive AI patients.",
       "kind": "Clinical training",
-      "image": "assets/source/products/my-ai-patient.webp",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/fa7faff884be4b22/my-ai-patient.webp",
+      "featured": true
+    },
+    {
+      "name": "Quizroom",
+      "url": "https://quiz.akyonlabs.com",
+      "description": "Live quizzes between your slides, answered from any phone.",
+      "kind": "Live quizzes",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/b34f44aacc6f9f9f/quizroom.webp",
+      "featured": true
+    },
+    {
+      "name": "Orc-hestrator",
+      "url": "https://orc.akyonlabs.com",
+      "description": "GPU fleet monitoring and experiment tracking for training runs.",
+      "kind": "Experiment tracking",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/7c102c0e138a49d3/orc-hestrator.webp",
       "featured": true
     },
     {
       "name": "Fast & Rational",
       "url": "https://fastrational.com/en",
-      "description": "Drug and disease interaction support for rational prescribing.",
-      "kind": "Clinical decision support",
-      "image": "assets/source/products/fast-rational.webp",
-      "featured": true
-    },
-    {
-      "name": "MuviSafe",
-      "url": "https://muvisafe.com/en",
-      "description": "Filter inappropriate movie scenes while you stream.",
-      "kind": "Family streaming",
-      "image": "assets/source/products/muvisafe.webp",
-      "featured": true
+      "description": "Drug and disease interaction support for rational prescribing."
     },
     {
       "name": "Claude Settings",
       "url": "https://claudesettings.com",
-      "description": "Ready-to-use settings, plugins, and skills for AI coding agents.",
-      "kind": "Developer tools",
-      "image": "assets/source/products/claude-settings.webp",
-      "featured": true
+      "description": "Ready-to-use settings, plugins, and skills for AI coding agents."
+    },
+    {
+      "name": "NotAlone",
+      "url": "https://notalone.akyonlabs.com",
+      "description": "Connects people with community activities through professional referrals."
     }
   ],
   "peer_review": [
@@ -724,7 +739,7 @@
       "impact_factor": "12.3",
       "quartile": "Q1",
       "description": "Remote sensing object detection, Geospatial Foundation AI issue.",
-      "image": "assets/source/peer-review/remote-sensing-of-environment.webp",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/8799ab0f70cd5f54/remote-sensing-of-environment.webp",
       "featured": true
     },
     {
@@ -734,7 +749,7 @@
       "impact_factor": "4.9",
       "quartile": "Q1",
       "description": "Reviewed 1 manuscript in 2026.",
-      "image": "assets/source/peer-review/scientific-reports.webp",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/db3e9255dd4b5b4f/scientific-reports.webp",
       "featured": true
     },
     {
@@ -744,7 +759,7 @@
       "impact_factor": "4.8",
       "quartile": "Q1",
       "description": "Reviewed 1 manuscript in 2026.",
-      "image": "assets/source/peer-review/humanities-social-sciences-communications.webp",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/285f3f1a1f940390/humanities-social-sciences-communications.webp",
       "featured": true
     },
     {
@@ -754,7 +769,7 @@
       "impact_factor": "2.9",
       "quartile": "Q1",
       "description": "Reviewed 1 manuscript in 2026.",
-      "image": "assets/source/peer-review/bmc-primary-care.webp",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/1eec1f5d17892eb5/bmc-primary-care.webp",
       "featured": true
     }
   ],
@@ -766,7 +781,7 @@
       "date": "2026-06-09",
       "url": "https://www.ultralytics.com/blog/key-highlights-from-ultralytics-at-cvpr-2026",
       "description": "Company report featuring my SenBen presentation at CVPR in Denver.",
-      "image": "assets/source/media/ultralytics-cvpr-2026.webp",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/29e4e1d093f38464/ultralytics-cvpr-2026.webp",
       "featured": true
     },
     {
@@ -784,7 +799,7 @@
       "date": "2024-03-29",
       "url": "https://webrazzi.com/2024/03/29/artificial-intelligence-future-leaders-fellowship-programinin-ilk-donemine-secilen-girisimler/",
       "description": "SafeVideo AI, now Viddexa AI, selected for the first cohort.",
-      "image": "assets/source/media/webrazzi-flai.webp",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/c18f180af960a578/webrazzi-flai.webp",
       "featured": true
     },
     {
@@ -794,7 +809,7 @@
       "date": "2024-01-24",
       "url": "https://ticarihayatcom.teimg.com/ticarihayat-com/uploads/2024/01/cilt1-107.pdf",
       "description": "Front-page story on my radio talk about AI reliability and law.",
-      "image": "assets/source/media/ticari-hayat.webp",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/be261af23ef373c9/ticari-hayat.webp",
       "featured": true
     },
     {
@@ -804,7 +819,7 @@
       "date": "2024-01-11",
       "url": "https://www.hurriyet.com.tr/yerel-haberler/ankara/teknoloji-trafiginin-ilk-konusu-yapay-zeka-42389359",
       "description": "Coverage of my AI expert interview on Radyo Trafik Ankara, in Turkish.",
-      "image": "assets/source/media/hurriyet-radyo-trafik.webp",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/f5fdeb0812728ef2/hurriyet-radyo-trafik.webp",
       "featured": true
     },
     {
