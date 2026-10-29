@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26",
+  "updated_at": "2026-10-29",
   "scholar_profile": "RHGyDE0AAAAJ",
   "open_source": [
     {
@@ -17,9 +17,9 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5cd08a7b180f9d7b/sahi.jpg",
       "featured": true,
       "metrics": {
-        "stars": 5568,
-        "forks": 792,
-        "downloads_month": "145k"
+        "stars": 5574,
+        "forks": 794,
+        "downloads_month": "152k"
       }
     },
     {
@@ -36,9 +36,9 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/b0644bb45f1eec90/claude-codex-settings.jpg",
       "featured": true,
       "metrics": {
-        "stars": 1189,
-        "forks": 113,
-        "downloads_total": 54729
+        "stars": 1193,
+        "forks": 112,
+        "downloads_total": 58285
       }
     },
     {
@@ -54,7 +54,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/3228b71fb828cd9b/phd-skills.jpg",
       "featured": true,
       "metrics": {
-        "stars": 434,
+        "stars": 437,
         "forks": 38
       }
     },
@@ -73,9 +73,9 @@
       "image_fit": "zoom-out",
       "featured": true,
       "metrics": {
-        "stars": 62849,
-        "forks": 11909,
-        "downloads_month": "4M"
+        "stars": 62973,
+        "forks": 11933,
+        "downloads_month": "5M"
       }
     },
     {
@@ -84,7 +84,7 @@
       "repo": "fcakyon/claude-code-with-codex",
       "metrics": {
         "stars": 36,
-        "forks": 6
+        "forks": 5
       },
       "description": "A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor."
     },
@@ -103,7 +103,7 @@
       "url": "https://github.com/viddexa/safetext",
       "repo": "viddexa/safetext",
       "metrics": {
-        "stars": 58,
+        "stars": 59,
         "forks": 9
       },
       "description": "Profanity detection and filtering for 13 languages."
@@ -233,7 +233,7 @@
       "url": "https://github.com/ultralytics/lite",
       "repo": "ultralytics/lite",
       "metrics": {
-        "stars": 35,
+        "stars": 36,
         "forks": 7
       },
       "description": "A fast, local workspace for coding agents and your shell."
@@ -250,7 +250,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/05c7b32d62953a16/yolo26.png",
       "featured": true,
       "metrics": {
-        "citations": 292
+        "citations": 307
       }
     },
     {
@@ -276,7 +276,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5309f012f4a5b21e/sahi.png",
       "featured": true,
       "metrics": {
-        "citations": 1088
+        "citations": 1095
       }
     },
     {
@@ -329,7 +329,7 @@
       "year": 2021,
       "scholar_id": "MXK_kJrjxJIC",
       "metrics": {
-        "citations": 268
+        "citations": 269
       }
     },
     {
