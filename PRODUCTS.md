@@ -10,4 +10,3 @@ Web products I have built and operate.
 - [Orc-hestrator](https://orc.akyonlabs.com): GPU fleet monitoring and experiment tracking for training runs.
 - [Fast & Rational](https://fastrational.com/en): Drug and disease interaction support for rational prescribing.
 - [Claude Settings](https://claudesettings.com): Ready-to-use settings, plugins, and skills for AI coding agents.
-- [NotAlone](https://notalone.akyonlabs.com): Connects people with community activities through professional referrals.

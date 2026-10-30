@@ -73,14 +73,6 @@ SECTIONS = {
         "view": "View all patents",
         "introduction": "Granted Turkish patents and PCT applications, linked to their public records.",
     },
-    "peer_review": {
-        "title": "Peer review",
-        "accent": "#7c3aed",
-        "output": "peer-review",
-        "page": "PEER_REVIEW.md",
-        "view": "View all peer review",
-        "introduction": "Journals I review manuscripts for, linked to their impact factor pages.",
-    },
     "products": {
         "title": "Products",
         "accent": "#db5b75",
@@ -88,6 +80,14 @@ SECTIONS = {
         "page": "PRODUCTS.md",
         "view": "View all products",
         "introduction": "Web products I have built and operate.",
+    },
+    "peer_review": {
+        "title": "Peer review",
+        "accent": "#7c3aed",
+        "output": "peer-review",
+        "page": "PEER_REVIEW.md",
+        "view": "View all peer review",
+        "introduction": "Journals I review manuscripts for, linked to their impact factor pages.",
     },
     "media": {
         "title": "Media",
