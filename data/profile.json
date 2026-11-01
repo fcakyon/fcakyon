@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29",
+  "updated_at": "2026-11-01",
   "scholar_profile": "RHGyDE0AAAAJ",
   "open_source": [
     {
@@ -17,9 +17,9 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5cd08a7b180f9d7b/sahi.jpg",
       "featured": true,
       "metrics": {
-        "stars": 5574,
-        "forks": 794,
-        "downloads_month": "152k"
+        "stars": 5576,
+        "forks": 793,
+        "downloads_month": "151k"
       }
     },
     {
@@ -36,25 +36,25 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/b0644bb45f1eec90/claude-codex-settings.jpg",
       "featured": true,
       "metrics": {
-        "stars": 1193,
+        "stars": 1195,
         "forks": 112,
-        "downloads_total": 58285
+        "downloads_total": 63152
       }
     },
     {
-      "name": "PhD Skills",
-      "url": "https://github.com/fcakyon/phd-skills",
-      "repo": "fcakyon/phd-skills",
+      "name": "Lab Rat",
+      "url": "https://github.com/fcakyon/labrat",
+      "repo": "fcakyon/labrat",
       "kind": "Agent skills",
       "card_metrics": [
         "stars",
         "forks"
       ],
-      "description": "Research workflows for paper reproduction and review.",
-      "image": "https://cdn.akyonlabs.com/fcakyon/static/3228b71fb828cd9b/phd-skills.jpg",
+      "description": "Teaches coding agents to reproduce papers and compare runs.",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/5babc9779f5db358/labrat.png",
       "featured": true,
       "metrics": {
-        "stars": 437,
+        "stars": 446,
         "forks": 38
       }
     },
@@ -73,8 +73,8 @@
       "image_fit": "zoom-out",
       "featured": true,
       "metrics": {
-        "stars": 62973,
-        "forks": 11933,
+        "stars": 63017,
+        "forks": 11954,
         "downloads_month": "5M"
       }
     },
@@ -153,7 +153,7 @@
       "url": "https://github.com/fcakyon/yolov5-pip",
       "repo": "fcakyon/yolov5-pip",
       "metrics": {
-        "stars": 293,
+        "stars": 294,
         "forks": 69
       },
       "description": "A packaged YOLOv5 distribution with added utilities."
@@ -250,7 +250,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/05c7b32d62953a16/yolo26.png",
       "featured": true,
       "metrics": {
-        "citations": 307
+        "citations": 336
       }
     },
     {
@@ -276,7 +276,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5309f012f4a5b21e/sahi.png",
       "featured": true,
       "metrics": {
-        "citations": 1095
+        "citations": 1109
       }
     },
     {
@@ -349,7 +349,7 @@
       "year": 2021,
       "scholar_id": "8k81kl-MbHgC",
       "metrics": {
-        "citations": 47
+        "citations": 48
       }
     },
     {
@@ -489,7 +489,7 @@
       "year": 2025,
       "scholar_id": "r0BpntZqJG4C",
       "metrics": {
-        "citations": 5
+        "citations": 6
       }
     },
     {

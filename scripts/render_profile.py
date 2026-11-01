@@ -13,6 +13,7 @@ CLOUDFLARE_API_TOKEN, a repository secret in CI, or locally the token file
 import hashlib
 import html
 import json
+import mimetypes
 import os
 import re
 import shutil
@@ -38,7 +39,6 @@ R2_TOKEN = (
     or (Path.home() / ".config/akyonlabs/cloudflare-r2-token").read_text().strip()
 )
 CDN_URL = "https://cdn.akyonlabs.com"
-CONTENT_TYPES = {".jpg": "image/jpeg", ".png": "image/png", ".webp": "image/webp"}
 
 SECTIONS = {
     "open_source": {
@@ -249,7 +249,7 @@ def upload(path: Path) -> str:
             method="PUT",
             headers={
                 "Authorization": f"Bearer {R2_TOKEN}",
-                "Content-Type": CONTENT_TYPES[path.suffix],
+                "Content-Type": mimetypes.guess_type(path)[0],
                 "Cache-Control": "public, max-age=31536000, immutable",
             },
         )
