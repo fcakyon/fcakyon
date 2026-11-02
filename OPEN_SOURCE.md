@@ -4,10 +4,10 @@
 
 Packages, developer tools, research code, and applications I maintain or created.
 
-- [SAHI](https://github.com/obss/sahi) (5,576 stars): Sliced inference for small object detection.
-- [Claude & Codex Settings](https://github.com/fcakyon/claude-codex-settings) (1,195 stars): Agent skills, hooks, and plugin marketplaces.
+- [SAHI](https://github.com/obss/sahi) (5,578 stars): Sliced inference for small object detection.
+- [Claude & Codex Settings](https://github.com/fcakyon/claude-codex-settings) (1,196 stars): Agent skills, hooks, and plugin marketplaces.
 - [Lab Rat](https://github.com/fcakyon/labrat) (446 stars): Teaches coding agents to reproduce papers and compare runs.
-- [Ultralytics](https://github.com/ultralytics/ultralytics) (63,017 stars): World's most used real-time vision AI models across 7 tasks.
+- [Ultralytics](https://github.com/ultralytics/ultralytics) (63,042 stars): World's most used real-time vision AI models across 7 tasks.
 - [Claude Code with Codex](https://github.com/fcakyon/claude-code-with-codex) (36 stars): A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor.
 - [Image Comparison](https://github.com/fcakyon/streamlit-image-comparison) (254 stars): A responsive before-and-after image component.
 - [SafeText](https://github.com/viddexa/safetext) (59 stars): Profanity detection and filtering for 13 languages.

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01",
+  "updated_at": "2026-11-02",
   "scholar_profile": "RHGyDE0AAAAJ",
   "open_source": [
     {
@@ -17,9 +17,9 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5cd08a7b180f9d7b/sahi.jpg",
       "featured": true,
       "metrics": {
-        "stars": 5576,
+        "stars": 5578,
         "forks": 793,
-        "downloads_month": "151k"
+        "downloads_month": "145k"
       }
     },
     {
@@ -36,9 +36,9 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/b0644bb45f1eec90/claude-codex-settings.jpg",
       "featured": true,
       "metrics": {
-        "stars": 1195,
+        "stars": 1196,
         "forks": 112,
-        "downloads_total": 63152
+        "downloads_total": 63628
       }
     },
     {
@@ -73,8 +73,8 @@
       "image_fit": "zoom-out",
       "featured": true,
       "metrics": {
-        "stars": 63017,
-        "forks": 11954,
+        "stars": 63042,
+        "forks": 11960,
         "downloads_month": "5M"
       }
     },
