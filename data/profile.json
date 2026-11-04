@@ -700,11 +700,11 @@
       "featured": true
     },
     {
-      "name": "Quizroom",
-      "url": "https://quiz.akyonlabs.com",
-      "description": "Live quizzes between your slides, answered from any phone.",
-      "kind": "Live quizzes",
-      "image": "https://cdn.akyonlabs.com/fcakyon/static/b34f44aacc6f9f9f/quizroom.webp",
+      "name": "OpenStage",
+      "url": "https://stage.akyonlabs.com",
+      "description": "Slides, live demos and phone quizzes in one presentation.",
+      "kind": "Live presentations",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/b5c8ac4d04a838ea/openstage.webp",
       "featured": true
     },
     {
