@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02",
+  "updated_at": "2026-11-07",
   "scholar_profile": "RHGyDE0AAAAJ",
   "open_source": [
     {
@@ -17,9 +17,9 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5cd08a7b180f9d7b/sahi.jpg",
       "featured": true,
       "metrics": {
-        "stars": 5578,
+        "stars": 5591,
         "forks": 793,
-        "downloads_month": "145k"
+        "downloads_month": "154k"
       }
     },
     {
@@ -36,9 +36,9 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/b0644bb45f1eec90/claude-codex-settings.jpg",
       "featured": true,
       "metrics": {
-        "stars": 1196,
-        "forks": 112,
-        "downloads_total": 63628
+        "stars": 1200,
+        "forks": 113,
+        "downloads_total": 68525
       }
     },
     {
@@ -54,7 +54,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5babc9779f5db358/labrat.png",
       "featured": true,
       "metrics": {
-        "stars": 446,
+        "stars": 452,
         "forks": 38
       }
     },
@@ -73,8 +73,8 @@
       "image_fit": "zoom-out",
       "featured": true,
       "metrics": {
-        "stars": 63042,
-        "forks": 11960,
+        "stars": 63196,
+        "forks": 11976,
         "downloads_month": "5M"
       }
     },
@@ -83,8 +83,8 @@
       "url": "https://github.com/fcakyon/claude-code-with-codex",
       "repo": "fcakyon/claude-code-with-codex",
       "metrics": {
-        "stars": 36,
-        "forks": 5
+        "stars": 40,
+        "forks": 6
       },
       "description": "A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor."
     },
@@ -183,7 +183,7 @@
       "url": "https://github.com/fcakyon/craft-text-detector",
       "repo": "fcakyon/craft-text-detector",
       "metrics": {
-        "stars": 275,
+        "stars": 276,
         "forks": 117
       },
       "description": "A packaged, cross-platform CRAFT text detector."
@@ -203,7 +203,7 @@
       "url": "https://github.com/fcakyon/content-moderation-deep-learning",
       "repo": "fcakyon/content-moderation-deep-learning",
       "metrics": {
-        "stars": 408,
+        "stars": 406,
         "forks": 26
       },
       "description": "Multimodal deep-learning tools for content moderation."
@@ -233,7 +233,7 @@
       "url": "https://github.com/ultralytics/lite",
       "repo": "ultralytics/lite",
       "metrics": {
-        "stars": 36,
+        "stars": 38,
         "forks": 7
       },
       "description": "A fast, local workspace for coding agents and your shell."
@@ -250,7 +250,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/05c7b32d62953a16/yolo26.png",
       "featured": true,
       "metrics": {
-        "citations": 336
+        "citations": 396
       }
     },
     {
@@ -276,7 +276,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5309f012f4a5b21e/sahi.png",
       "featured": true,
       "metrics": {
-        "citations": 1109
+        "citations": 1131
       }
     },
     {
@@ -329,7 +329,7 @@
       "year": 2021,
       "scholar_id": "MXK_kJrjxJIC",
       "metrics": {
-        "citations": 269
+        "citations": 270
       }
     },
     {
