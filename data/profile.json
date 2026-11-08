@@ -280,14 +280,24 @@
       }
     },
     {
-      "name": "Polypharmacy AI",
+      "name": "LLM Evaluation",
+      "title": "Evaluating the Capabilities of Generative AI Tools in Understanding Medical Papers: Qualitative Study",
+      "url": "https://medinform.jmir.org/2024/1/e59258",
+      "venue": "JMIR Medical Informatics",
+      "year": 2024,
+      "scholar_id": "j3f4tGmQtD8C",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/2355f736840bebd5/llm-evaluation.png",
+      "featured": true,
+      "metrics": {
+        "citations": 26
+      }
+    },
+    {
       "title": "Artificial intelligence-supported web application design and development for reducing polypharmacy side effects and supporting rational drug use in geriatric patients",
       "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2023.1029198/full",
       "venue": "Frontiers in Medicine",
       "year": 2023,
       "scholar_id": "hC7cP41nSMkC",
-      "image": "https://cdn.akyonlabs.com/fcakyon/static/95030ee925e39229/polypharmacy.png",
-      "featured": true,
       "metrics": {
         "citations": 57
       }
@@ -310,16 +320,6 @@
       "scholar_id": "qxL8FJ1GzNcC",
       "metrics": {
         "citations": 37
-      }
-    },
-    {
-      "title": "Evaluating the Capabilities of Generative AI Tools in Understanding Medical Papers: Qualitative Study",
-      "url": "https://medinform.jmir.org/2024/1/e59258",
-      "venue": "JMIR Medical Informatics",
-      "year": 2024,
-      "scholar_id": "j3f4tGmQtD8C",
-      "metrics": {
-        "citations": 26
       }
     },
     {
