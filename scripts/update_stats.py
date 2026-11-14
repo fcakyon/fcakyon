@@ -37,14 +37,14 @@ def scholar_session() -> requests.Session:
     return session
 
 
-def fetch_scholar_counts(profile_id: str) -> dict[str, int]:
-    """Fetch exact citation totals from one Google Scholar profile page.
+def fetch_scholar_counts(profile_id: str) -> tuple[int, dict[str, int]]:
+    """Fetch profile total and per-paper citation counts from Google Scholar.
 
     Args:
         profile_id (str): Google Scholar profile identifier.
 
     Returns:
-        (dict[str, int]): Citation totals keyed by Scholar publication identifier.
+        (tuple[int, dict[str, int]]): Profile-wide citation total and counts keyed by Scholar publication ID.
     """
     for attempt in range(1, SCHOLAR_ATTEMPTS + 1):
         try:
@@ -69,6 +69,14 @@ def fetch_scholar_counts(profile_id: str) -> dict[str, int]:
             f"Google Scholar failed through {SCHOLAR_ATTEMPTS} fresh proxy sessions: {failure}"
         )
 
+    total_match = re.search(
+        r'>Citations</a></td>\s*<td class="gsc_rsb_std">([\d,]+)</td>',
+        response.text,
+    )
+    if not total_match:
+        raise RuntimeError("Google Scholar profile total citations not found")
+    total_citations = int(total_match.group(1).replace(",", ""))
+
     counts = {}
     for block in response.text.split('<tr class="gsc_a_tr"')[1:]:
         publication = re.search(r'citation_for_view=[^:&"]+:([^&"]+)', block)
@@ -77,7 +85,7 @@ def fetch_scholar_counts(profile_id: str) -> dict[str, int]:
             counts[html.unescape(publication.group(1))] = (
                 int(citations.group(1) or 0) if citations else 0
             )
-    return counts
+    return total_citations, counts
 
 
 def fetch_repo_metrics(repo: str, token: str) -> dict[str, int]:
@@ -177,10 +185,11 @@ def main() -> None:
             executor.submit(fetch_project_metrics, project, token)
             for project in projects
         ]
-        citations = citation_future.result()
+        total_citations, citations = citation_future.result()
         for project, future in zip(projects, project_futures, strict=True):
             project["metrics"].update(future.result())
 
+    data["scholar_citations"] = total_citations
     for paper in (item for item in data["papers"] if item.get("scholar_id")):
         paper["metrics"]["citations"] = citations[paper["scholar_id"]]
 
