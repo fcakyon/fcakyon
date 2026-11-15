@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-14",
+  "updated_at": "2026-11-15",
   "scholar_profile": "RHGyDE0AAAAJ",
-  "scholar_citations": 2429,
+  "scholar_citations": 2441,
   "open_source": [
     {
       "name": "SAHI",
@@ -20,7 +20,7 @@
       "metrics": {
         "stars": 5604,
         "forks": 793,
-        "downloads_month": "155k"
+        "downloads_month": "149k"
       }
     },
     {
@@ -39,7 +39,7 @@
       "metrics": {
         "stars": 1211,
         "forks": 113,
-        "downloads_total": 77527
+        "downloads_total": 78482
       }
     },
     {
@@ -74,8 +74,8 @@
       "image_fit": "zoom-out",
       "featured": true,
       "metrics": {
-        "stars": 63388,
-        "forks": 11991,
+        "stars": 63440,
+        "forks": 12011,
         "downloads_month": "5M"
       }
     },
@@ -85,7 +85,7 @@
       "repo": "fcakyon/claude-code-with-codex",
       "metrics": {
         "stars": 45,
-        "forks": 6
+        "forks": 7
       },
       "description": "A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor."
     },
@@ -251,7 +251,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/05c7b32d62953a16/yolo26.png",
       "featured": true,
       "metrics": {
-        "citations": 423
+        "citations": 432
       }
     },
     {
@@ -277,7 +277,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5309f012f4a5b21e/sahi.png",
       "featured": true,
       "metrics": {
-        "citations": 1143
+        "citations": 1145
       }
     },
     {
@@ -400,7 +400,7 @@
       "year": 2020,
       "scholar_id": "UebtZRa9Y70C",
       "metrics": {
-        "citations": 41
+        "citations": 42
       }
     },
     {
