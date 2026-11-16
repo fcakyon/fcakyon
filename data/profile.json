@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15",
+  "updated_at": "2026-11-16",
   "scholar_profile": "RHGyDE0AAAAJ",
   "scholar_citations": 2441,
   "open_source": [
@@ -18,9 +18,9 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5cd08a7b180f9d7b/sahi.jpg",
       "featured": true,
       "metrics": {
-        "stars": 5604,
+        "stars": 5605,
         "forks": 793,
-        "downloads_month": "149k"
+        "downloads_month": "146k"
       }
     },
     {
@@ -37,8 +37,8 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/b0644bb45f1eec90/claude-codex-settings.jpg",
       "featured": true,
       "metrics": {
-        "stars": 1211,
-        "forks": 113,
+        "stars": 1212,
+        "forks": 115,
         "downloads_total": 78482
       }
     },
@@ -55,7 +55,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5babc9779f5db358/labrat.png",
       "featured": true,
       "metrics": {
-        "stars": 461,
+        "stars": 463,
         "forks": 38
       }
     },
@@ -74,8 +74,8 @@
       "image_fit": "zoom-out",
       "featured": true,
       "metrics": {
-        "stars": 63440,
-        "forks": 12011,
+        "stars": 63489,
+        "forks": 12015,
         "downloads_month": "5M"
       }
     },
@@ -234,7 +234,7 @@
       "url": "https://github.com/ultralytics/lite",
       "repo": "ultralytics/lite",
       "metrics": {
-        "stars": 38,
+        "stars": 39,
         "forks": 7
       },
       "description": "A fast, local workspace for coding agents and your shell."
