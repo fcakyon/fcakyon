@@ -4,11 +4,11 @@
 
 Packages, developer tools, research code, and applications I maintain or created.
 
-- [SAHI](https://github.com/obss/sahi) (5,605 stars): Sliced inference for small object detection.
-- [Claude & Codex Settings](https://github.com/fcakyon/claude-codex-settings) (1,212 stars): Agent skills, hooks, and plugin marketplaces.
-- [Lab Rat](https://github.com/fcakyon/labrat) (463 stars): Teaches coding agents to reproduce papers and compare runs.
-- [Ultralytics](https://github.com/ultralytics/ultralytics) (63,489 stars): World's most used real-time vision AI models across 7 tasks.
-- [Claude Code with Codex](https://github.com/fcakyon/claude-code-with-codex) (45 stars): A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor.
+- [SAHI](https://github.com/obss/sahi) (5,607 stars): Sliced inference for small object detection.
+- [Claude & Codex Settings](https://github.com/fcakyon/claude-codex-settings) (1,213 stars): Agent skills, hooks, and plugin marketplaces.
+- [Lab Rat](https://github.com/fcakyon/labrat) (464 stars): Teaches coding agents to reproduce papers and compare runs.
+- [Ultralytics](https://github.com/ultralytics/ultralytics) (63,527 stars): World's most used real-time vision AI models across 7 tasks.
+- [Claude Code with Codex](https://github.com/fcakyon/claude-code-with-codex) (46 stars): A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor.
 - [Image Comparison](https://github.com/fcakyon/streamlit-image-comparison) (254 stars): A responsive before-and-after image component.
 - [SafeText](https://github.com/viddexa/safetext) (59 stars): Profanity detection and filtering for 13 languages.
 - [Moderators](https://github.com/viddexa/moderators) (8 stars): Run content moderation models through one Python API or CLI.
@@ -19,8 +19,8 @@ Packages, developer tools, research code, and applications I maintain or created
 - [Ultralytics Plus](https://github.com/fcakyon/ultralyticsplus) (87 stars): Extra integrations for Ultralytics models.
 - [Video Transformers](https://github.com/fcakyon/video-transformers) (150 stars): Transformer workflows for video understanding.
 - [CRAFT Text Detector](https://github.com/fcakyon/craft-text-detector) (276 stars): A packaged, cross-platform CRAFT text detector.
-- [AutoLLM](https://github.com/safevideo/autollm) (1,001 stars): Utilities for building applications with large language models.
+- [AutoLLM](https://github.com/safevideo/autollm) (1,002 stars): Utilities for building applications with large language models.
 - [Content Moderation](https://github.com/fcakyon/content-moderation-deep-learning) (406 stars): Multimodal deep-learning tools for content moderation.
-- [Small Object Detection Benchmark](https://github.com/fcakyon/small-object-detection-benchmark) (202 stars): ICIP 2022 experiments for sliced object detection.
+- [Small Object Detection Benchmark](https://github.com/fcakyon/small-object-detection-benchmark) (203 stars): ICIP 2022 experiments for sliced object detection.
 - [SenBen](https://github.com/fcakyon/senben) (7 stars): The official benchmark and code for explainable content moderation.
-- [Ultralytics Lite](https://github.com/ultralytics/lite) (39 stars): A fast, local workspace for coding agents and your shell.
+- [Ultralytics Lite](https://github.com/ultralytics/lite) (40 stars): A fast, local workspace for coding agents and your shell.

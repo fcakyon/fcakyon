@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-16",
+  "updated_at": "2026-11-17",
   "scholar_profile": "RHGyDE0AAAAJ",
-  "scholar_citations": 2441,
+  "scholar_citations": 2459,
   "open_source": [
     {
       "name": "SAHI",
@@ -18,9 +18,9 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5cd08a7b180f9d7b/sahi.jpg",
       "featured": true,
       "metrics": {
-        "stars": 5605,
+        "stars": 5607,
         "forks": 793,
-        "downloads_month": "146k"
+        "downloads_month": "148k"
       }
     },
     {
@@ -37,9 +37,9 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/b0644bb45f1eec90/claude-codex-settings.jpg",
       "featured": true,
       "metrics": {
-        "stars": 1212,
+        "stars": 1213,
         "forks": 115,
-        "downloads_total": 78482
+        "downloads_total": 81354
       }
     },
     {
@@ -55,8 +55,8 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5babc9779f5db358/labrat.png",
       "featured": true,
       "metrics": {
-        "stars": 463,
-        "forks": 38
+        "stars": 464,
+        "forks": 39
       }
     },
     {
@@ -74,8 +74,8 @@
       "image_fit": "zoom-out",
       "featured": true,
       "metrics": {
-        "stars": 63489,
-        "forks": 12015,
+        "stars": 63527,
+        "forks": 12023,
         "downloads_month": "5M"
       }
     },
@@ -84,7 +84,7 @@
       "url": "https://github.com/fcakyon/claude-code-with-codex",
       "repo": "fcakyon/claude-code-with-codex",
       "metrics": {
-        "stars": 45,
+        "stars": 46,
         "forks": 7
       },
       "description": "A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor."
@@ -194,7 +194,7 @@
       "url": "https://github.com/safevideo/autollm",
       "repo": "safevideo/autollm",
       "metrics": {
-        "stars": 1001,
+        "stars": 1002,
         "forks": 97
       },
       "description": "Utilities for building applications with large language models."
@@ -214,7 +214,7 @@
       "url": "https://github.com/fcakyon/small-object-detection-benchmark",
       "repo": "fcakyon/small-object-detection-benchmark",
       "metrics": {
-        "stars": 202,
+        "stars": 203,
         "forks": 22
       },
       "description": "ICIP 2022 experiments for sliced object detection."
@@ -234,7 +234,7 @@
       "url": "https://github.com/ultralytics/lite",
       "repo": "ultralytics/lite",
       "metrics": {
-        "stars": 39,
+        "stars": 40,
         "forks": 7
       },
       "description": "A fast, local workspace for coding agents and your shell."
@@ -251,7 +251,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/05c7b32d62953a16/yolo26.png",
       "featured": true,
       "metrics": {
-        "citations": 432
+        "citations": 443
       }
     },
     {
@@ -277,7 +277,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5309f012f4a5b21e/sahi.png",
       "featured": true,
       "metrics": {
-        "citations": 1145
+        "citations": 1151
       }
     },
     {
@@ -300,7 +300,7 @@
       "year": 2023,
       "scholar_id": "hC7cP41nSMkC",
       "metrics": {
-        "citations": 57
+        "citations": 58
       }
     },
     {
