@@ -4,7 +4,7 @@
 
 Published papers and preprints, listed with their verified venue and year.
 
-- [Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models](https://arxiv.org/abs/2606.03748) (Preprint, 2026, 443 citations)
+- [Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models](https://arxiv.org/abs/2606.03748) (Preprint, 2026, 449 citations)
 - [SenBen: Sensitive Scene Graphs for Explainable Content Moderation](https://openaccess.thecvf.com/content/CVPR2026W/ABAW/html/Akyon_SenBen_Sensitive_Scene_Graphs_for_Explainable_Content_Moderation_CVPRW_2026_paper.html) (CVPR Workshops, 2026, 1 citation)
 - [Slicing Aided Hyper Inference and Fine-Tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (ICIP, 2022, 1,151 citations)
 - [Evaluating the Capabilities of Generative AI Tools in Understanding Medical Papers: Qualitative Study](https://medinform.jmir.org/2024/1/e59258) (JMIR Medical Informatics, 2024, 26 citations)

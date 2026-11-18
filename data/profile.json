@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-17",
+  "updated_at": "2026-11-18",
   "scholar_profile": "RHGyDE0AAAAJ",
-  "scholar_citations": 2459,
+  "scholar_citations": 2465,
   "open_source": [
     {
       "name": "SAHI",
@@ -20,7 +20,7 @@
       "metrics": {
         "stars": 5607,
         "forks": 793,
-        "downloads_month": "148k"
+        "downloads_month": "146k"
       }
     },
     {
@@ -39,7 +39,7 @@
       "metrics": {
         "stars": 1213,
         "forks": 115,
-        "downloads_total": 81354
+        "downloads_total": 82044
       }
     },
     {
@@ -55,7 +55,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5babc9779f5db358/labrat.png",
       "featured": true,
       "metrics": {
-        "stars": 464,
+        "stars": 468,
         "forks": 39
       }
     },
@@ -74,8 +74,8 @@
       "image_fit": "zoom-out",
       "featured": true,
       "metrics": {
-        "stars": 63527,
-        "forks": 12023,
+        "stars": 63558,
+        "forks": 12021,
         "downloads_month": "5M"
       }
     },
@@ -84,7 +84,7 @@
       "url": "https://github.com/fcakyon/claude-code-with-codex",
       "repo": "fcakyon/claude-code-with-codex",
       "metrics": {
-        "stars": 46,
+        "stars": 47,
         "forks": 7
       },
       "description": "A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor."
@@ -134,7 +134,7 @@
       "url": "https://github.com/fcakyon/labelme2coco",
       "repo": "fcakyon/labelme2coco",
       "metrics": {
-        "stars": 322,
+        "stars": 323,
         "forks": 67
       },
       "description": "Convert LabelMe annotations to COCO format."
@@ -251,7 +251,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/05c7b32d62953a16/yolo26.png",
       "featured": true,
       "metrics": {
-        "citations": 443
+        "citations": 449
       }
     },
     {

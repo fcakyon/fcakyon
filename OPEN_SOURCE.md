@@ -6,14 +6,14 @@ Packages, developer tools, research code, and applications I maintain or created
 
 - [SAHI](https://github.com/obss/sahi) (5,607 stars): Sliced inference for small object detection.
 - [Claude & Codex Settings](https://github.com/fcakyon/claude-codex-settings) (1,213 stars): Agent skills, hooks, and plugin marketplaces.
-- [Lab Rat](https://github.com/fcakyon/labrat) (464 stars): Teaches coding agents to reproduce papers and compare runs.
-- [Ultralytics](https://github.com/ultralytics/ultralytics) (63,527 stars): World's most used real-time vision AI models across 7 tasks.
-- [Claude Code with Codex](https://github.com/fcakyon/claude-code-with-codex) (46 stars): A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor.
+- [Lab Rat](https://github.com/fcakyon/labrat) (468 stars): Teaches coding agents to reproduce papers and compare runs.
+- [Ultralytics](https://github.com/ultralytics/ultralytics) (63,558 stars): World's most used real-time vision AI models across 7 tasks.
+- [Claude Code with Codex](https://github.com/fcakyon/claude-code-with-codex) (47 stars): A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor.
 - [Image Comparison](https://github.com/fcakyon/streamlit-image-comparison) (254 stars): A responsive before-and-after image component.
 - [SafeText](https://github.com/viddexa/safetext) (59 stars): Profanity detection and filtering for 13 languages.
 - [Moderators](https://github.com/viddexa/moderators) (8 stars): Run content moderation models through one Python API or CLI.
 - [Balanced Loss](https://github.com/fcakyon/balanced-loss) (98 stars): Class-balanced cross-entropy and focal loss for PyTorch.
-- [LabelMe to COCO](https://github.com/fcakyon/labelme2coco) (322 stars): Convert LabelMe annotations to COCO format.
+- [LabelMe to COCO](https://github.com/fcakyon/labelme2coco) (323 stars): Convert LabelMe annotations to COCO format.
 - [MIDV-500](https://github.com/fcakyon/midv500) (106 stars): Download MIDV-500 and convert its annotations to COCO.
 - [YOLOv5 Pip](https://github.com/fcakyon/yolov5-pip) (294 stars): A packaged YOLOv5 distribution with added utilities.
 - [Ultralytics Plus](https://github.com/fcakyon/ultralyticsplus) (87 stars): Extra integrations for Ultralytics models.
