@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18",
+  "updated_at": "2026-11-19",
   "scholar_profile": "RHGyDE0AAAAJ",
   "scholar_citations": 2465,
   "open_source": [
@@ -20,7 +20,7 @@
       "metrics": {
         "stars": 5607,
         "forks": 793,
-        "downloads_month": "146k"
+        "downloads_month": "150k"
       }
     },
     {
@@ -37,9 +37,9 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/b0644bb45f1eec90/claude-codex-settings.jpg",
       "featured": true,
       "metrics": {
-        "stars": 1213,
+        "stars": 1214,
         "forks": 115,
-        "downloads_total": 82044
+        "downloads_total": 82666
       }
     },
     {
@@ -55,8 +55,8 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5babc9779f5db358/labrat.png",
       "featured": true,
       "metrics": {
-        "stars": 468,
-        "forks": 39
+        "stars": 479,
+        "forks": 41
       }
     },
     {
@@ -74,8 +74,8 @@
       "image_fit": "zoom-out",
       "featured": true,
       "metrics": {
-        "stars": 63558,
-        "forks": 12021,
+        "stars": 63595,
+        "forks": 12030,
         "downloads_month": "5M"
       }
     },
@@ -84,8 +84,8 @@
       "url": "https://github.com/fcakyon/claude-code-with-codex",
       "repo": "fcakyon/claude-code-with-codex",
       "metrics": {
-        "stars": 47,
-        "forks": 7
+        "stars": 49,
+        "forks": 8
       },
       "description": "A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor."
     },
