@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-19",
+  "updated_at": "2026-11-20",
   "scholar_profile": "RHGyDE0AAAAJ",
-  "scholar_citations": 2465,
+  "scholar_citations": 2477,
   "open_source": [
     {
       "name": "SAHI",
@@ -20,7 +20,7 @@
       "metrics": {
         "stars": 5607,
         "forks": 793,
-        "downloads_month": "150k"
+        "downloads_month": "149k"
       }
     },
     {
@@ -55,7 +55,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5babc9779f5db358/labrat.png",
       "featured": true,
       "metrics": {
-        "stars": 479,
+        "stars": 482,
         "forks": 41
       }
     },
@@ -74,8 +74,8 @@
       "image_fit": "zoom-out",
       "featured": true,
       "metrics": {
-        "stars": 63595,
-        "forks": 12030,
+        "stars": 63625,
+        "forks": 12035,
         "downloads_month": "5M"
       }
     },
@@ -85,7 +85,7 @@
       "repo": "fcakyon/claude-code-with-codex",
       "metrics": {
         "stars": 49,
-        "forks": 8
+        "forks": 9
       },
       "description": "A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor."
     },
@@ -194,7 +194,7 @@
       "url": "https://github.com/safevideo/autollm",
       "repo": "safevideo/autollm",
       "metrics": {
-        "stars": 1002,
+        "stars": 1001,
         "forks": 97
       },
       "description": "Utilities for building applications with large language models."
@@ -251,7 +251,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/05c7b32d62953a16/yolo26.png",
       "featured": true,
       "metrics": {
-        "citations": 449
+        "citations": 459
       }
     },
     {
@@ -277,7 +277,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5309f012f4a5b21e/sahi.png",
       "featured": true,
       "metrics": {
-        "citations": 1151
+        "citations": 1153
       }
     },
     {
