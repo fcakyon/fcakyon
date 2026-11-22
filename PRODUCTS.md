@@ -4,11 +4,11 @@
 
 Web products I have built and operate.
 
-- [OwnEval](https://owneval.com/): Test AI models on your own data and compare results.
-- [OpenScribe](https://scribe.akyonlabs.com/): Turn meetings into notes, tasks, and a graph of people and projects.
-- [My AI Patient](https://myaipatient.com): Clinical consultation training with responsive AI patients.
-- [OpenStage](https://stage.akyonlabs.com): Slides, live demos and phone quizzes in one presentation.
-- [MuviSafe](https://muvisafe.com/en): Filter inappropriate movie scenes while you stream.
-- [Fast & Rational](https://fastrational.com/en): Drug and disease interaction support for rational prescribing.
-- [Orc-hestrator](https://orc.akyonlabs.com): GPU fleet monitoring and experiment tracking for training runs.
-- [Claude Settings](https://claudesettings.com): Ready-to-use settings, plugins, and skills for AI coding agents.
+- [OwnEval](https://owneval.com/): Automate AI evals on your own data.
+- [OpenScribe](https://scribe.akyonlabs.com/): Turn meetings into a graph of people, projects and tasks.
+- [My AI Patient](https://myaipatient.com): Rehearse clinical cases with AI patients and live feedback.
+- [OpenStage](https://stage.akyonlabs.com): Mix slides, live web demos and phone quizzes in one timeline.
+- [MuviSafe](https://muvisafe.com/en): Choose what to skip as you stream Netflix, Prime and Apple TV.
+- [Fast & Rational](https://fastrational.com/en): Check drug and disease interactions as you build a prescription.
+- [Orc-hestrator](https://orc.akyonlabs.com): Reserve GPUs and track training runs across machines.
+- [Claude Settings](https://claudesettings.com): Share coding-agent skills across Claude Code, Codex and Cursor.

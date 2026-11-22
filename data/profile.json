@@ -687,57 +687,63 @@
     {
       "name": "OwnEval",
       "url": "https://owneval.com/",
-      "description": "Test AI models on your own data and compare results.",
+      "description": "Automate AI evals on your own data.",
       "kind": "AI model evaluation",
       "image": "https://cdn.akyonlabs.com/fcakyon/static/b14f8ce40dc03cde/owneval-960.webp",
-      "featured": true
+      "featured": true,
+      "animated_cards": {
+        "desktop-light": "https://cdn.akyonlabs.com/fcakyon/static/2b9ba38c95645bec/products-owneval-desktop-light.gif",
+        "desktop-dark": "https://cdn.akyonlabs.com/fcakyon/static/ea040ff791f979e1/products-owneval-desktop-dark.gif",
+        "mobile-light": "https://cdn.akyonlabs.com/fcakyon/static/bd76e09d5ad12fd5/products-owneval-mobile-light.gif",
+        "mobile-dark": "https://cdn.akyonlabs.com/fcakyon/static/1cad5f1ff346f84b/products-owneval-mobile-dark.gif"
+      }
     },
     {
       "name": "OpenScribe",
       "url": "https://scribe.akyonlabs.com/",
-      "description": "Turn meetings into notes, tasks, and a graph of people and projects.",
+      "description": "Turn meetings into a graph of people, projects and tasks.",
       "kind": "Meeting knowledge graph",
       "featured": true,
       "image": "https://cdn.akyonlabs.com/fcakyon/static/d93df3c427865a3b/openscribe.webp",
       "animated_cards": {
-        "desktop-light": "https://cdn.akyonlabs.com/fcakyon/static/4271aa1a4689e894/products-openscribe-desktop-light.gif",
-        "desktop-dark": "https://cdn.akyonlabs.com/fcakyon/static/bb9c33732438b48a/products-openscribe-desktop-dark.gif",
-        "mobile-light": "https://cdn.akyonlabs.com/fcakyon/static/a74ecf2e475ec63e/products-openscribe-mobile-light.gif",
-        "mobile-dark": "https://cdn.akyonlabs.com/fcakyon/static/1739377bdc16a548/products-openscribe-mobile-dark.gif"
+        "desktop-light": "https://cdn.akyonlabs.com/fcakyon/static/ceffd195a13901e6/products-openscribe-desktop-light.gif",
+        "desktop-dark": "https://cdn.akyonlabs.com/fcakyon/static/0568c7020f711be9/products-openscribe-desktop-dark.gif",
+        "mobile-light": "https://cdn.akyonlabs.com/fcakyon/static/8fbe88fccc47c9c3/products-openscribe-mobile-light.gif",
+        "mobile-dark": "https://cdn.akyonlabs.com/fcakyon/static/e6de62a1c59f4499/products-openscribe-mobile-dark.gif"
       }
     },
     {
       "name": "My AI Patient",
       "url": "https://myaipatient.com",
-      "description": "Clinical consultation training with responsive AI patients.",
+      "description": "Rehearse clinical cases with AI patients and live feedback.",
       "kind": "Clinical training",
       "image": "https://cdn.akyonlabs.com/fcakyon/static/df65a47de7ecf635/patient-room-640.webp",
       "featured": true,
       "animated_cards": {
-        "desktop-light": "https://cdn.akyonlabs.com/fcakyon/static/bacbd81f5455416c/products-my-ai-patient-desktop-light.gif",
-        "desktop-dark": "https://cdn.akyonlabs.com/fcakyon/static/14dc39488ca08da1/products-my-ai-patient-desktop-dark.gif",
-        "mobile-light": "https://cdn.akyonlabs.com/fcakyon/static/9de00f7d4b19460f/products-my-ai-patient-mobile-light.gif",
-        "mobile-dark": "https://cdn.akyonlabs.com/fcakyon/static/17e6fce0d4a5d6a3/products-my-ai-patient-mobile-dark.gif"
+        "desktop-light": "https://cdn.akyonlabs.com/fcakyon/static/21082bd988b302a5/products-my-ai-patient-desktop-light.gif",
+        "desktop-dark": "https://cdn.akyonlabs.com/fcakyon/static/446939f02504fd00/products-my-ai-patient-desktop-dark.gif",
+        "mobile-light": "https://cdn.akyonlabs.com/fcakyon/static/89865988a01fa565/products-my-ai-patient-mobile-light.gif",
+        "mobile-dark": "https://cdn.akyonlabs.com/fcakyon/static/f92892bee69bb052/products-my-ai-patient-mobile-dark.gif"
       }
     },
     {
       "name": "OpenStage",
       "url": "https://stage.akyonlabs.com",
-      "description": "Slides, live demos and phone quizzes in one presentation.",
+      "description": "Mix slides, live web demos and phone quizzes in one timeline.",
       "kind": "Live presentations",
       "image": "https://cdn.akyonlabs.com/fcakyon/static/f1e9c70759fa350c/openstage.webp",
       "featured": true,
       "animated_cards": {
-        "desktop-light": "https://cdn.akyonlabs.com/fcakyon/static/870deeddd6db86f3/products-openstage-desktop-light.gif",
-        "desktop-dark": "https://cdn.akyonlabs.com/fcakyon/static/453f1103a79adc8c/products-openstage-desktop-dark.gif",
-        "mobile-light": "https://cdn.akyonlabs.com/fcakyon/static/d364a55ff0a0e66d/products-openstage-mobile-light.gif",
-        "mobile-dark": "https://cdn.akyonlabs.com/fcakyon/static/bcfbf97f3b1b7d6a/products-openstage-mobile-dark.gif"
+        "desktop-light": "https://cdn.akyonlabs.com/fcakyon/static/6254f68c534898cc/products-openstage-desktop-light.gif",
+        "desktop-dark": "https://cdn.akyonlabs.com/fcakyon/static/10d69f86cc0cb9c7/products-openstage-desktop-dark.gif",
+        "mobile-light": "https://cdn.akyonlabs.com/fcakyon/static/8a2bdb98c4f360f7/products-openstage-mobile-light.gif",
+        "mobile-dark": "https://cdn.akyonlabs.com/fcakyon/static/e405fcd6e381dd24/products-openstage-mobile-dark.gif"
       }
     },
     {
       "name": "MuviSafe",
       "url": "https://muvisafe.com/en",
-      "description": "Filter inappropriate movie scenes while you stream.",
+      "description": "Choose what to skip as you stream Netflix, Prime and Apple TV.",
       "kind": "Family streaming",
       "image": "https://cdn.akyonlabs.com/fcakyon/static/9803386365a4827a/muvisafe.webp",
       "featured": true
@@ -745,19 +751,19 @@
     {
       "name": "Fast & Rational",
       "url": "https://fastrational.com/en",
-      "description": "Drug and disease interaction support for rational prescribing."
+      "description": "Check drug and disease interactions as you build a prescription."
     },
     {
       "name": "Orc-hestrator",
       "url": "https://orc.akyonlabs.com",
-      "description": "GPU fleet monitoring and experiment tracking for training runs.",
+      "description": "Reserve GPUs and track training runs across machines.",
       "kind": "Experiment tracking",
       "image": "https://cdn.akyonlabs.com/fcakyon/static/7c102c0e138a49d3/orc-hestrator.webp"
     },
     {
       "name": "Claude Settings",
       "url": "https://claudesettings.com",
-      "description": "Ready-to-use settings, plugins, and skills for AI coding agents."
+      "description": "Share coding-agent skills across Claude Code, Codex and Cursor."
     }
   ],
   "peer_review": [
