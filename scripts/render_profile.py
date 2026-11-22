@@ -57,6 +57,14 @@ SECTIONS = {
         "view": "View all papers",
         "introduction": "Published papers and preprints, listed with their verified venue and year.",
     },
+    "products": {
+        "title": "Products",
+        "accent": "#db5b75",
+        "output": "products",
+        "page": "PRODUCTS.md",
+        "view": "View all products",
+        "introduction": "Web products I have built and operate.",
+    },
     "talks": {
         "title": "Public speaking",
         "accent": "#d97706",
@@ -72,14 +80,6 @@ SECTIONS = {
         "page": "PATENTS.md",
         "view": "View all patents",
         "introduction": "Granted Turkish patents and PCT applications, linked to their public records.",
-    },
-    "products": {
-        "title": "Products",
-        "accent": "#db5b75",
-        "output": "products",
-        "page": "PRODUCTS.md",
-        "view": "View all products",
-        "introduction": "Web products I have built and operate.",
     },
     "peer_review": {
         "title": "Peer review",
@@ -361,13 +361,27 @@ def render_picture(config: dict, item: dict, cards: dict[str, str]) -> str:
         (str): Linked HTML picture element.
     """
     prefix = f"{config['output']}-{card_slug(item['name'])}"
+    variants = (
+        ("mobile-dark", "(max-width: 700px) and (prefers-color-scheme: dark)"),
+        ("mobile-light", "(max-width: 700px)"),
+        ("desktop-dark", "(prefers-color-scheme: dark)"),
+        ("desktop-light", ""),
+    )
+    animation_sources = []
+    if animations := item.get("animated_cards"):
+        for variant, condition in variants:
+            media = " and ".join(filter(None, (condition, "(prefers-reduced-motion: no-preference)")))
+            animation_sources.append(f'<source media="{media}" srcset="{html.escape(animations[variant], quote=True)}">')
+    still_sources = [
+        f'<source media="{condition}" srcset="{cards[f"{prefix}-{variant}"]}">'
+        for variant, condition in variants
+        if condition
+    ]
     return (
         f'<a href="{html.escape(item["url"], quote=True)}"><picture>'
-        f'<source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="{cards[prefix + "-mobile-dark"]}">'
-        f'<source media="(max-width: 700px)" srcset="{cards[prefix + "-mobile-light"]}">'
-        f'<source media="(prefers-color-scheme: dark)" srcset="{cards[prefix + "-desktop-dark"]}">'
-        f'<img src="{cards[prefix + "-desktop-light"]}" width="170" alt="{html.escape(item["name"], quote=True)}">'
-        "</picture></a>"
+        + "".join(animation_sources + still_sources)
+        + f'<img src="{cards[prefix + "-desktop-light"]}" width="170" alt="{html.escape(item["name"], quote=True)}">'
+        + "</picture></a>"
     )
 
 

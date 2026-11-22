@@ -690,7 +690,13 @@
       "description": "Turn meetings into notes, tasks, and a graph of people and projects.",
       "kind": "Meeting knowledge graph",
       "featured": true,
-      "image": "https://cdn.akyonlabs.com/fcakyon/static/d93df3c427865a3b/openscribe.webp"
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/d93df3c427865a3b/openscribe.webp",
+      "animated_cards": {
+        "desktop-light": "https://cdn.akyonlabs.com/fcakyon/static/4271aa1a4689e894/products-openscribe-desktop-light.gif",
+        "desktop-dark": "https://cdn.akyonlabs.com/fcakyon/static/bb9c33732438b48a/products-openscribe-desktop-dark.gif",
+        "mobile-light": "https://cdn.akyonlabs.com/fcakyon/static/a74ecf2e475ec63e/products-openscribe-mobile-light.gif",
+        "mobile-dark": "https://cdn.akyonlabs.com/fcakyon/static/1739377bdc16a548/products-openscribe-mobile-dark.gif"
+      }
     },
     {
       "name": "OpenStage",
@@ -698,15 +704,27 @@
       "description": "Slides, live demos and phone quizzes in one presentation.",
       "kind": "Live presentations",
       "image": "https://cdn.akyonlabs.com/fcakyon/static/f1e9c70759fa350c/openstage.webp",
-      "featured": true
+      "featured": true,
+      "animated_cards": {
+        "desktop-light": "https://cdn.akyonlabs.com/fcakyon/static/870deeddd6db86f3/products-openstage-desktop-light.gif",
+        "desktop-dark": "https://cdn.akyonlabs.com/fcakyon/static/453f1103a79adc8c/products-openstage-desktop-dark.gif",
+        "mobile-light": "https://cdn.akyonlabs.com/fcakyon/static/d364a55ff0a0e66d/products-openstage-mobile-light.gif",
+        "mobile-dark": "https://cdn.akyonlabs.com/fcakyon/static/bcfbf97f3b1b7d6a/products-openstage-mobile-dark.gif"
+      }
     },
     {
       "name": "My AI Patient",
       "url": "https://myaipatient.com",
       "description": "Clinical consultation training with responsive AI patients.",
       "kind": "Clinical training",
-      "image": "https://cdn.akyonlabs.com/fcakyon/static/fa7faff884be4b22/my-ai-patient.webp",
-      "featured": true
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/91165b8ba19487d2/patient-demo-640.webp",
+      "featured": true,
+      "animated_cards": {
+        "desktop-light": "https://cdn.akyonlabs.com/fcakyon/static/cd3d8f80488cd534/products-my-ai-patient-desktop-light.gif",
+        "desktop-dark": "https://cdn.akyonlabs.com/fcakyon/static/94b4afc3553deb18/products-my-ai-patient-desktop-dark.gif",
+        "mobile-light": "https://cdn.akyonlabs.com/fcakyon/static/aa2486396a5b2f7e/products-my-ai-patient-mobile-light.gif",
+        "mobile-dark": "https://cdn.akyonlabs.com/fcakyon/static/f687c41e842c0388/products-my-ai-patient-mobile-dark.gif"
+      }
     },
     {
       "name": "MuviSafe",
