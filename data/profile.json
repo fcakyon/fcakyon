@@ -685,6 +685,14 @@
   ],
   "products": [
     {
+      "name": "OwnEval",
+      "url": "https://owneval.com/",
+      "description": "Test AI models on your own data and compare results.",
+      "kind": "AI model evaluation",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/b14f8ce40dc03cde/owneval-960.webp",
+      "featured": true
+    },
+    {
       "name": "OpenScribe",
       "url": "https://scribe.akyonlabs.com/",
       "description": "Turn meetings into notes, tasks, and a graph of people and projects.",
@@ -699,20 +707,6 @@
       }
     },
     {
-      "name": "OpenStage",
-      "url": "https://stage.akyonlabs.com",
-      "description": "Slides, live demos and phone quizzes in one presentation.",
-      "kind": "Live presentations",
-      "image": "https://cdn.akyonlabs.com/fcakyon/static/f1e9c70759fa350c/openstage.webp",
-      "featured": true,
-      "animated_cards": {
-        "desktop-light": "https://cdn.akyonlabs.com/fcakyon/static/870deeddd6db86f3/products-openstage-desktop-light.gif",
-        "desktop-dark": "https://cdn.akyonlabs.com/fcakyon/static/453f1103a79adc8c/products-openstage-desktop-dark.gif",
-        "mobile-light": "https://cdn.akyonlabs.com/fcakyon/static/d364a55ff0a0e66d/products-openstage-mobile-light.gif",
-        "mobile-dark": "https://cdn.akyonlabs.com/fcakyon/static/bcfbf97f3b1b7d6a/products-openstage-mobile-dark.gif"
-      }
-    },
-    {
       "name": "My AI Patient",
       "url": "https://myaipatient.com",
       "description": "Clinical consultation training with responsive AI patients.",
@@ -724,6 +718,20 @@
         "desktop-dark": "https://cdn.akyonlabs.com/fcakyon/static/14dc39488ca08da1/products-my-ai-patient-desktop-dark.gif",
         "mobile-light": "https://cdn.akyonlabs.com/fcakyon/static/9de00f7d4b19460f/products-my-ai-patient-mobile-light.gif",
         "mobile-dark": "https://cdn.akyonlabs.com/fcakyon/static/17e6fce0d4a5d6a3/products-my-ai-patient-mobile-dark.gif"
+      }
+    },
+    {
+      "name": "OpenStage",
+      "url": "https://stage.akyonlabs.com",
+      "description": "Slides, live demos and phone quizzes in one presentation.",
+      "kind": "Live presentations",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/f1e9c70759fa350c/openstage.webp",
+      "featured": true,
+      "animated_cards": {
+        "desktop-light": "https://cdn.akyonlabs.com/fcakyon/static/870deeddd6db86f3/products-openstage-desktop-light.gif",
+        "desktop-dark": "https://cdn.akyonlabs.com/fcakyon/static/453f1103a79adc8c/products-openstage-desktop-dark.gif",
+        "mobile-light": "https://cdn.akyonlabs.com/fcakyon/static/d364a55ff0a0e66d/products-openstage-mobile-light.gif",
+        "mobile-dark": "https://cdn.akyonlabs.com/fcakyon/static/bcfbf97f3b1b7d6a/products-openstage-mobile-dark.gif"
       }
     },
     {
