@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-21",
+  "updated_at": "2026-11-22",
   "scholar_profile": "RHGyDE0AAAAJ",
-  "scholar_citations": 2477,
+  "scholar_citations": 2505,
   "open_source": [
     {
       "name": "SAHI",
@@ -18,9 +18,9 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5cd08a7b180f9d7b/sahi.jpg",
       "featured": true,
       "metrics": {
-        "stars": 5609,
-        "forks": 793,
-        "downloads_month": "146k"
+        "stars": 5611,
+        "forks": 794,
+        "downloads_month": "142k"
       }
     },
     {
@@ -37,9 +37,9 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/b0644bb45f1eec90/claude-codex-settings.jpg",
       "featured": true,
       "metrics": {
-        "stars": 1215,
-        "forks": 115,
-        "downloads_total": 83086
+        "stars": 1217,
+        "forks": 116,
+        "downloads_total": 84517
       }
     },
     {
@@ -55,7 +55,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5babc9779f5db358/labrat.png",
       "featured": true,
       "metrics": {
-        "stars": 485,
+        "stars": 488,
         "forks": 41
       }
     },
@@ -74,7 +74,7 @@
       "image_fit": "zoom-out",
       "featured": true,
       "metrics": {
-        "stars": 63640,
+        "stars": 63661,
         "forks": 12023,
         "downloads_month": "5M"
       }
@@ -84,8 +84,8 @@
       "url": "https://github.com/fcakyon/claude-code-with-codex",
       "repo": "fcakyon/claude-code-with-codex",
       "metrics": {
-        "stars": 49,
-        "forks": 9
+        "stars": 50,
+        "forks": 10
       },
       "description": "A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor."
     },
@@ -251,7 +251,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/05c7b32d62953a16/yolo26.png",
       "featured": true,
       "metrics": {
-        "citations": 459
+        "citations": 481
       }
     },
     {
@@ -277,7 +277,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5309f012f4a5b21e/sahi.png",
       "featured": true,
       "metrics": {
-        "citations": 1153
+        "citations": 1158
       }
     },
     {
@@ -300,7 +300,7 @@
       "year": 2023,
       "scholar_id": "hC7cP41nSMkC",
       "metrics": {
-        "citations": 58
+        "citations": 57
       }
     },
     {
@@ -330,7 +330,7 @@
       "year": 2021,
       "scholar_id": "MXK_kJrjxJIC",
       "metrics": {
-        "citations": 271
+        "citations": 273
       }
     },
     {
