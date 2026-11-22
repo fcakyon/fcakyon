@@ -685,11 +685,19 @@
   ],
   "products": [
     {
-      "name": "MuviSafe",
-      "url": "https://muvisafe.com/en",
-      "description": "Filter inappropriate movie scenes while you stream.",
-      "kind": "Family streaming",
-      "image": "https://cdn.akyonlabs.com/fcakyon/static/9803386365a4827a/muvisafe.webp",
+      "name": "OpenScribe",
+      "url": "https://scribe.akyonlabs.com/",
+      "description": "Turn meetings into notes, tasks, and a graph of people and projects.",
+      "kind": "Meeting knowledge graph",
+      "featured": true,
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/d93df3c427865a3b/openscribe.webp"
+    },
+    {
+      "name": "OpenStage",
+      "url": "https://stage.akyonlabs.com",
+      "description": "Slides, live demos and phone quizzes in one presentation.",
+      "kind": "Live presentations",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/f1e9c70759fa350c/openstage.webp",
       "featured": true
     },
     {
@@ -701,25 +709,24 @@
       "featured": true
     },
     {
-      "name": "OpenStage",
-      "url": "https://stage.akyonlabs.com",
-      "description": "Slides, live demos and phone quizzes in one presentation.",
-      "kind": "Live presentations",
-      "image": "https://cdn.akyonlabs.com/fcakyon/static/b5c8ac4d04a838ea/openstage.webp",
-      "featured": true
-    },
-    {
-      "name": "Orc-hestrator",
-      "url": "https://orc.akyonlabs.com",
-      "description": "GPU fleet monitoring and experiment tracking for training runs.",
-      "kind": "Experiment tracking",
-      "image": "https://cdn.akyonlabs.com/fcakyon/static/7c102c0e138a49d3/orc-hestrator.webp",
+      "name": "MuviSafe",
+      "url": "https://muvisafe.com/en",
+      "description": "Filter inappropriate movie scenes while you stream.",
+      "kind": "Family streaming",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/9803386365a4827a/muvisafe.webp",
       "featured": true
     },
     {
       "name": "Fast & Rational",
       "url": "https://fastrational.com/en",
       "description": "Drug and disease interaction support for rational prescribing."
+    },
+    {
+      "name": "Orc-hestrator",
+      "url": "https://orc.akyonlabs.com",
+      "description": "GPU fleet monitoring and experiment tracking for training runs.",
+      "kind": "Experiment tracking",
+      "image": "https://cdn.akyonlabs.com/fcakyon/static/7c102c0e138a49d3/orc-hestrator.webp"
     },
     {
       "name": "Claude Settings",
