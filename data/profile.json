@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-22",
+  "updated_at": "2026-11-24",
   "scholar_profile": "RHGyDE0AAAAJ",
-  "scholar_citations": 2505,
+  "scholar_citations": 2538,
   "open_source": [
     {
       "name": "SAHI",
@@ -18,9 +18,9 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5cd08a7b180f9d7b/sahi.jpg",
       "featured": true,
       "metrics": {
-        "stars": 5611,
-        "forks": 794,
-        "downloads_month": "142k"
+        "stars": 5618,
+        "forks": 795,
+        "downloads_month": "141k"
       }
     },
     {
@@ -39,7 +39,7 @@
       "metrics": {
         "stars": 1217,
         "forks": 116,
-        "downloads_total": 84517
+        "downloads_total": 87019
       }
     },
     {
@@ -55,8 +55,8 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5babc9779f5db358/labrat.png",
       "featured": true,
       "metrics": {
-        "stars": 488,
-        "forks": 41
+        "stars": 489,
+        "forks": 42
       }
     },
     {
@@ -74,8 +74,8 @@
       "image_fit": "zoom-out",
       "featured": true,
       "metrics": {
-        "stars": 63661,
-        "forks": 12023,
+        "stars": 63712,
+        "forks": 12029,
         "downloads_month": "5M"
       }
     },
@@ -84,7 +84,7 @@
       "url": "https://github.com/fcakyon/claude-code-with-codex",
       "repo": "fcakyon/claude-code-with-codex",
       "metrics": {
-        "stars": 50,
+        "stars": 51,
         "forks": 10
       },
       "description": "A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor."
@@ -94,7 +94,7 @@
       "url": "https://github.com/fcakyon/streamlit-image-comparison",
       "repo": "fcakyon/streamlit-image-comparison",
       "metrics": {
-        "stars": 254,
+        "stars": 255,
         "forks": 30
       },
       "description": "A responsive before-and-after image component."
@@ -145,7 +145,7 @@
       "repo": "fcakyon/midv500",
       "metrics": {
         "stars": 106,
-        "forks": 15
+        "forks": 16
       },
       "description": "Download MIDV-500 and convert its annotations to COCO."
     },
@@ -234,7 +234,7 @@
       "url": "https://github.com/ultralytics/lite",
       "repo": "ultralytics/lite",
       "metrics": {
-        "stars": 40,
+        "stars": 42,
         "forks": 7
       },
       "description": "A fast, local workspace for coding agents and your shell."
@@ -251,7 +251,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/05c7b32d62953a16/yolo26.png",
       "featured": true,
       "metrics": {
-        "citations": 481
+        "citations": 503
       }
     },
     {
@@ -277,7 +277,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5309f012f4a5b21e/sahi.png",
       "featured": true,
       "metrics": {
-        "citations": 1158
+        "citations": 1168
       }
     },
     {
@@ -300,7 +300,7 @@
       "year": 2023,
       "scholar_id": "hC7cP41nSMkC",
       "metrics": {
-        "citations": 57
+        "citations": 58
       }
     },
     {

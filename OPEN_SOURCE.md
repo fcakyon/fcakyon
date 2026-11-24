@@ -4,12 +4,12 @@
 
 Packages, developer tools, research code, and applications I maintain or created.
 
-- [SAHI](https://github.com/obss/sahi) (5,611 stars): Sliced inference for small object detection.
+- [SAHI](https://github.com/obss/sahi) (5,618 stars): Sliced inference for small object detection.
 - [Claude & Codex Settings](https://github.com/fcakyon/claude-codex-settings) (1,217 stars): Agent skills, hooks, and plugin marketplaces.
-- [Lab Rat](https://github.com/fcakyon/labrat) (488 stars): Teaches coding agents to reproduce papers and compare runs.
-- [Ultralytics](https://github.com/ultralytics/ultralytics) (63,661 stars): World's most used real-time vision AI models across 7 tasks.
-- [Claude Code with Codex](https://github.com/fcakyon/claude-code-with-codex) (50 stars): A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor.
-- [Image Comparison](https://github.com/fcakyon/streamlit-image-comparison) (254 stars): A responsive before-and-after image component.
+- [Lab Rat](https://github.com/fcakyon/labrat) (489 stars): Teaches coding agents to reproduce papers and compare runs.
+- [Ultralytics](https://github.com/ultralytics/ultralytics) (63,712 stars): World's most used real-time vision AI models across 7 tasks.
+- [Claude Code with Codex](https://github.com/fcakyon/claude-code-with-codex) (51 stars): A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor.
+- [Image Comparison](https://github.com/fcakyon/streamlit-image-comparison) (255 stars): A responsive before-and-after image component.
 - [SafeText](https://github.com/viddexa/safetext) (59 stars): Profanity detection and filtering for 13 languages.
 - [Moderators](https://github.com/viddexa/moderators) (8 stars): Run content moderation models through one Python API or CLI.
 - [Balanced Loss](https://github.com/fcakyon/balanced-loss) (98 stars): Class-balanced cross-entropy and focal loss for PyTorch.
@@ -23,4 +23,4 @@ Packages, developer tools, research code, and applications I maintain or created
 - [Content Moderation](https://github.com/fcakyon/content-moderation-deep-learning) (406 stars): Multimodal deep-learning tools for content moderation.
 - [Small Object Detection Benchmark](https://github.com/fcakyon/small-object-detection-benchmark) (203 stars): ICIP 2022 experiments for sliced object detection.
 - [SenBen](https://github.com/fcakyon/senben) (7 stars): The official benchmark and code for explainable content moderation.
-- [Ultralytics Lite](https://github.com/ultralytics/lite) (40 stars): A fast, local workspace for coding agents and your shell.
+- [Ultralytics Lite](https://github.com/ultralytics/lite) (42 stars): A fast, local workspace for coding agents and your shell.
