@@ -4,11 +4,11 @@
 
 Packages, developer tools, research code, and applications I maintain or created.
 
-- [SAHI](https://github.com/obss/sahi) (5,618 stars): Sliced inference for small object detection.
-- [Claude & Codex Settings](https://github.com/fcakyon/claude-codex-settings) (1,217 stars): Agent skills, hooks, and plugin marketplaces.
-- [Lab Rat](https://github.com/fcakyon/labrat) (489 stars): Teaches coding agents to reproduce papers and compare runs.
-- [Ultralytics](https://github.com/ultralytics/ultralytics) (63,712 stars): World's most used real-time vision AI models across 7 tasks.
-- [Claude Code with Codex](https://github.com/fcakyon/claude-code-with-codex) (51 stars): A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor.
+- [SAHI](https://github.com/obss/sahi) (5,619 stars): Sliced inference for small object detection.
+- [Claude & Codex Settings](https://github.com/fcakyon/claude-codex-settings) (1,218 stars): Agent skills, hooks, and plugin marketplaces.
+- [Lab Rat](https://github.com/fcakyon/labrat) (490 stars): Teaches coding agents to reproduce papers and compare runs.
+- [Ultralytics](https://github.com/ultralytics/ultralytics) (63,741 stars): World's most used real-time vision AI models across 7 tasks.
+- [Claude Code with Codex](https://github.com/fcakyon/claude-code-with-codex) (52 stars): A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor.
 - [Image Comparison](https://github.com/fcakyon/streamlit-image-comparison) (255 stars): A responsive before-and-after image component.
 - [SafeText](https://github.com/viddexa/safetext) (59 stars): Profanity detection and filtering for 13 languages.
 - [Moderators](https://github.com/viddexa/moderators) (8 stars): Run content moderation models through one Python API or CLI.

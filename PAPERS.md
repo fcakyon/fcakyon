@@ -4,9 +4,9 @@
 
 Published papers and preprints, listed with their verified venue and year.
 
-- [Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models](https://arxiv.org/abs/2606.03748) (Preprint, 2026, 503 citations)
+- [Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models](https://arxiv.org/abs/2606.03748) (Preprint, 2026, 514 citations)
 - [SenBen: Sensitive Scene Graphs for Explainable Content Moderation](https://openaccess.thecvf.com/content/CVPR2026W/ABAW/html/Akyon_SenBen_Sensitive_Scene_Graphs_for_Explainable_Content_Moderation_CVPRW_2026_paper.html) (CVPR Workshops, 2026, 1 citation)
-- [Slicing Aided Hyper Inference and Fine-Tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (ICIP, 2022, 1,168 citations)
+- [Slicing Aided Hyper Inference and Fine-Tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (ICIP, 2022, 1,172 citations)
 - [Evaluating the Capabilities of Generative AI Tools in Understanding Medical Papers: Qualitative Study](https://medinform.jmir.org/2024/1/e59258) (JMIR Medical Informatics, 2024, 26 citations)
 - [Artificial intelligence-supported web application design and development for reducing polypharmacy side effects and supporting rational drug use in geriatric patients](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2023.1029198/full) (Frontiers in Medicine, 2023, 58 citations)
 - [Explainable Sensitive Content Moderation With Vocabulary-Aware Distillation](https://dblp.org/rec/journals/access/AkyonT26) (IEEE Access, 2026, 0 citations)

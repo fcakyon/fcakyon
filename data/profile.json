@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-24",
+  "updated_at": "2026-11-25",
   "scholar_profile": "RHGyDE0AAAAJ",
-  "scholar_citations": 2538,
+  "scholar_citations": 2553,
   "open_source": [
     {
       "name": "SAHI",
@@ -18,9 +18,9 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5cd08a7b180f9d7b/sahi.jpg",
       "featured": true,
       "metrics": {
-        "stars": 5618,
+        "stars": 5619,
         "forks": 795,
-        "downloads_month": "141k"
+        "downloads_month": "144k"
       }
     },
     {
@@ -37,9 +37,9 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/b0644bb45f1eec90/claude-codex-settings.jpg",
       "featured": true,
       "metrics": {
-        "stars": 1217,
+        "stars": 1218,
         "forks": 116,
-        "downloads_total": 87019
+        "downloads_total": 87537
       }
     },
     {
@@ -55,7 +55,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5babc9779f5db358/labrat.png",
       "featured": true,
       "metrics": {
-        "stars": 489,
+        "stars": 490,
         "forks": 42
       }
     },
@@ -74,8 +74,8 @@
       "image_fit": "zoom-out",
       "featured": true,
       "metrics": {
-        "stars": 63712,
-        "forks": 12029,
+        "stars": 63741,
+        "forks": 12035,
         "downloads_month": "5M"
       }
     },
@@ -84,7 +84,7 @@
       "url": "https://github.com/fcakyon/claude-code-with-codex",
       "repo": "fcakyon/claude-code-with-codex",
       "metrics": {
-        "stars": 51,
+        "stars": 52,
         "forks": 10
       },
       "description": "A Rust package for using Claude Code with Claude, Codex, Kimi, Grok, and Cursor."
@@ -251,7 +251,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/05c7b32d62953a16/yolo26.png",
       "featured": true,
       "metrics": {
-        "citations": 503
+        "citations": 514
       }
     },
     {
@@ -277,7 +277,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5309f012f4a5b21e/sahi.png",
       "featured": true,
       "metrics": {
-        "citations": 1168
+        "citations": 1172
       }
     },
     {
