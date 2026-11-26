@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25",
+  "updated_at": "2026-11-26",
   "scholar_profile": "RHGyDE0AAAAJ",
   "scholar_citations": 2553,
   "open_source": [
@@ -39,7 +39,7 @@
       "metrics": {
         "stars": 1218,
         "forks": 116,
-        "downloads_total": 87537
+        "downloads_total": 88290
       }
     },
     {
@@ -74,8 +74,8 @@
       "image_fit": "zoom-out",
       "featured": true,
       "metrics": {
-        "stars": 63741,
-        "forks": 12035,
+        "stars": 63773,
+        "forks": 12047,
         "downloads_month": "5M"
       }
     },
