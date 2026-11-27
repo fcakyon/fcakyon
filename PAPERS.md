@@ -4,9 +4,9 @@
 
 Published papers and preprints, listed with their verified venue and year.
 
-- [Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models](https://arxiv.org/abs/2606.03748) (Preprint, 2026, 514 citations)
+- [Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models](https://arxiv.org/abs/2606.03748) (Preprint, 2026, 522 citations)
 - [SenBen: Sensitive Scene Graphs for Explainable Content Moderation](https://openaccess.thecvf.com/content/CVPR2026W/ABAW/html/Akyon_SenBen_Sensitive_Scene_Graphs_for_Explainable_Content_Moderation_CVPRW_2026_paper.html) (CVPR Workshops, 2026, 1 citation)
-- [Slicing Aided Hyper Inference and Fine-Tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (ICIP, 2022, 1,172 citations)
+- [Slicing Aided Hyper Inference and Fine-Tuning for Small Object Detection](https://ieeexplore.ieee.org/document/9897990) (ICIP, 2022, 1,179 citations)
 - [Evaluating the Capabilities of Generative AI Tools in Understanding Medical Papers: Qualitative Study](https://medinform.jmir.org/2024/1/e59258) (JMIR Medical Informatics, 2024, 26 citations)
 - [Artificial intelligence-supported web application design and development for reducing polypharmacy side effects and supporting rational drug use in geriatric patients](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2023.1029198/full) (Frontiers in Medicine, 2023, 58 citations)
 - [Explainable Sensitive Content Moderation With Vocabulary-Aware Distillation](https://dblp.org/rec/journals/access/AkyonT26) (IEEE Access, 2026, 0 citations)
@@ -28,7 +28,7 @@ Published papers and preprints, listed with their verified venue and year.
 - [Efficient Sparsity-Based Inversion for Photon-Sieve Spectral Imagers with Transform Learning](https://ieeexplore.ieee.org/document/8309156) (GlobalSIP, 2017, 6 citations)
 - [Family Medicine Residents' Awareness of Rational Drug Use in Geriatric Patients and Their Need for a Web Application](https://doi.org/10.54584/lms.2023.31) (Life and Medical Sciences, 2023, 5 citations)
 - [Digital Transformation of Clinical Education Through Artificial Intelligence: A Strengths, Weaknesses, Opportunities, and Threats (SWOT) Analysis](https://doi.org/10.5505/amj.2025.63373) (Ankara Medical Journal, 2025, 6 citations)
-- [Digital Minimalism: Using Technology for Efficient Healthcare](https://ejfm.trakya.edu.tr/archive/show/volume13/number4/130401) (Eurasian Journal of Family Medicine, 2024, 6 citations)
+- [Digital Minimalism: Using Technology for Efficient Healthcare](https://ejfm.trakya.edu.tr/archive/show/volume13/number4/130401) (Eurasian Journal of Family Medicine, 2024, 8 citations)
 - [Compressive Photon-Sieve Spectral Imaging](https://opg.optica.org/abstract.cfm?uri=COSI-2018-CTu5D.8) (COSI, 2018, 4 citations)
 - [Effect of Different Sparsity Priors on Compressive Photon-Sieve Spectral Imaging](https://ieeexplore.ieee.org/document/8404501) (SIU, 2018, 1 citation)
 - [DroBoost: An Intelligent Score and Model Boosting Method for Drone Detection](https://link.springer.com/chapter/10.1007/978-3-031-13324-4_34) (ICIAP Workshops, 2022, 0 citations)
