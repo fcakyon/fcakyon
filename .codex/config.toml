@@ -1,0 +1,2 @@
+[plugins."ultralytics-dev@claude-settings"]
+enabled = false

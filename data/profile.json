@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27",
+  "updated_at": "2026-11-28",
   "scholar_profile": "RHGyDE0AAAAJ",
   "scholar_citations": 2570,
   "open_source": [
@@ -33,7 +33,7 @@
         "stars",
         "downloads_total"
       ],
-      "description": "Agent skills, hooks, and plugin marketplaces.",
+      "description": "Teaches your AI agent coding best practices.",
       "image": "https://cdn.akyonlabs.com/fcakyon/static/b0644bb45f1eec90/claude-codex-settings.jpg",
       "featured": true,
       "metrics": {
@@ -49,15 +49,17 @@
       "kind": "Agent skills",
       "card_metrics": [
         "stars",
-        "forks"
+        "downloads_total"
       ],
-      "description": "Teaches coding agents to reproduce papers and compare runs.",
+      "description": "Teaches AI agents how to conduct research like a PhD.",
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5babc9779f5db358/labrat.png",
       "featured": true,
       "metrics": {
-        "stars": 491,
-        "forks": 42
-      }
+        "stars": 492,
+        "forks": 42,
+        "downloads_total": 10427
+      },
+      "traffic_branch": "traffic-data"
     },
     {
       "name": "Ultralytics",
