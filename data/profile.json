@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-11-28",
   "scholar_profile": "RHGyDE0AAAAJ",
-  "scholar_citations": 2570,
+  "scholar_citations": 2596,
   "open_source": [
     {
       "name": "SAHI",
@@ -20,7 +20,7 @@
       "metrics": {
         "stars": 5619,
         "forks": 795,
-        "downloads_month": "144k"
+        "downloads_month": "143k"
       }
     },
     {
@@ -37,9 +37,9 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/b0644bb45f1eec90/claude-codex-settings.jpg",
       "featured": true,
       "metrics": {
-        "stars": 1220,
+        "stars": 1221,
         "forks": 116,
-        "downloads_total": 89017
+        "downloads_total": 89701
       }
     },
     {
@@ -76,8 +76,8 @@
       "image_fit": "zoom-out",
       "featured": true,
       "metrics": {
-        "stars": 63809,
-        "forks": 12059,
+        "stars": 63818,
+        "forks": 12055,
         "downloads_month": "5M"
       }
     },
@@ -253,7 +253,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/05c7b32d62953a16/yolo26.png",
       "featured": true,
       "metrics": {
-        "citations": 522
+        "citations": 539
       }
     },
     {
@@ -279,7 +279,7 @@
       "image": "https://cdn.akyonlabs.com/fcakyon/static/5309f012f4a5b21e/sahi.png",
       "featured": true,
       "metrics": {
-        "citations": 1179
+        "citations": 1187
       }
     },
     {
